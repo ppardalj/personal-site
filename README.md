@@ -1,6 +1,6 @@
 # Pedro Pardal's personal website
 
-Source code of my personal website, which is accessible in [https://ppardalj.github.io].
+Source code of my personal website, which is accessible in [https://ppardalj.github.io](https://ppardalj.github.io).
 
 ## Deploy
 
