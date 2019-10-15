@@ -1,13 +1,12 @@
 ---
-title: "Hi! I'm Pedro Pardal"
-featured_image: '/images/mountains-with-bright-sun-flying-birds.jpg'
-description: "I'm a Software Consultant, Coach and Developer"
+title: "¡Hola! Soy Pedro Pardal"
+description: "Soy consultor, formador y desarrollador de software"
 type: post
 ---
-I leverage my expertise in re-engineering legacy systems, building scalable services on the cloud, and adopting Agile and DevOps practices, to:
+Utilizo mi amplia experiencia en realizar re-ingeniería de sistemas legacy, construir servicios escalables en la nube y adoptar prácticas de desarrollo ágil y DevOps, para:
 
-- **Help** companies define a strategy to overcome their toughest software engineering challenges.
-- **Coach** and **Train** individuals and teams in software development, design and architecture best practices and methodologies.
-- **Deliver** high quality bespoke software solutions.
+- **Asesorar** a empresas para definir una estrategia que les permita superar sus mayores retos de desarrollo de software.
+- **Entrenar** indivíduos y equipos en buenas prácticas y metodologías de desarrollo, diseño y arquitectura de software.
+- **Desarrollar** soluciones software a medida de alta calidad.
 
-If you think I may be able to help you, please [contact me](/contact) and let's find out together how.
+Si crees que puedo ayudarte, por favor [contáctame](/contacto) y descubramos juntos cómo.
