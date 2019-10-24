@@ -13,7 +13,8 @@ Si tu empresa, departamento de desarrollo o proyecto software sufre de alguno de
 - Tu empresa está perdiendo oportunidades de negocio porque pasa demasiado tiempo desde que descubres una oportunidad o idea hasta que la solución software puede ser usada por tus clientes.
 - La solución que tu equipo de desarrollo implementa no se ajusta con las necesidades que tu empresa o tu cliente tenían inicialmente.
 - Tu producto tiene demasiados fallos o disfunciones que están afectando a la rentabilidad de tu negocio.
-Los desarrolladores de tu equipo con más talento se están marchando a la competencia y no sabes cómo retenerlos.
+- Tienes miedo de entregar funcionalidades más rápido porque cada vez que subes una funcionalidad nueva, se rompen otras ya existentes.
+- Los desarrolladores de tu equipo con más talento se están marchando a la competencia y no sabes cómo retenerlos.
 - El volumen de clientes de tu producto está creciendo, pero esto está causando problemas de rendimiento que no sabes cómo solucionar.
 
 En caso de que tu problema concreto no se encuentre exactamente en esta lista, no te preocupes, [contáctame](/contacto) para ayudarte a averiguar cómo puedo ayudar.
