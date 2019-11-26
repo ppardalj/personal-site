@@ -1,5 +1,5 @@
 ---
-date: 2019-11-26T17:00:00+01:00
+date: 2019-11-26T00:00:00+01:00
 title: Cómo implementar la metodología GTD con Trello
 featured_image: '/images/nesa-by-makers-kwzWjTnDPLk-unsplash.jpg'
 omit_header_text: true
