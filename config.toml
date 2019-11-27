@@ -9,7 +9,7 @@ SectionPagesMenu = "main"
 Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = "UA-150818815-1"
 enableRobotsTXT = true
-disqusShortname = ppardalj
+disqusShortname = "ppardalj"
 
 [sitemap]
   changefreq = "monthly"
