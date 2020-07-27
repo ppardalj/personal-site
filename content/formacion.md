@@ -7,10 +7,14 @@ menu:
     weight: 2
 ---
 
+**¡Novedad!**: desde hace algunos meses, ofrezco todo este catálogo de formaciones, y muchas otras, a través de mi nuevo proyecto [Exeal](https://www.exeal.com), te invito a que le des un vistazo si estás interesado en formar a tu equipo :)
+
+---
+
 Ofrezco una gran variedad de **formaciones técnicas orientadas a desarrolladores de software** de todos los niveles, con el objetivo de dotar a tu equipo de desarrollo de los conocimientos, herramientas y experiencias para afrontar sus desafíos del día a día de la forma más eficiente posible. Todos mis cursos están diseñados minuciosamente basándose en la experiencia de años de desarrollo en la industria.
 
 ## Catálogo de formaciones
-Actualmente me encuentro preparando el catálogo de formaciones, por lo que no todos los detalles se encuentran disponibles en la web, ¡mil disculpas!. Por favor, contáctame tanto si quieres conocer los detalles de alguna de las formaciones listadas, o estás interesado en otros temas.
+Si quieres conocer los detalles de alguna de las formaciones listadas, o estás interesado en otros temas, por favor [contáctame](/contacto).
 
 ### Nivel principiante
   - Curso de Unit testing con xUnit (1 día).
@@ -21,6 +25,7 @@ Actualmente me encuentro preparando el catálogo de formaciones, por lo que no t
 ### Nivel intermedio
   - Curso de Test Driven Development (TDD) (2 días).
   - Curso de Diseño: Patrones y principios SOLID (3 días).
+  - Desarrollo de aplicaciones con contenedores (3 días).
 
 ### Nivel avanzado
   - Curso de TDD avanzado: técnica Outside-in (1 día).
