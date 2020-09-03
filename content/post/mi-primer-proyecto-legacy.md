@@ -2,7 +2,6 @@
 date: 2020-07-27T00:00:00+01:00
 title: Mi primer proyecto legacy
 featured_image: '/images/nesa-by-makers-kwzWjTnDPLk-unsplash.jpg'
-omit_header_text: true
 tags: ["legacy", "batallitas"]
 ---
 
