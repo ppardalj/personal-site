@@ -2,7 +2,7 @@
 date: 2021-04-08T13:30:00+01:00
 title: Mesa redonda technical coaching
 featured_image: '/images/keyboard.jpg'
-tags: ["technical coaching", "programacion"]
+tags: ["technical coaching", "formacion", "charlas"]
 ---
 
 El mes pasado participé como ponente en el [SDSummit](https://sdsummit.es/), una conferencia online sobre desarrollo de software organizada por [Voxel](https://www.voxelgroup.net/es/index.html).
