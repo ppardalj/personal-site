@@ -11,4 +11,4 @@ menu:
 
 Si quieres que descubramos juntos cómo puedo ayudarte, por favor rellena el siguiente formulario y me pondré en contacto contigo lo antes posible. También estoy disponible cuando quieras para tomar una cerveza :)
 
-{{< form-contact action="https://formspree.io/ppardalj@gmail.com" >}}
+{{< form-contact action="https://formspree.io/f/xayvewqv" >}}
