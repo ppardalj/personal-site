@@ -7,7 +7,7 @@ tags: ["libros"]
 
 Estas vacaciones me he propuesto adoptar el hábito de tomar notas y resumir los libros mientras leo, para mejorar mi comprensión, capacidad de aprendizaje, síntesis y escritura, además de tener una referencia para consultar en el futuro. Después de terminar el primer libro con el que he hecho esto, me pareció una lástima que quedase guardado únicamente en mi ordenador, así que he decidido publicarlo en el blog, por si le pudiera servir de alguna forma a otras personas.
 
-El primer libro con el que he hecho esto ha sido [Reinicia](https://www.amazon.es/Rework-Jason-Fried/dp/0307463745) (título original "Rework"), el libro sobre empresa de los fundadores de [Basecamp](https://basecamp.com/). Me leí este libro por recomendación de mi compañero Alejandro Herrera, ya que estoy comenzando a montar [una empresa](http://exeal.com/), y este libro aporta un punto de vista bastante diferente al de la mayoría de recursos disponibles.
+El primer libro con el que he hecho esto ha sido [Reinicia](https://www.amazon.es/Rework-Jason-Fried/dp/0307463745) (título original "Rework"), el libro sobre empresa de los fundadores de [Basecamp](https://basecamp.com/). Me leí este libro por recomendación de mi compañero Alejandro Herrera, ya que estoy comenzando a montar [una empresa](https://www.exeal.com/), y este libro aporta un punto de vista bastante diferente al de la mayoría de recursos disponibles.
 
 ![](https://m.media-amazon.com/images/I/41hCCziSamL.jpg)
 

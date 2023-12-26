@@ -9,4 +9,4 @@ Utilizo mi amplia experiencia en realizar re-ingeniería de sistemas legacy, con
 - **Entrenar** indivíduos y equipos en buenas prácticas y metodologías de desarrollo, diseño y arquitectura de software.
 - **Desarrollar** soluciones software a medida de alta calidad.
 
-Si crees que puedo ayudarte, por favor [contáctame](/contacto) y descubramos juntos cómo.
+Si crees que puedo ayudarte, por favor [contáctame](/contacto/) y descubramos juntos cómo.
