@@ -16,10 +16,4 @@ Site should be available at [http://localhost:1313/](http://localhost:1313/).
 
 The site is hosted using GitHub user pages, and deploy is set up as described [here](https://gohugo.io/hosting-and-deployment/hosting-on-github/).
 
-After doing a change, just run this to deploy it:
-
-```sh
-$ ./deploy.sh "description of the changes"
-```
-
-Changes will be visible after a few seconds.
+All changes are built and deployed using CircleCI.
