@@ -1,0 +1,25 @@
+title: "Pedro Pardal"
+baseURL: "https://www.ppardalj.com/"
+languageCode: "en-us"
+theme: "ananke"
+
+MetaDataFormat: "yaml"
+DefaultContentLanguage: "es"
+SectionPagesMenu: "main"
+Paginate: 3
+googleAnalytics: "UA-150818815-1"
+enableRobotsTXT: true
+disqusShortname: "ppardalj"
+
+sitemap:
+  changefreq: "monthly"
+  priority: 0.5
+  filename: "sitemap.xml"
+
+params:
+  description: "Soy consultor, formador y desarrollador de software."
+  twitter: "https://twitter.com/ppardalj"
+  github: "https://github.com/ppardalj"
+  linkedin: "https://es.linkedin.com/in/pedro-pardal-jimena-36764344"
+  background_color_class: "bg-black"
+  recent_posts_number: 2
