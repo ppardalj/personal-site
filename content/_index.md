@@ -1,6 +1,6 @@
 ---
 title: "¡Hola! Soy Pedro Pardal"
-description: "Soy consultor, formador y desarrollador de software"
+description: "Soy emprendedor y desarrollador de software"
 type: post
 cascade:
   featured_image: "/images/zan-yBEUD8SWABc-unsplash.jpg"
