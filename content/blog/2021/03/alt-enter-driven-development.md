@@ -3,6 +3,8 @@ date: 2021-03-09T17:18:54+01:00
 title: Alt+Enter Driven Development
 featured_image: '/images/keyboard.jpg'
 tags: ["programacion", "refactoring", "katas", "charlas"]
+aliases:
+- "/post/alt-enter-driven-development/"
 ---
 
 El pasado año 2020 fue un año bastante movidito, con una pandemia mundial delante de nosotros no queda otra que reinventarse a nivel personal y profesional, salir de la zona de confort y hacer cosas nuevas. Una de esas cosas fue, aprovechando el auge de las conferencias online, llevar ponencias a algunos de estos eventos.

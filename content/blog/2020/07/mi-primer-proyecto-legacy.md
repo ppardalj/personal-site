@@ -3,6 +3,8 @@ date: 2020-07-27T00:00:00+01:00
 title: Mi primer proyecto legacy
 featured_image: '/images/nesa-by-makers-kwzWjTnDPLk-unsplash.jpg'
 tags: ["legacy", "batallitas"]
+aliases:
+- "/post/mi-primer-proyecto-legacy/"
 ---
 
 Mi primer contacto con código legacy fue hace ya más de 15 años, y ni siquiera sabía lo que era código legacy. En aquella época, jugaba a un juego online que se llama [Ultima Online](https://uo.com/) (si por casualidad has llegado a jugar, dame like, suscribete y activa la campanita). Básicamente es un RPG de mundo abierto donde puedes interactuar con los personajes de otra gente, ir a matar bichicos, pegarte de hostias con los demás… algo parecido al WoW, pero más viejuno todavía, con gráficos en 2D isométricos cutres.

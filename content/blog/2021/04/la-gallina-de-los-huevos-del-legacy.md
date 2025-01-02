@@ -3,6 +3,8 @@ date: 2021-04-16T10:00:00+01:00
 title: La gallina de los huevos del legacy
 featured_image: '/images/gallina.jpg'
 tags: ["legacy", "charlas"]
+aliases:
+- "/post/como-implementar-la-metodologia-gtd-con-trello/"
 ---
 
 El mes pasado participé como ponente en el [SDSummit](https://sdsummit.es/), una conferencia online sobre desarrollo de software organizada por [Voxel](https://www.voxelgroup.net/es/index.html).

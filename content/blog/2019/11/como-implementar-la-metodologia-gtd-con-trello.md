@@ -3,6 +3,8 @@ date: 2019-11-26T00:00:00+01:00
 title: Cómo implementar la metodología GTD con Trello
 featured_image: '/images/nesa-by-makers-kwzWjTnDPLk-unsplash.jpg'
 tags: ["productividad personal", "soft skills", "gtd", "trello"]
+aliases:
+- "/post/como-implementar-la-metodologia-gtd-con-trello/"
 ---
 
 Una de las claves del éxito de cualquier trabajador del conocimiento, y en particular de los que nos dedicamos a la consultoría y el desarrollo de software, es **tener un buen sistema de organización personal**. Desde las clásicas, minimalistas pero efectivas, listas de tareas, hasta metodologías más elaboradas como *Autofocus* o *Getting Things Done*, es esencial disponer de algún sistema que te permita gestionar tu tiempo, tu atención o foco, tus compromisos y prioridades, con el fin de mantener nuestros niveles productivos y alcanzar nuestros objetivos, sin que necesariamente caigamos en preocupaciones y/o estrés.

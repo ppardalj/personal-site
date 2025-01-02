@@ -3,6 +3,8 @@ date: 2019-10-14T22:58:08+01:00
 title: La inexperiencia de la industria del software.
 featured_image: '/images/nesa-by-makers-kwzWjTnDPLk-unsplash.jpg'
 tags: ["formacion"]
+aliases:
+- "/post/la-inexperiencia-de-la-industria-del-software/"
 ---
 
 A lo largo de la relativa corta vida del sector del desarrollo del software, que recordemos apenas tiene poco más de 60 años, lo cual es nada si lo comparamos con otras disciplinas como las ingenierías industriales, la demanda de desarrolladores no ha hecho más que crecer. En concreto, tal como indica Robert C. Martin en su charla [The Scribe's Oath](https://www.youtube.com/watch?v=Tng6Fox8EfI), en la que discute aspectos de la responsabilidad civil de los ingenieros de software, la cantidad de desarrolladores en la industria del desarrollo software a través del tiempo sigue una progresión muy similar a la Ley de Moore: se duplica cada cinco años. Esto tiene una consecuencia lógica inmediata, que es que en cualquier momento dado, la mitad de los programadores del mundo tienen menos de cinco años de experiencia. Es decir, la industria del desarrollo de software vive en una constante y perpetua inexperiencia.

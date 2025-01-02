@@ -3,6 +3,8 @@ date: 2020-09-03T00:00:00+01:00
 title: 'Reinicia: resumen del libro'
 featured_image: '/images/blog/shelf-library.jpg'
 tags: ["libros"]
+aliases:
+- "/post/reinicia-resumen-del-libro/"
 ---
 
 Estas vacaciones me he propuesto adoptar el hábito de tomar notas y resumir los libros mientras leo, para mejorar mi comprensión, capacidad de aprendizaje, síntesis y escritura, además de tener una referencia para consultar en el futuro. Después de terminar el primer libro con el que he hecho esto, me pareció una lástima que quedase guardado únicamente en mi ordenador, así que he decidido publicarlo en el blog, por si le pudiera servir de alguna forma a otras personas.
