@@ -39,8 +39,6 @@ Este proyecto lo empecé en… 2005. Para 2007 empecé la carrera, acabé las as
 
 ¿Cuánto tiempo crees que me llevó hacer el proyecto? ¡3 años! O sea, hasta finales de 2015 no defendí el proyecto de fin de carrera. Y básicamente, el motivo por el que tardé tantísimo tiempo en hacer el proyecto (aparte de porque ya estaba trabajando, y ves que el dinero entra en la cuenta, y pues dices ¿pa qué carajo voy a acabar la carrera?)... no, en serio, el motivo principal fue, que abordé el legacy completamente MAL.
 
-![](/images/blog/todomal.gif)
-
 Intenté documentar una aplicación de 500k líneas de código, sin priorizar nada, sin un objetivo, más allá del “mejorar por mejorar”, de la utopía de “voy a cambiarlo todo para dejarlo perfecto”, y planteé varias líneas de trabajo, algunas de las cuales eran muy interesantes a nivel académico, y con las cuales aprendí un montón, pero que, en la práctica… la mayoría no valían para nada. Me comí infinidad de horas de frustración peleándome con ese código, pero lo bueno después de todo, es que saqué muchas lecciones.
 
 ## Lecciones aprendidas
