@@ -5,13 +5,16 @@ jobs:
       only:
         - master
     docker:
-      - image: cibuilds/hugo:latest
+      - image: cibuilds/hugo:0.143.1
     working_directory: ~/repo
     environment:
-      HUGO_BUILD_DIR: public
+      HUGO_BUILD_DIR: ./public
     steps:
       - checkout
-      - run: HUGO_ENV=production hugo -F --minify -v -d $HUGO_BUILD_DIR
+      - run:
+          name: Hugo build
+          command: |
+            HUGO_ENV=production hugo -F --minify -d $HUGO_BUILD_DIR
       - persist_to_workspace:
           root: public
           paths: .
