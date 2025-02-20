@@ -12,6 +12,10 @@ googleAnalytics: "UA-150818815-1"
 enableRobotsTXT: true
 disqusShortname: "ppardalj"
 
+disableKinds:
+  - taxonomy
+  - term
+
 sitemap:
   changefreq: "monthly"
   priority: 0.5
