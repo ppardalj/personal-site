@@ -70,7 +70,7 @@ blocks:
   - type: content-image-left
     id: sect-service-consultancy
     className: light
-    image: /assets/img/photo-coaching-module.png
+    image: /images/team/product-fest-team.jpeg
     title: "Paso 1: Asesoría estratégica de alto nivel"
     p1: ¿<em>Tu equipo sufre</em> para entregar software más rápido y sin bugs, pero no tienes claro por qué ni <em>cómo ayudarles</em> a desbloquearse?
     p2: Me reuniré contigo y con tu equipo en una sesión de descubrimiento en la que auditaré sus prácticas técnicas y de gestión, para <em>identificar cuellos de botella y oportunidades de mejora</em>.
@@ -80,7 +80,7 @@ blocks:
   - type: content-image-right
     id: sect-service-training
     className: dark
-    image: /assets/img/photo-training-module.png
+    image: /images/team/product-fest-2.jpeg
     title: "Paso 2: Formación en áreas clave"
     p1: Sin el <em>conocimiento adecuado</em>, tu equipo continuará funcionando como lo hacía hasta ahora.
     p2: Diseñaré e impartiré una <em>formación intensiva a medida</em> para tu equipo, orientada a cubrir sus gaps de conocimiento, en áreas clave como arquitectura software, orientación a producto o gestión ágil.
@@ -90,7 +90,7 @@ blocks:
   - type: content-image-left
     id: sect-service-coaching
     className: light
-    image: /assets/img/photo-apprenticeship-module.png
+    image: /images/team/bilbostack-pedro-jaime.jpg
     title: "Paso 3: Acompañamiento en el día a día"
     p1: Todos sabemos que la formación, <em>si no se aplica, se olvida</em>.
     p2: Por eso, me integraré en el día a día de tu equipo, para ayudarles a aplicar todos los conocimientos adquiridos sobre el código de tu proyecto, y acompañarles en la mejora de sus prácticas técnicas y procesos de gestión.
@@ -146,5 +146,5 @@ blocks:
   - type: contact-form
     id: sect-contact-form
     className: dark background background-03
-    title: O, si lo prefieres, <em>déjanos un mensaje</em> y contactaremos nosotros contigo lo antes posible.
+    title: <em>Déjame un mensaje</em> y contactaré contigo lo antes posible.
 ---
