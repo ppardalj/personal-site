@@ -5,9 +5,8 @@ date: 2024-07-30T00:00:00.000Z
 layout: newsletterpost
 author: pedropardal
 tags: [newsletter]
-images: [/images/blog/posts/dojo.jpg]
-featured_image: /images/blog/posts/dojo.jpg
-card_image: /images/blog/posts/dojo.jpg
+images: [/images/blog/posts/programador.jpg]
+featured_image: /images/blog/posts/programador.jpg
 type: newsletter
 issue_number: 1
 aliases:
