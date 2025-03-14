@@ -86,7 +86,7 @@ blocks:
     p2: Diseñaré e impartiré una <em>formación intensiva a medida</em> para tu equipo, orientada a cubrir sus gaps de conocimiento, en áreas clave como arquitectura software, orientación a producto o gestión ágil.
     callToAction: Agendar sesión estratégica
 
-  # Service 3: Training
+  # Service 3: Coaching
   - type: content-image-left
     id: sect-service-coaching
     className: light
