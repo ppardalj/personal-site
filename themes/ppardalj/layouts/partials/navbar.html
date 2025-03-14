@@ -1,4 +1,4 @@
-<nav class="dark navbar navbar-expand-lg navbar-dark navbar-shrink">
+<nav class="navbar navbar-dark dark navbar-expand-lg navbar-shrink">
   <div class="container">
     <a href="/" class="navbar-brand">
       <p>Pedro Pardal</p>
@@ -8,7 +8,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
       <ul class="navbar-nav ml-auto">
-        {{- block "nav-items" . }}{{- end }}
+        {{ partial "navbar-items.html" . }}
       </ul>
     </div>
   </div>

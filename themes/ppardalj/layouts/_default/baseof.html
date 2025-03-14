@@ -3,15 +3,11 @@
   <head>
     {{- partial "head.html" . -}}
   </head>
-  
-  {{ define "nav-items" }}
-	  {{- partial "navbar-items.html" . -}}
-  {{ end }}
 
   <body>
     {{- partial "gtm_body.html" . -}}
     {{- partial "navbar.html" . -}}
-    
+
     {{- block "main" . }}{{- end }}
 
     <!--
