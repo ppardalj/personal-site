@@ -7,7 +7,7 @@
 }
 
 .preventry-number {
-  font-family: 'Avenir Book', sans-serif;
+  font-family: $h2-font, sans-serif;
   color: $mid-gray;
   font-size: 1.5rem;
   margin-right: 1.5rem;
@@ -18,7 +18,7 @@
 }
 
 .preventry-title {
-  font-family: 'Avenir Book', sans-serif;
+  font-family: $h2-font, sans-serif;
   font-size: 1.25rem;
   color: $dark-background-color;
   margin: 0;

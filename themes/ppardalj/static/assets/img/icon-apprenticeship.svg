@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="102.954" height="102.919" viewBox="0 0 102.954 102.919">
   <g id="Grupo_122" data-name="Grupo 122" transform="translate(-946.875 -2301.702)">
-    <rect id="Rectángulo_210" data-name="Rectángulo 210" width="26.553" height="26.553" transform="translate(953.531 2321.634)" fill="#05e69b"/>
-    <rect id="Rectángulo_211" data-name="Rectángulo 211" width="29.881" height="26.553" transform="translate(983.377 2321.634)" fill="#05e69b"/>
-    <rect id="Rectángulo_212" data-name="Rectángulo 212" width="26.553" height="26.553" transform="translate(1016.586 2321.634)" fill="#05e69b"/>
-    <path id="Trazado_236" data-name="Trazado 236" d="M38.3,162.8v26.553H74.8V162.8Z" transform="translate(921.852 2195.336)" fill="#05e69b"/>
+    <rect id="Rectángulo_210" data-name="Rectángulo 210" width="26.553" height="26.553" transform="translate(953.531 2321.634)" fill="#50c0ff"/>
+    <rect id="Rectángulo_211" data-name="Rectángulo 211" width="29.881" height="26.553" transform="translate(983.377 2321.634)" fill="#50c0ff"/>
+    <rect id="Rectángulo_212" data-name="Rectángulo 212" width="26.553" height="26.553" transform="translate(1016.586 2321.634)" fill="#50c0ff"/>
+    <path id="Trazado_236" data-name="Trazado 236" d="M38.3,162.8v26.553H74.8V162.8Z" transform="translate(921.852 2195.336)" fill="#50c0ff"/>
     <path id="Trazado_237" data-name="Trazado 237" d="M102.885,0H0V73.038H6.656v29.881H56.434V73.038h4.021A18.227,18.227,0,0,0,71.374,85.032V96.264a6.656,6.656,0,1,0,13.311,0V85.032A18.379,18.379,0,0,0,95.6,73.038h7.349V0ZM99.591,3.328v9.949H3.328V3.328ZM53.106,99.591H9.949V53.106H53.106Zm28.217-3.328a3.328,3.328,0,1,1-6.656,0V86a17.9,17.9,0,0,0,6.656,0ZM78,82.987a14.94,14.94,0,1,1,14.94-14.94A14.942,14.942,0,0,1,78,82.987ZM96.16,69.711c.035-.555.069-1.109.069-1.664a18.268,18.268,0,1,0-36.536,0c0,.555.035,1.109.069,1.664h-3.4V49.778H6.656V69.711H3.328V16.6H99.591V69.711Z" transform="translate(946.875 2301.702)" fill="#182935"/>
     <rect id="Rectángulo_213" data-name="Rectángulo 213" width="3.328" height="3.328" transform="translate(953.531 2308.357)" fill="#182935"/>
     <rect id="Rectángulo_214" data-name="Rectángulo 214" width="3.328" height="3.328" transform="translate(960.152 2308.357)" fill="#182935"/>
