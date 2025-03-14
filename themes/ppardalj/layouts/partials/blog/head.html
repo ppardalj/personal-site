@@ -1,0 +1,7 @@
+{{- partial "head.html" . -}}
+
+{{ $style := resources.Get "scss/blog.scss" | css.Sass }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" />
+
+{{ $style := resources.Get "scss/hero.scss" | css.Sass }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" />

@@ -1,0 +1,79 @@
+@import 'foundation/variables';
+
+article {
+  h2 {
+    padding-top: 2em;
+  }
+
+  h3 {
+    padding-top: 2em;
+  }
+  
+  em {
+    font-weight: normal;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  img {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  
+  //
+  // LISTS
+  //
+  ul {
+    display: block;
+    padding-left: 2em;
+  }
+  
+  li {
+    background-image: url('/assets/img/arrow-cta-yellow.svg');
+    background-position-y: 0.3em;
+    background-repeat: no-repeat;
+    padding-left: 3em;
+  }
+  
+  //
+  // LINKS
+  //
+  a {
+    color: inherit;
+    border-bottom: 3px solid $secondary-color;
+  }
+  
+  a:hover {
+    background-color: $dark-background-color;
+    color: white;
+    border-bottom: 0px;
+    text-decoration: none;
+    transition: 0.2s;
+  }
+  
+  //
+  // TABLES
+  //
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th {
+    border: 1px solid $secondary-color;
+    background-color: $primary-color;
+    padding: 0.5em;
+  }
+  
+  td {
+    border: 1px solid $secondary-color;
+    padding: 0.5em;
+  }
+}

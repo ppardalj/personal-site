@@ -1,0 +1,19 @@
+i.icon {
+  display: inline-block;
+  margin-right: 0.25rem;
+  position: relative;
+  top: 0.15em;
+  background-repeat: no-repeat;
+}
+
+i.i-level-black {
+  width: 25px;
+  height: 25px;
+  background-image: url("/assets/img/icon-markup-black-s.svg");
+}
+
+i.i-level-grey {
+  width: 25px;
+  height: 25px;
+  background-image: url("/assets/img/icon-markup-grey-s.svg");
+}

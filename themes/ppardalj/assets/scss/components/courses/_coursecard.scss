@@ -1,0 +1,90 @@
+.course-card {
+  box-shadow: 0.5rem 0.5rem 1rem -1rem rgba(0, 0, 0, 0.75);
+  margin-bottom: 2rem;
+}
+
+.course-header {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 16rem;
+}
+
+.course-body {
+  padding: 1.5rem 1.5rem;
+}
+
+.course-body h3 {
+  font-size: 1.5em;
+  font-style: normal;
+  margin-bottom: 1.25rem;
+}
+
+.course-body p.level {
+  color: $light-gray;
+  font-size: 1em;
+  font-family: $h2-font, sans-serif;
+  margin-bottom: 1.25rem;
+  margin-top: 0rem;
+}
+
+.course-body p.description {
+  color: $mid-gray;
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
+  margin-top: 0rem;
+  line-height: 150%;
+}
+
+.course-body li {
+  color: $light-gray;
+  font-size: 0.85rem;
+  font-family: $h2-font, sans-serif;
+  margin-bottom: 0.5rem;
+  margin-top: 0rem;
+}
+
+.course-body ul {
+  margin-bottom: 1.25rem;
+}
+
+.courses-tagline {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("/assets/img/blog/blog-cover-1.png");
+}
+
+.courses-tagline-inner {
+  height: 100%;
+  padding: 2rem;
+  color: white;
+  height: 22em;
+  position: relative;
+}
+
+.courses-tagline h1 {
+  margin-left: 2rem;
+  font-family: $h2-font, sans-serif;
+  font-size: 2rem;
+  max-width: 25rem;
+}
+
+.course-header div.featured-course {
+  display: block;
+  background-color: $secondary-color;
+  font-family: $h2-font, sans-serif;
+  color: white;
+  padding: 0.25rem 1rem;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+ul.course-features li {
+  background-image: url("/assets/img/icon-markup-green-xs.svg");
+  background-repeat: no-repeat;
+  background-position-x: 0.75em;
+  background-position-y: 0.5em;
+  padding-left: 2.25em;
+}

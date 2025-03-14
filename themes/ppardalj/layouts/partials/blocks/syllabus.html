@@ -1,0 +1,50 @@
+<section id="{{ .id }}" class="{{ .className }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2 d-none d-sm-none d-md-block">
+        <h2>
+          <img class="arrow-right" src="/assets/img/arrow-right-secondary.svg" />
+        </h2>
+      </div>
+      <div class="col-md-10 col-sm-12">
+        <h2>{{ .header }}</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 justify-content-center align-items-center text-center">
+        <p>{{ .paragraph1 | safeHTML }}</p>
+      </div>
+    </div>
+
+    <div class="row">
+      {{ range .modules }}
+      <div class="col-xl-6 mb-3">
+        <div class="box">
+          <div class="flap flap-top-right"></div>
+          <p class="price">- {{ .index }} -</p>
+          <h3>{{ .title }}</h3>
+          <p>{{ .description }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <p>{{ .paragraph2 | safeHTML }}</p>
+        <h4>{{ .hook }}</h4>
+      </div>
+    </div>
+
+    {{ if .callToAction }}
+    <div class="row justify-content-center align-items-center text-center">
+      <div class="col-m-12">
+        <p>
+          <a data-scroll="{{ .callToAction.scrollTo }}" href="#" class="button button-center">{{ .callToAction.text }}</a>
+        </p>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>

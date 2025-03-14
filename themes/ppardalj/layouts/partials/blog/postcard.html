@@ -1,0 +1,21 @@
+{{ $author := index .Site.Data.authors .Params.author }}
+<div class="blog-item post-card" style="background-image: url('{{ .Params.card_image | absURL }}');">
+  <div class="blog-item-inner post-card-inner bg-mask">
+    <div class="post-card-cover">
+      {{ if .Params.tags }}
+      <ul class="tags tags-light tags-small">
+        {{ range $i, $tag := .Params.tags }}<li><a href="{{ relLangURL ( printf "tags/%s/" ( $tag | urlize ) ) }}">#{{ $tag }}</a></li>{{ end }}
+      </ul>
+      {{ end }}
+      <div class="post-title">
+        <h2>{{ .Title }}</h2>
+        <p class="author">{{ $author.name }}</p>
+      </div>
+    </div>
+    <div class="post-card-detail">
+      <a href="{{ .Permalink }}"></a>
+      <div class="post-card-summary">{{ .Description }}</div>
+      <div class="post-card-reading-time">Tiempo de lectura: {{ math.Round (div (countwords .Content) 220.0) }} minutos</div>
+    </div>
+  </div>
+</div>

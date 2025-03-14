@@ -1,0 +1,37 @@
+footer {
+  & {
+    background-color: black;
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+
+  & p {
+    font-size: 0.8em;
+
+    @media (max-width: 768px) {
+      display: flex;
+      flex-direction: column;
+      line-height: 1em;
+    }
+  }
+
+  & a {
+    color: $mid-gray;
+  }
+
+  & a:hover {
+    color: $light-gray;
+    text-decoration: none;
+  }
+
+  & li img {
+    width: 2em;
+    height: 2em;
+  }
+
+  & .social-media {
+    @media (max-width: 768px) {
+      text-align: center;
+    }
+  }
+}

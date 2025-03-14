@@ -3,6 +3,8 @@ date: 2020-09-03T00:00:00+01:00
 title: 'Reinicia: resumen del libro'
 featured_image: '/images/blog/shelf-library.jpg'
 tags: ["libros"]
+author: pedropardal
+layout: post
 aliases:
 - "/post/reinicia-resumen-del-libro/"
 ---

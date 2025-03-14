@@ -3,6 +3,8 @@ date: 2020-07-27T00:00:00+01:00
 title: Mi primer proyecto legacy
 featured_image: '/images/nesa-by-makers-kwzWjTnDPLk-unsplash.jpg'
 tags: ["legacy", "batallitas"]
+author: pedropardal
+layout: post
 aliases:
 - "/post/mi-primer-proyecto-legacy/"
 ---

@@ -1,0 +1,25 @@
+<footer class="black">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 text-lg-left">
+        <a href="/"><p>Pedro Pardal</p></a>
+        <p>
+          {{ range site.Data.footer.links }}
+            <a href="{{ .url }}">{{ i18n .text }}</a>{{ if not (eq (index site.Data.footer.links (sub (len site.Data.footer.links) 1)) .) }} | {{ end }}
+          {{ end }}
+        </p>
+      </div>
+      <div class="col-lg-6 social-media">
+        <ul class="list-inline text-lg-right mt-3 mt-lg-0">
+          {{ range site.Data.social }}
+          <li class="list-inline-item">
+            <a target="_blank" href="{{ .url }}">
+              <img src="/assets/img/social/{{ .name }}.svg" />
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>

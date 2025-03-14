@@ -1,0 +1,47 @@
+.team-card {
+  box-shadow: 0.5rem 0.5rem 1rem -1rem rgba(0, 0, 0, 0.75);
+  margin-bottom: 2rem;
+  cursor: pointer;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+
+  &:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+  }
+
+}
+
+.team-card-header {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 16rem;
+}
+
+.team-card-body {
+  padding: 1.5rem 1.5rem;
+}
+
+.team-card-body h3 {
+  font-size: 1.5em;
+  font-style: normal;
+  margin-bottom: 1.25rem;
+}
+
+.team-card-body p.level {
+  color: $light-gray;
+  font-size: 1em;
+  font-family: $h2-font, sans-serif;
+  margin-bottom: 1.25rem;
+  margin-top: 0rem;
+}
+
+.team-card-body p.description {
+  height: 6em;
+  color: $mid-gray;
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
+  margin-top: 0rem;
+  line-height: 150%;
+}

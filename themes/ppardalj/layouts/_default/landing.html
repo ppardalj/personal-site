@@ -1,0 +1,7 @@
+{{ define "main" }}
+
+{{ range .Params.blocks }}
+  {{ partial (printf "blocks/%s.html" .type) . }}
+{{ end }}
+
+{{ end }}

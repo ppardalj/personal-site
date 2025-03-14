@@ -1,0 +1,72 @@
+@import 'foundation/variables';
+
+ul.tags {
+  margin: 1em 0em;
+
+  li {
+    display: inline-block;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 0em 0.5em;
+    margin: 0.5em 1em;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+ul.tags.tags-light {
+  li {
+    color: white;
+    border-color: white;
+  }
+  
+  li:hover {
+    background-color: white;
+    transition: 0.2s;
+  }
+
+  a {
+    color: white;
+  }
+  
+  li:hover a {
+    color: $dark-background-color;
+    transition: 0.2s;
+  }
+}
+
+ul.tags.tags-dark {
+  li {
+    color: $dark-background-color;
+    border-color: $dark-background-color;
+  }
+  
+  a {
+    color: $dark-background-color;
+  }
+  
+  li:hover a {
+    color: white;
+    transition: 0.2s;
+  }
+  
+  li:hover {
+    background-color: $dark-background-color;
+    transition: 0.2s;
+  }
+}
+
+ul.tags.tags-small {
+  font-size: 0.75rem;
+  margin: 0px;
+
+  li {
+    display: inline;
+    padding: 0.25em 0.5em;
+    margin: 0.25em 0em;
+    margin-right: 0.25em;
+  }
+}

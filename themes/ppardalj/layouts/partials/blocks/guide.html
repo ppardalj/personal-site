@@ -1,0 +1,21 @@
+<section id="{{ .id }}" class="{{ .className }}">
+  <div class="container">
+    {{- partial "arrow-header.html" (dict "header" .title) }}
+    <div class="row mt-3 mb-3">
+      <div class="col-7">
+        <p>
+          {{ .p1 | safeHTML }}
+        </p>
+        <p>
+          {{ .p2 | safeHTML }}
+        </p>
+      </div>
+      <div class="col-md-5 d-none d-sm-none d-md-block">
+        <img
+          class="img-fluid pad"
+          src="{{ .image }}"
+        />
+      </div>
+    </div>
+  </div>
+</section>

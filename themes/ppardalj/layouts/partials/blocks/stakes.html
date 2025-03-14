@@ -1,0 +1,16 @@
+<section id="{{ .id }}" class="{{ .className }}">
+  <div class="container">
+    {{- partial "arrow-header.html" (dict "header" .header) }}
+    <div class="row">
+      <div class="col-md-12">
+        <p>{{ .p1 | safeHTML }}</p>
+        <ul class="row ticked-cross">
+          {{ range .list }}
+          <li class="col-md-6">{{ . }}</li>
+          {{ end }}
+        </ul>
+        <p>{{ .p2 | safeHTML }}</p>
+      </div>
+    </div>
+  </div>
+</section>

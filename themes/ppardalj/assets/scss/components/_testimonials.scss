@@ -1,0 +1,91 @@
+//
+// CAROUSEL
+//
+.carousel {
+  font-family: $h2-font, sans-serif;
+  font-size: 1.3em;
+}
+
+.carousel-indicators-parent {
+  margin-top: 1.5em;
+  text-align: center;
+}
+
+.carousel-indicators {
+  display: inline-block;
+  margin-right: 1em;
+  margin-left: 0px;
+  position: relative;
+  bottom: 0px;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 10px;
+  text-indent: 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  position: relative;
+  top: 0.15em;
+}
+
+.carousel-indicators.carousel-testimonials li {
+  background-color: #d0d0d0;
+}
+
+.carousel-indicators.carousel-testimonials .active {
+  background-color: $dark-background-color;
+}
+
+.carousel-item p {
+  font-family: $p-font, Sans-Serif;
+  font-size: 1.05rem;
+}
+
+
+//
+// CUSTOMER
+//
+.customer {
+  & {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  &>* {
+    vertical-align: middle;
+  }
+
+  & .customer-info {
+    display: inline-block;
+    font-family: $h2-font, sans-serif;
+  }
+
+  @media (min-width: 992px) {
+    & .customer-info {
+      text-align: left;
+      margin-left: 1.5em;
+    }
+  }
+
+  .dark & h6 {
+    color: $primary-color;
+  }
+
+  & .customer-info p {
+    margin: 0px;
+    color: $mid-gray  !important;
+    font-size: 0.9em;
+    line-height: 1.25em;
+  }
+}
+
+@media (max-width: 992px) {
+  .customer .customer-info {
+    display: block;
+    margin-top: 1em;
+  }
+}

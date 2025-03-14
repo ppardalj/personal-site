@@ -1,0 +1,113 @@
+@import 'foundation/variables';
+
+.button {
+	display: block;
+	border-style: solid;
+	border-color: $secondary-color;
+	background-color: $secondary-color;
+	border-width: 3px;
+	font-family: $h2-font, sans-serif;
+	text-decoration: none;
+	width: fit-content;
+	font-size: 1.3em;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+	padding-left: 1.4em;
+	padding-right: 1.4em;
+	border-radius: 2rem;
+	justify-content: center;
+  align-items: center;
+}
+
+.button.expand {
+	width: 100%;
+}
+
+.button.button-center {
+	margin: auto;
+}
+
+.dark .button {
+	color: $dark-background-color;
+}
+
+.light .button {
+	color: white;
+}
+
+.gloaming .button {
+	color: white;
+}
+
+.button:after {
+	float: right;
+	margin-left: .75em;
+	margin-top: 4px;
+}
+
+.button-hollow {
+	display: block;
+	border-style: solid;
+	border-color: $secondary-color;
+	border-width: 3px;
+	font-family: $h2-font, sans-serif;
+	text-decoration: none;
+	width: fit-content;
+	font-size: 1.3em;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+	padding-left: 1.4em;
+	padding-right: 1.4em;
+	border-radius: 2rem;
+	justify-content: center;
+	align-items: center;
+	color: $secondary-color;
+}
+
+.podcast-item .button {
+  font-size: 0.85rem;
+  width: 100%;
+}
+
+.button.button-green {
+	background-color: $primary-color !important;
+	border-style: none;
+	color: $dark-background-color;
+	text-align: center;
+}
+
+.button.button-dark {
+	background-color: $dark-background-color !important;
+	border-style: none;
+	color: $gloaming-background-color;
+	text-align: center;
+}
+
+// Arrow after button text
+@media (min-width: 992px) {
+	.dark .button:after {
+		content: url('/assets/img/arrow-cta-dark.svg');
+	}
+
+	.light .button:after {
+		content: url('/assets/img/arrow-cta-white.svg');
+	}
+
+	.gloaming .button:after {
+		content: url('/assets/img/arrow-cta-white.svg');
+	}
+
+	.button-hollow:after {
+		float: right;
+		margin-left: .75em;
+		margin-top: 4px;
+		content: url('/assets/img/arrow-cta-yellow.svg');
+	}
+
+	.button.button-green:after {
+		float: none;
+		margin-left: .75em;
+		margin-top: 4px;
+		content: url('/assets/img/arrow-small-right-dark.svg');
+	}
+}

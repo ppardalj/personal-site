@@ -1,19 +1,23 @@
-# Pedro Pardal's personal website
+# Exeal Website
 
-Source code of my personal website, which is accessible in [https://ppardalj.github.io](https://ppardalj.github.io).
+[![CircleCI](https://circleci.com/gh/exeal-es/web-exeal/tree/master.svg?style=svg)](https://circleci.com/gh/exeal-es/web-exeal/tree/master)
 
-## Run
+## :pick: Requirements
 
-Run the development server:
+- [Hugo](https://gohugo.io/getting-started/installing/)
+- [Hugo-Extended (scss extension)](https://gohugo.io/getting-started/installing/#chocolatey-windows)
+- Make (For windows install with [choco](https://community.chocolatey.org/packages/make))
 
+## :rocket: Build and Release
+
+## Development server
+
+```sh
+make dev
 ```
-$ hugo server -D
+
+## Build for production
+
+```sh
+make publish
 ```
-
-Site should be available at [http://localhost:1313/](http://localhost:1313/).
-
-## Deploy
-
-The site is hosted using GitHub user pages, and deploy is set up as described [here](https://gohugo.io/hosting-and-deployment/hosting-on-github/).
-
-All changes are built and deployed using CircleCI.

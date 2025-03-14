@@ -1,0 +1,16 @@
+ul.blocks li {
+  padding: 0.25rem;
+}
+
+ul.blocks div.inner {
+  font-size: 1.25em;
+  text-align: center;
+  align-items: center;
+  display: grid;
+  height: 100%;
+  width: 100%;
+  font-family: $h2-font, sans-serif;
+  color: $primary-color;
+  margin: 1rem;
+  background-color: $gloaming-background-color;
+}

@@ -1,0 +1,140 @@
+{{ if ne .Params.show_newsletter_modal false }}
+<!-- Modal -->
+<div class="modal fade" id="newsletter-modal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="box" style="margin: 1.5rem; padding: 3rem">
+        <div class="flap flap-top-right"></div>
+        <h2>¿Quieres descubrir las <em>10+1 claves que harán crecer tu carrera como desarrollador</em> en 2024?</h2>
+        <p>Déjanos tu nombre y tu mejor email y lo <em>recibirás directamente en tu bandeja de entrada</em>, junto a mucho más <em>contenido de valor</em>.</p>
+        <div id="mc_embed_shell">
+          <link
+            href="//cdn-images.mailchimp.com/embedcode/classic-061523.css"
+            rel="stylesheet"
+            type="text/css"
+          />
+          <div id="mc_embed_signup">
+            <form
+              action="https://exeal.us10.list-manage.com/subscribe/post?u=b43f7982f87d38bbb55bc64ae&amp;id=a85eab802a&amp;f_id=008ed9e5f0"
+              method="post"
+              id="mc-embedded-subscribe-form"
+              name="mc-embedded-subscribe-form"
+              class="validate"
+              target="_blank"
+            >
+              <div id="mc_embed_signup_scroll">
+                <div class="indicates-required">
+                  <span class="asterisk">*</span> campos requeridos
+                </div>
+                <div class="mc-field-group">
+                  <label for="mce-EMAIL"
+                    >Tu mejor email <span class="asterisk">*</span></label
+                  ><input
+                    type="email"
+                    name="EMAIL"
+                    class="required email"
+                    id="mce-EMAIL"
+                    value=""
+                    required=""
+                  />
+                </div>
+                <div class="mc-field-group">
+                  <label for="mce-FNAME"
+                    >Tu nombre <span class="asterisk">*</span></label
+                  ><input
+                    type="text"
+                    name="FNAME"
+                    class="required text"
+                    id="mce-FNAME"
+                    value=""
+                    required=""
+                  />
+                </div>
+                <div id="mce-responses" class="clear foot">
+                  <div
+                    class="response"
+                    id="mce-error-response"
+                    style="display: none"
+                  ></div>
+                  <div
+                    class="response"
+                    id="mce-success-response"
+                    style="display: none"
+                  ></div>
+                </div>
+                <div
+                  aria-hidden="true"
+                  style="position: absolute; left: -5000px"
+                >
+                  /* real people should not fill this in and expect good things
+                  - do not remove this or risk form bot signups */
+                  <input
+                    type="text"
+                    name="b_b43f7982f87d38bbb55bc64ae_a85eab802a"
+                    tabindex="-1"
+                    value=""
+                  />
+                </div>
+                <div class="optionalParent">
+                  <div class="clear foot ">
+                    <input
+                      type="submit"
+                      name="subscribe"
+                      id="mc-embedded-subscribe"
+                      class="btn-submit"
+                      value="Obtener las 10+1 claves"
+                    />
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <script
+            type="text/javascript"
+            src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
+          ></script>
+          <script type="text/javascript">
+            (function ($) {
+              window.fnames = new Array();
+              window.ftypes = new Array();
+              fnames[0] = "EMAIL";
+              ftypes[0] = "email";
+              fnames[1] = "FNAME";
+              ftypes[1] = "text";
+              fnames[2] = "LNAME";
+              ftypes[2] = "text";
+              fnames[5] = "JOBTITLE";
+              ftypes[5] = "text";
+              fnames[6] = "COMPANY";
+              ftypes[6] = "text";
+              fnames[3] = "ADDRESS";
+              ftypes[3] = "address";
+              fnames[4] = "PHONE";
+              ftypes[4] = "phone";
+            })(jQuery);
+            var $mcj = jQuery.noConflict(true);
+          </script>
+        </div>
+        <p><a href="#" data-dismiss="modal" style="color:grey; font-size: sm;">No gracias, prefiero seguir estancado un año más.</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+if (typeof(Storage) !== "undefined") {
+  function showPopup() {
+    window.setTimeout(function() {
+      $('#newsletter-modal').modal('show');
+      sessionStorage.setItem("popup", 'hide');         
+    }, 10000); 
+  }
+  if (!sessionStorage.getItem("popup")) {
+    sessionStorage.setItem("popup", 'show');         
+  }
+  if (sessionStorage.getItem("popup") == 'show') {
+    showPopup();
+  }
+}
+</script>
+{{ end }}

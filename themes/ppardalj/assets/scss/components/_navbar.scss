@@ -1,0 +1,41 @@
+nav {
+  font-size: 1.1em;
+  font-family: $h2-font, sans-serif;
+}
+
+nav.dark {
+  border-style: solid;
+  border-color: $mid-gray;
+  border-bottom-width: 2px;
+}
+
+.navbar {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.navbar-brand {
+  img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .nav-item {
+    margin-left: 1em;
+  }
+}
+
+a.nav-button {
+  display: block;
+  background-color: $secondary-color;
+  font-family: $h2-font, sans-serif;
+  text-decoration: none;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+  color: $dark-background-color  !important;
+  border-radius: 2rem;
+}

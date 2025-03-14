@@ -1,0 +1,21 @@
+img.arrow-down {
+  height: 4em;
+  width: auto;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+img.arrow-right {
+  height: auto;
+  width: 3.5em;
+}
+
+@media (min-width: 1200px) {
+  h1.arrow-right:before {
+    content: url("/assets/img/arrow-right-secondary.svg");
+    display: inline-block;
+    margin-right: 1em;
+    position: relative;
+    top: 0.15em;
+  }
+}

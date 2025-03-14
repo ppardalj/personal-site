@@ -1,0 +1,24 @@
+<section id="sect-clients" class="{{ .background }}">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-12">
+        <h2><em>{{ i18n "clientsheader" }}</em></h2>
+      </div>
+    </div>
+    <div class="row align-items-center justify-content-center">
+      {{ range site.Data.clients }}
+      <div
+        class="col-lg-3 col-md-4 col-6 d-flex mt-3 mb-3 align-items-center justify-content-center"
+      >
+        <img
+          src="{{ .logo }}"
+          class="img-fluid client-logo"
+          style="max-height: 130px"
+          alt="{{ .name }}"
+          loading="lazy"
+        />
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

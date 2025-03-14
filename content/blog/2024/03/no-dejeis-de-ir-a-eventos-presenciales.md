@@ -2,6 +2,8 @@
 date: 2024-03-29T00:00:00+01:00
 title: No dejéis de ir a eventos presenciales
 featured_image: '/images/keyboard.jpg'
+author: pedropardal
+layout: post
 tags: []
 ---
 

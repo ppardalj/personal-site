@@ -1,0 +1,38 @@
+<section id="{{ .id }}" class="{{ .className }}">
+  <div class="container">
+    {{- partial "arrow-header.html" (dict "header" .header) }}
+    <div class="row">
+      <div class="col-md-12">
+        <div id="carousel-testimonials" class="carousel slide" data-ride="carousel">
+          <div class="box">
+            <div class="flap flap-top-right"></div>
+            <div class="carousel-inner">
+              {{ range .testimonials }}
+              <div class="carousel-item {{ if eq .active true }}active{{ end }}">
+                <p>{{ .text | safeHTML }}</p>
+                <div class="customer">
+                  <img class="rounded-circle avatar" src="{{ .photo }}" />
+                  <div class="customer-info">
+                    <p>{{ .name }}</p>
+                    <p>{{ .position }}</p>
+                  </div>
+                </div>
+              </div>
+              {{ end }}
+            </div>
+          </div>
+
+          <div class="carousel-indicators-parent">
+            <ol class="carousel-indicators carousel-testimonials">
+              {{ range $index, $element := .testimonials }}
+              <li data-target="#carousel-testimonials" data-slide-to="{{ $index }}" class="{{ if eq $element.active true }}active{{ end }}"></li>
+              {{ end }}
+            </ol>
+            <a href="#carousel-testimonials" data-slide="next" role="button"><img class="arrow-right"
+                src="/assets/img/arrow-right-secondary.svg" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

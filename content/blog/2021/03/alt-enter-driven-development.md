@@ -3,6 +3,8 @@ date: 2021-03-09T17:18:54+01:00
 title: Alt+Enter Driven Development
 featured_image: '/images/keyboard.jpg'
 tags: ["programacion", "refactoring", "katas", "charlas"]
+author: pedropardal
+layout: post
 aliases:
 - "/post/alt-enter-driven-development/"
 ---

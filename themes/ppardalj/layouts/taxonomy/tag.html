@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="{{ .Language.Lang }}">
+  <head>
+    {{- partial "blog/head.html" . -}}
+  </head>
+  <body>
+    {{- partial "gtm_body.html" . -}}
+    
+    {{- partial "blog/navbar.html" . -}}
+    
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1>Publicaciones con la categoría "{{ .Title }}"</h1>
+          </div>
+        </div>
+      </div>
+
+    {{- partial "blog/postlist.html" . -}}
+    {{- partial "footer.html" . -}}
+    <!--
+    {{- partial "popup-newsletter.html" . -}}
+    -->
+    {{- partial "javascript.html" . -}}
+  </body>
+</html>

@@ -1,0 +1,7 @@
+links:
+  - url: "/legal/legal-notice/"
+    text: "linklegal"
+  - url: "/legal/cookie-policy/"
+    text: "linkcookiepolicy"
+  - url: "/legal/privacy-policy/"
+    text: "linkprivacypolicy"

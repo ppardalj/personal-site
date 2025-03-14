@@ -1,0 +1,25 @@
+<section id="{{ .id }}" class="{{ .className }}">
+  <div class="container">
+    {{- partial "arrow-header.html" (dict "header" .what) }}
+
+    <div class="row">
+      {{ range .benefits }}
+      <div class="col-xl-4 mb-3">
+        <div class="box">
+          <div class="flap flap-top-right"></div>
+          <img src="{{ .icon }}" />
+          <p>{{ .text | safeHTML }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+
+    <div class="row justify-content-center align-items-center text-center">
+      <div class="col-m-12">
+        <p>
+          <a data-scroll="sect-contact" href="#" class="button button-center">{{ .callToAction }}</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

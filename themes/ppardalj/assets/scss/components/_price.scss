@@ -1,0 +1,23 @@
+p.price {
+  font-family: $h2-font, sans-serif;
+  color: $gloaming-background-color;
+  font-size: 6em;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: $primary-color;
+}
+
+p.price sup {
+  font-size: 3rem;
+}
+
+@media (min-width: 1200px) {
+  div.price-box-left {
+    margin-right: 2em;
+  }
+
+  div.price-box-right {
+    margin-left: 2em;
+  }
+}

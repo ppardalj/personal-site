@@ -1,0 +1,18 @@
+<section id="{{ .id }}" class="{{ .className }}">
+  <div class="container">
+    <div class="row mt-3 mb-3 justify-content-center align-items-center text-center">
+      <div class="col-md-12">
+        <h1>{{ .header | safeHTML }}</h1>
+        <h4>{{ .subheader | safeHTML }}</h4>
+        {{ range .paragraphs }}
+          <p>{{ . | safeHTML }}</p>
+        {{ end }}
+        {{ if .callToAction }}
+        <p>
+          <a data-scroll="{{ .callToAction.scrollTo }}" href="#" class="button button-center">{{ .callToAction.text }}</a>
+        </p>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>

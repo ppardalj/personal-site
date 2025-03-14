@@ -1,0 +1,7 @@
+{{ if eq .Params.course_level "beginner" }}
+<p class="level"><i class="icon i-level-black"></i><i class="icon i-level-grey"></i><i class="icon i-level-grey"></i> Nivel Principiante</p>
+{{ else if eq .Params.course_level "intermediate" }}
+<p class="level"><i class="icon i-level-black"></i><i class="icon i-level-black"></i><i class="icon i-level-grey"></i> Nivel Intermedio</p>
+{{ else if eq .Params.course_level "advanced" }}
+<p class="level"><i class="icon i-level-black"></i><i class="icon i-level-black"></i><i class="icon i-level-black"></i> Nivel Avanzado</p>
+{{ end }}

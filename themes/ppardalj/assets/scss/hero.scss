@@ -1,0 +1,71 @@
+@import "foundation/variables";
+@import "foundation/fonts";
+@import "foundation/article";
+@import "foundation/tags";
+@import "foundation/buttons";
+
+.hero {
+  height: 10em;
+  min-height: 700px;
+}
+
+.hero-bg-img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-bg-img-mask {
+  height: 100%;
+}
+
+.hero {
+  font-family: $h2-font, sans-serif;
+}
+
+.hero h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.hero h2 {
+  color: #e4e4e4;
+  font-size: 1.5rem;
+  margin-top: 1em;
+  margin-bottom: 0px;
+}
+
+.hero p.date {
+  font-family: $h2-font, sans-serif;
+  font-size: 1.25rem;
+  color: #a0a0a0;
+  margin-top: 0px;
+  margin-bottom: 2rem;
+}
+
+span.underline {
+  border-bottom: 4px solid $primary-color;
+}
+
+.hero p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+pre {
+  border-style: solid;
+  border-color: $primary-color;
+  border-width: 4px;
+  margin: 0em 2rem;
+  padding: 2em 2em;
+  font-family: "JetBrainsMono-Regular", sans-serif;
+}
+
+.bg-mask {
+  background: rgba(24, 41, 53, 0.5);
+}

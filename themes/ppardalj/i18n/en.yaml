@@ -1,0 +1,40 @@
+clientsheader:
+  other: I have worked with these companies
+fieldname:
+  other: Name
+fieldsurname:
+  other: Surname
+fieldphone:
+  other: Phone number
+fieldcompany:
+  other: Company name
+fieldcontactmsg:
+  other: Tell me about your reason for contacting me
+btnsend:
+  other: Send
+linklegal:
+  other: Legal notice
+linkteam:
+  other: Team
+linkcookiepolicy:
+  other: Cookie policy
+linkprivacypolicy:
+  other: Privacy policy
+navservices:
+  other: Services
+navcoaching:
+  other: Technical Coaching
+navresources:
+  other: Resources
+navb2b:
+  other: For businesses
+navopentraining:
+  other: Ad Hoc Training
+navmailinglist:
+  other: Newsletter
+navchecklist:
+  other: High-performance teams guide
+navcontact:
+  other: Contact us
+navstartlearning:
+  other: Start learning

@@ -1,0 +1,30 @@
+{{ $author := index .Site.Data.authors .Params.author }}
+<div class="post-author">
+  <img class="rounded-circle" src="{{ $author.avatar }}" />
+  <div class="post-author-name">
+    <h2>{{ $author.name }}</h2>
+    <p>{{ $author.role }}</p>
+    <ul class="social-icons list-inline">
+      <li class="list-inline-item">
+        <a target="_blank" href="{{ $author.social.twitter }}">
+          <img src="/assets/img/blog/social-icons/icon-twitter.svg" />
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a target="_blank" href="{{ $author.social.linkedin }}">
+          <img src="/assets/img/blog/social-icons/icon-linkedin.svg" />
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a target="_blank" href="{{ $author.social.github }}">
+          <img src="/assets/img/blog/social-icons/icon-github.svg" />
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a target="_blank" href="mailto:{{ $author.social.email }}">
+          <img src="/assets/img/blog/social-icons/icon-email.svg" />
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>

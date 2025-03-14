@@ -1,0 +1,228 @@
+@import "foundation/variables";
+@import "foundation/fonts";
+@import "foundation/article";
+@import "foundation/tags";
+@import "foundation/buttons";
+
+div.post-author {
+  & {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: $primary-color;
+    margin: 2em 0em;
+    padding: 1em 0em;
+  }
+
+  & > * {
+    vertical-align: middle;
+  }
+
+  & > img {
+    width: 10em;
+  }
+
+  & .post-author-name {
+    display: inline-block;
+    margin: 2em 2em;
+  }
+
+  & .post-author-name h2 {
+    margin-bottom: 0.5em;
+    text-align: left;
+  }
+
+  & .post-author-name p {
+    margin: 0px;
+  }
+
+  & .post-author-name {
+    max-width: 30rem;
+  }
+
+  & .post-author-name ul.social-icons {
+    margin-top: 1em;
+    display: flex;
+  }
+
+  @media (min-width: 992px) {
+    & p {
+      text-align: left;
+      margin-left: 1.5em;
+    }
+  }
+
+  @media (max-width: 992px) {
+    & .post-author-name h2 {
+      text-align: center;
+    }
+    & .post-author-name ul.social-icons {
+      display: inline-block;
+    }
+  }
+}
+
+.bg-mask {
+  background: rgba(24, 41, 53, 0.5);
+}
+
+.post-card {
+  background-size: cover;
+}
+
+.blog-item-inner {
+  height: 100%;
+  padding: 2rem;
+  color: white;
+  height: 22em;
+  margin-bottom: 1em;
+  position: relative;
+}
+
+.post-card-inner:hover {
+  background: rgba(24, 41, 53, 0.9);
+  transition: 0.2s;
+}
+
+.blog-item p {
+  margin-top: 0.5em;
+}
+
+.blog-item h2 {
+  margin-bottom: 0em;
+}
+
+.blog-item p.author {
+  border-top: $primary-color;
+  border-top-style: solid;
+  border-top-width: 4px;
+  font-size: 0.75em;
+  font-family: $h2-font, sans-serif;
+}
+
+.blog-item .post-title {
+  position: absolute;
+  bottom: 0;
+  left: 2em;
+  right: 2em;
+}
+
+.blog-item a {
+  color: white;
+}
+
+.blog-item a:hover {
+  text-decoration: none;
+}
+
+.post-card-detail {
+  display: none;
+  font-family: $h2-font, sans-serif;
+}
+
+.post-card-detail a {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+div.post-card-reading-time {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  right: 2rem;
+  font-size: 0.85em;
+  color: $primary-color;
+}
+
+.post-card-summary {
+  font-size: 1.15em;
+}
+
+.post-card:hover .post-card-detail {
+  display: block;
+  transition: 0.2s;
+}
+
+.post-card:hover .post-card-cover {
+  display: none;
+  transition: 0.2s;
+}
+
+.blog-carousel p.author-name {
+  font-family: $h2-font, sans-serif;
+  margin: 1rem 0rem;
+}
+
+.blog-carousel h1 {
+  font-family: $h2-font, sans-serif;
+  font-size: 2rem;
+  margin: 1rem 0rem;
+  max-width: 25rem;
+}
+
+.blog-carousel ul.tags {
+  margin: 1rem 0rem;
+}
+
+section.no-padding-top {
+  padding-top: 0em;
+}
+
+.blog-carousel-indicators-parent {
+  margin: 1rem 0rem;
+}
+
+.blog-carousel .carousel-indicators li {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  width: 11px;
+  height: 11px;
+}
+
+.blog-carousel .carousel-indicators li.active {
+  background-color: white;
+}
+
+.podcast-item {
+  background-color: $dark-background-color;
+}
+
+.podcast-widget {
+  width: 100%;
+  height: 12rem;
+  background-color: $dark-background-color;
+  margin-bottom: 0.5em;
+}
+
+.podcast-item-inner {
+  height: 100%;
+  padding: 1rem;
+  color: white;
+  height: 22em;
+  margin-bottom: 1em;
+  position: relative;
+}
+
+.podcast-item h2 {
+  font-size: 1.25em;
+}
+
+.podcast-item p.episode-title {
+  font-size: 0.85rem;
+  line-height: 1rem;
+  margin: 0rem;
+}
+
+.podcast-item .cta {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+}

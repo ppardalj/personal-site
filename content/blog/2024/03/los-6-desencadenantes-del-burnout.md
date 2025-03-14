@@ -2,6 +2,8 @@
 date: 2024-03-30T00:00:00+01:00
 title: Los 6 desencadenantes del burnout
 featured_image: '/images/keyboard.jpg'
+author: pedropardal
+layout: post
 tags: []
 ---
 

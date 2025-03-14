@@ -1,0 +1,89 @@
+{{- partial "gtm_head.html" . -}}
+
+<meta charset="utf-8">
+<title>{{ .Title }} | {{ .Site.Title }}</title>
+
+<!-- Meta -->
+<meta name="description" content="{{ .Description }}">
+<meta name="author" content="{{ site.Title }}">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Internal templates -->
+{{- template "_internal/opengraph.html" . -}}
+{{- template "_internal/schema.html" . -}}
+{{- template "_internal/twitter_cards.html" . -}}
+
+<!-- Stylesheet -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+{{ $style := resources.Get "scss/main.scss" | css.Sass }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" />
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="/assets/img/favicon.png" />
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png" />
+
+<!-- I18N -->
+{{ if .IsTranslated }}
+  <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">
+	{{ range .Translations }}
+	<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">
+  {{ range first 1 .AllTranslations }}
+  <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}" />
+  {{- end -}}
+	{{ end }}
+{{ end }}
+
+{{ if .Params.hidden }}
+  <meta name="robots" content="noindex, nofollow" /> 
+{{ end }}
+
+<!-- Start of HubSpot Embed Code -->
+{{ if site.Params.hubspotId }}
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/{{ site.Params.hubspotId }}.js"></script>
+{{ end }}
+<!-- End of HubSpot Embed Code -->
+
+<!-- Cookie consent generated with Osano's website configuration wizard -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
+<!-- Facebook domain verification -->
+{{ if site.Params.facebookDomainVerification }}
+  <meta name="facebook-domain-verification" content="{{ site.Params.facebookDomainVerification }}" />
+{{ end }}
+
+<!-- Meta Pixel Code -->
+{{ if site.Params.facebookPixelId }}
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '{{ site.Params.facebookPixelId }}');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id={{ site.Params.facebookPixelId }}&ev=PageView&noscript=1"
+  /></noscript>
+  {{ end }}
+  <!-- End Meta Pixel Code -->
+
+<!-- Hotjar -->
+{{ if site.Params.hotjarId }}
+{{ $hotjarId := site.Params.hotjarId }}
+<script>
+  (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:{{ $hotjarId }},hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+{{ end}}
+<!-- End Hotjar -->

@@ -1,25 +1,21 @@
-title: "Pedro Pardal"
-baseURL: "https://www.ppardalj.com/"
-languageCode: "en-us"
-theme: "ananke"
-
-MetaDataFormat: "yaml"
-DefaultContentLanguage: "es"
-SectionPagesMenu: "main"
-Paginate: 3
-googleAnalytics: "UA-150818815-1"
-enableRobotsTXT: true
-disqusShortname: "ppardalj"
-
-sitemap:
-  changefreq: "monthly"
-  priority: 0.5
-  filename: "sitemap.xml"
-
+title: Pedro Pardal
+theme: ppardalj
+baseURL: https://www.ppardalj.com
+languageCode: es-es
+defaultContentLanguage: es
+languages:
+  es:
+    weight: 1
+  en:
+    weight: 2
+metaDataFormat: yaml
 params:
-  description: "Soy consultor, formador y desarrollador de software."
-  linkedin: "https://www.linkedin.com/in/ppardalj/"
-  instagram: "https://www.instagram.com/ppardalj/"
-  youtube: "https://www.youtube.com/@ppardalj"
-  background_color_class: "bg-black"
-  recent_posts_number: 2
+  gtm_id: "GTM-TQGN65PV"
+  facebookPixelId: 417415780749470
+  facebookDomainVerification: xwbugjbpmp2jwy1y6mzdhe6ga267uz
+  hotjarId: 5031744
+  hubspotId: 8231847
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

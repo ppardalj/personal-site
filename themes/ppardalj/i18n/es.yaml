@@ -1,0 +1,40 @@
+clientsheader:
+  other: He trabajado con estas empresas
+fieldname:
+  other: Nombre
+fieldsurname:
+  other: Apellidos
+fieldphone:
+  other: Teléfono
+fieldcompany:
+  other: Compañía
+fieldcontactmsg:
+  other: Cuéntame el motivo de tu contacto
+btnsend:
+  other: Enviar
+linklegal:
+  other: Aviso legal
+linkteam:
+  other: Equipo
+linkcookiepolicy:
+  other: Política de cookies
+linkprivacypolicy:
+  other: Política de privacidad
+navservices:
+  other: Servicios
+navcoaching:
+  other: Coaching técnico
+navopentraining:
+  other: Cursos abiertos
+navresources:
+  other: Recursos
+navb2b:
+  other: Empresas
+navmailinglist:
+  other: Newsletter
+navchecklist:
+  other: Checklist equipos de alto rendimiento
+navcontact:
+  other: Contáctanos
+navstartlearning:
+  other: Comienza a aprender

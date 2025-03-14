@@ -1,0 +1,38 @@
+.carousel {
+  font-family: $h2-font, sans-serif;
+  font-size: 1.3em;
+}
+
+.carousel-indicators-parent {
+  margin-top: 1.5em;
+  text-align: center;
+}
+
+.carousel-indicators {
+  display: inline-block;
+  margin-right: 1em;
+  margin-left: 0px;
+  position: relative;
+  bottom: 0px;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 10px;
+  text-indent: 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  position: relative;
+  top: 0.15em;
+}
+
+.carousel-indicators.carousel-testimonials li {
+  background-color: #d0d0d0;
+}
+
+.carousel-indicators.carousel-testimonials .active {
+  background-color: $dark-background-color;
+}

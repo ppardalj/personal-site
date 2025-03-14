@@ -1,0 +1,37 @@
+<section>
+  <div class="container">
+    <div class="row">
+      {{ range (.Paginator 12).Pages }}
+      <div class="col-lg-4" data-author="{{ .Params.author }}">
+        {{ if eq .Layout "podcast" }}
+          {{- partial "blog/podcastcard.html" . -}}
+        {{ else }}
+          {{- partial "blog/postcard.html" . -}}
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+    {{- template "_internal/pagination.html" . -}}
+  </div>
+</section>
+
+<script>
+
+const removePostForOtherAuthors = () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const author = urlParams.get('author');
+
+    if (author) {
+      const posts = document.querySelectorAll('[data-author]');
+
+      posts.forEach(post => {
+        if (post.dataset.author != author) {
+          post.remove();
+        }
+      });
+    }
+};
+
+document.addEventListener("DOMContentLoaded", removePostForOtherAuthors);
+
+</script>

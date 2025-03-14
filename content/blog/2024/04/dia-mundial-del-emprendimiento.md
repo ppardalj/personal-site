@@ -2,6 +2,8 @@
 date: 2024-04-30T00:00:00+01:00
 title: Día mundial del emprendimiento
 featured_image: '/images/keyboard.jpg'
+author: pedropardal
+layout: post
 tags: []
 ---
 
