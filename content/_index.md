@@ -10,6 +10,7 @@ blocks:
     className: dark
     header: ¡Hola! Soy Pedro Pardal
     subheader: Soy desarrollador de software, líder técnico y emprendedor
+    backgroundImage: "/images/hero-background.jpg"
 
   # Subscribe to newsletter form
   - type: newsletter-subscribe

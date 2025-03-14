@@ -19,6 +19,9 @@
 {{ $style := resources.Get "scss/main.scss" | css.Sass }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" />
 
+{{ $style := resources.Get "scss/hero.scss" | css.Sass }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" />
+
 <!-- Favicon -->
 <link rel="icon" type="image/png" href="/assets/img/favicon.png" />
 <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png" />
