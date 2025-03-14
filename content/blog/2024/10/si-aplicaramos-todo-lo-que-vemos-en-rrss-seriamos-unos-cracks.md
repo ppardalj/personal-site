@@ -1,7 +1,9 @@
 ---
 date: 2024-10-08T00:00:00+01:00
 title: Si aplicáramos todo lo que vemos en redes sociales, seríamos unos cracks
-featured_image: '/images/keyboard.jpg'
+featured_image: '/images/blog/1727027301492.jpg'
+card_image: '/images/blog/1727027301492.jpg'
+images: ['/images/blog/1727027301492.jpg']
 author: pedropardal
 layout: post
 tags: []

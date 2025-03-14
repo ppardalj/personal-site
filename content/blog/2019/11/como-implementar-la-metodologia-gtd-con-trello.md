@@ -2,6 +2,8 @@
 date: 2019-11-26T00:00:00+01:00
 title: Cómo implementar la metodología GTD con Trello
 featured_image: '/images/nesa-by-makers-kwzWjTnDPLk-unsplash.jpg'
+card_image: '/images/nesa-by-makers-kwzWjTnDPLk-unsplash.jpg'
+images: ['/images/nesa-by-makers-kwzWjTnDPLk-unsplash.jpg']
 tags: ["productividad personal", "soft skills", "gtd", "trello"]
 author: pedropardal
 layout: post

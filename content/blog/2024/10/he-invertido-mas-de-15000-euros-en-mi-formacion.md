@@ -1,7 +1,9 @@
 ---
 date: 2024-10-07T00:00:00+01:00
 title: He invertido más de 15.000€ en mi formación
-featured_image: '/images/keyboard.jpg'
+featured_image: '/images/blog/1725264318694.jpg'
+card_image: '/images/blog/1725264318694.jpg'
+images: ['/images/blog/1725264318694.jpg']
 author: pedropardal
 layout: post
 tags: []

@@ -1,7 +1,9 @@
 ---
 date: 2024-10-08T00:00:00+01:00
 title: Gestionar el síndrome del impostor
-featured_image: '/images/keyboard.jpg'
+featured_image: '/images/blog/1726471217614.jpg'
+card_image: '/images/blog/1726471217614.jpg'
+images: ['/images/blog/1726471217614.jpg']
 author: pedropardal
 layout: post
 tags: []

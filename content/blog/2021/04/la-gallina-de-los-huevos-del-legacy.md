@@ -2,6 +2,8 @@
 date: 2021-04-16T10:00:00+01:00
 title: La gallina de los huevos del legacy
 featured_image: '/images/gallina.jpg'
+card_image: '/images/gallina.jpg'
+images: ['/images/gallina.jpg']
 tags: ["legacy", "charlas"]
 author: pedropardal
 layout: post

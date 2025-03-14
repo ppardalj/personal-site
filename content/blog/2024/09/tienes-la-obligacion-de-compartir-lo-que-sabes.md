@@ -1,7 +1,9 @@
 ---
 date: 2024-09-15T00:00:00+01:00
 title: Tienes la obligación de compartir lo que sabes
-featured_image: '/images/keyboard.jpg'
+featured_image: '/images/blog/1723536103470.jpg'
+card_image: '/images/blog/1723536103470.jpg'
+images: ['/images/blog/1723536103470.jpg']
 author: pedropardal
 layout: post
 tags: []

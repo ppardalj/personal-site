@@ -1,7 +1,9 @@
 ---
 date: 2024-09-21T00:00:00+01:00
 title: Sobre delegar
-featured_image: '/images/keyboard.jpg'
+featured_image: '/images/blog/1724660072513.jpg'
+card_image: '/images/blog/1724660072513.jpg'
+images: ['/images/blog/1724660072513.jpg']
 author: pedropardal
 layout: post
 tags: []

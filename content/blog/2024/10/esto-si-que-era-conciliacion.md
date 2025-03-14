@@ -1,7 +1,9 @@
 ---
 date: 2024-10-09T00:00:00+01:00
 title: Esto si que era conciliación
-featured_image: '/images/keyboard.jpg'
+featured_image: '/images/blog/posts/coder.jpg'
+card_image: '/images/blog/posts/coder.jpg'
+images: ['/images/blog/posts/coder.jpg']
 author: pedropardal
 layout: post
 tags: []

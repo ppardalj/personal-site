@@ -1,7 +1,9 @@
 ---
 date: 2024-08-31T00:00:00+01:00
 title: Me he metido a un curso de marca personal
-featured_image: '/images/keyboard.jpg'
+featured_image: '/images/blog/1721635165517.jpg'
+card_image: '/images/blog/1721635165517.jpg'
+images: ['/images/blog/1721635165517.jpg']
 author: pedropardal
 layout: post
 tags: []

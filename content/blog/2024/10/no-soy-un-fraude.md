@@ -1,7 +1,9 @@
 ---
 date: 2024-10-29T00:00:00+01:00
 title: No soy un fraude
-featured_image: '/images/keyboard.jpg'
+featured_image: '/images/blog/1725350594461.jpg'
+card_image: '/images/blog/1725350594461.jpg'
+images: ['/images/blog/1725350594461.jpg']
 author: pedropardal
 layout: post
 tags: []

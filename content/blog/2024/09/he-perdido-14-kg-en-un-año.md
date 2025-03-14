@@ -1,7 +1,9 @@
 ---
 date: 2024-09-29T00:00:00+01:00
 title: He perdido 14 kg en un año
-featured_image: '/images/keyboard.jpg'
+featured_image: '/images/blog/1725005298440.jpg'
+card_image: '/images/blog/1725005298440.jpg'
+images: ['/images/blog/1725005298440.jpg']
 author: pedropardal
 layout: post
 tags: []

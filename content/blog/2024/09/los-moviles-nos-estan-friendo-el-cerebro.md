@@ -1,7 +1,9 @@
 ---
 date: 2024-09-30T00:00:00+01:00
 title: Los móviles nos están friendo el cerebro
-featured_image: '/images/keyboard.jpg'
+featured_image: '/images/blog/1725177724345.jpg'
+card_image: '/images/blog/1725177724345.jpg'
+images: ['/images/blog/1725177724345.jpg']
 author: pedropardal
 layout: post
 tags: []

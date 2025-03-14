@@ -1,7 +1,9 @@
 ---
 date: 2024-09-26T00:00:00+01:00
 title: Sobre irse a vivir y trabajar fuera
-featured_image: '/images/keyboard.jpg'
+featured_image: '/images/blog/1724829497606.jpg'
+card_image: '/images/blog/1724829497606.jpg'
+images: ['/images/blog/1724829497606.jpg']
 author: pedropardal
 layout: post
 tags: []

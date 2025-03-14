@@ -2,6 +2,8 @@
 date: 2024-09-25T00:00:00+01:00
 title: El trabajo de mis sueños
 featured_image: '/images/blog/1724745742121.jpg'
+card_image: '/images/blog/1724745742121.jpg'
+images: ['/images/blog/1724745742121.jpg']
 author: pedropardal
 layout: post
 tags: []

@@ -1,7 +1,9 @@
 ---
 date: 2024-09-19T00:00:00+01:00
 title: Éxito vs Excelencia
-featured_image: '/images/keyboard.jpg'
+featured_image: '/images/blog/1724571137519.jpg'
+card_image: '/images/blog/1724571137519.jpg'
+images: ['/images/blog/1724571137519.jpg']
 author: pedropardal
 layout: post
 tags: []

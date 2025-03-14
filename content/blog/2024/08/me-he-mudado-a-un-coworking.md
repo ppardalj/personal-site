@@ -1,7 +1,9 @@
 ---
 date: 2024-08-30T00:00:00+01:00
 title: Me he mudado a un coworking
-featured_image: '/images/keyboard.jpg'
+featured_image: '/images/blog/1720195518118.jpg'
+card_image: '/images/blog/1720195518118.jpg'
+images: ['/images/blog/1720195518118.jpg']
 author: pedropardal
 layout: post
 tags: []
