@@ -26,7 +26,7 @@ jobs:
             git clone --depth 1 https://${GITHUB_TOKEN}@github.com/ppardalj/ppardalj.github.io.git
       - run:
           name: Clear Github Pages repository
-          working_directory: ~/workdir/exeal-es.github.io
+          working_directory: ~/workdir/ppardal.github.io
           command: |
             rm -rf */
       - run:
@@ -36,7 +36,7 @@ jobs:
             cp -a public/. ~/workdir/ppardalj.github.io
       - run:
           name: Deploy to Github Pages
-          working_directory: ~/workdir/exeal-es.github.io
+          working_directory: ~/workdir/ppardalj.github.io
           command: |
             git config credential.helper 'cache --timeout=120'
             git config user.email "<email>"
