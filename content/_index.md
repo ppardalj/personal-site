@@ -43,11 +43,11 @@ blocks:
   # Who am I?
   - type: guide
     id: sect-team
-    className: light
+    className: dark
     title: Sobre mí
     p1: Pedro es Software engineer y tech lead con +12 años de experiencia construyendo aplicaciones web escalables en el cloud, y liderando equipos multidisciplinares usando metodologías ágiles.
     p2: Inspirado por los valores de Software Craftsmanship y prácticas de Extreme Programming y DevOps, poniendo especial énfasis en la entrega temprana de valor, comunicación transparente con el cliente y excelencia técnica.
-    image: '/images/team/pedro-bilbo.jpg'
+    image: '/images/pedro-product-fest.jpeg'
 
   # Clients
   - type: clients

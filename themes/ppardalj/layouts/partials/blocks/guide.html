@@ -2,7 +2,7 @@
   <div class="container">
     {{- partial "arrow-header.html" (dict "header" .title) }}
     <div class="row mt-3 mb-3">
-      <div class="col-7">
+      <div class="col-8">
         <p>
           {{ .p1 | safeHTML }}
         </p>
@@ -10,7 +10,7 @@
           {{ .p2 | safeHTML }}
         </p>
       </div>
-      <div class="col-md-5 d-none d-sm-none d-md-block">
+      <div class="col-md-4 d-none d-sm-none d-md-block">
         <img
           class="img-fluid pad"
           src="{{ .image }}"
