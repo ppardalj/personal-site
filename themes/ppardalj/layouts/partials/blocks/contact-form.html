@@ -3,6 +3,9 @@
     <div class="row text-center">
       <div class="col-md-12">
         <h2>{{ .title | safeHTML }}</h2>
+        {{ if .subtitle }}
+          <p>{{ .subtitle | safeHTML }}</p>
+        {{ end }}
         {{- partial "contactform.html" . -}}
       </div>
     </div>
