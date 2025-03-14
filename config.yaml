@@ -10,10 +10,7 @@ languages:
     weight: 2
 metaDataFormat: yaml
 params:
-  gtm_id: "GTM-TQGN65PV"
-  facebookPixelId: 417415780749470
-  facebookDomainVerification: xwbugjbpmp2jwy1y6mzdhe6ga267uz
-  hotjarId: 5031744
+  gtm_id: "GTM-PJM6WP"
   hubspotId: 8231847
 markup:
   goldmark:
