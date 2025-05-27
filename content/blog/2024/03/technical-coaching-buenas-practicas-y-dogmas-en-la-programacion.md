@@ -4,7 +4,7 @@ description: 'Buenas prácticas de programación, el "dogma" que hay entre progr
 author: pedropardal
 date: 2024-03-17T00:00:00.000Z
 layout: post
-tags: []
+tags: ["charlas-y-podcasts"]
 images: [/images/blog/posts/podcast-ctrl-alt-meet.jpg]
 featured_image: /images/blog/posts/podcast-ctrl-alt-meet.jpg
 card_image: /images/blog/posts/podcast-ctrl-alt-meet.jpg

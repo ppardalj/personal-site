@@ -6,7 +6,7 @@ card_image: '/images/blog/1726471217614.jpg'
 images: ['/images/blog/1726471217614.jpg']
 author: pedropardal
 layout: post
-tags: []
+tags: ["opinion"]
 ---
 
 Esta herramienta es la que más me ha ayudado a gestionar el síndrome del impostor:

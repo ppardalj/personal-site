@@ -6,7 +6,7 @@ card_image: '/images/blog/1725350594461.jpg'
 images: ['/images/blog/1725350594461.jpg']
 author: pedropardal
 layout: post
-tags: []
+tags: ["batallitas"]
 ---
 
 Cuando entré a trabajar en Tuenti, hace ya más de 12 años, estaba convencidísimo de que no iba a pasar el periodo de prueba.

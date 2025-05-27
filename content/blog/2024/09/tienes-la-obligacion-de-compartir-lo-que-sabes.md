@@ -6,7 +6,7 @@ card_image: '/images/blog/1723536103470.jpg'
 images: ['/images/blog/1723536103470.jpg']
 author: pedropardal
 layout: post
-tags: []
+tags: ["opinion"]
 ---
 
 Tienes la obligación de compartir lo que sabes.

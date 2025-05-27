@@ -6,7 +6,7 @@ card_image: '/images/blog/1724829497606.jpg'
 images: ['/images/blog/1724829497606.jpg']
 author: pedropardal
 layout: post
-tags: []
+tags: ["batallitas"]
 ---
 
 Irme a trabajar fuera de España es lo mejor que pude hacer para mi carrera profesional… y mi vida personal.

@@ -6,7 +6,7 @@ card_image: '/images/blog/1724571137519.jpg'
 images: ['/images/blog/1724571137519.jpg']
 author: pedropardal
 layout: post
-tags: []
+tags: ["opinion"]
 ---
 
 ¿Qué prefieres conseguir, el éxito o la excelencia?

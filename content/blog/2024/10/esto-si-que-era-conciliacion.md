@@ -6,7 +6,7 @@ card_image: '/images/blog/posts/coder.jpg'
 images: ['/images/blog/posts/coder.jpg']
 author: pedropardal
 layout: post
-tags: []
+tags: ["batallitas"]
 ---
 
 Cuando llevaba aproximadamente año y medio viviendo y trabajando como software developer en Alemania, me ocurrió esto.

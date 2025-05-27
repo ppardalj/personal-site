@@ -6,7 +6,7 @@ card_image: '/images/blog/1727027301492.jpg'
 images: ['/images/blog/1727027301492.jpg']
 author: pedropardal
 layout: post
-tags: []
+tags: ["opinion"]
 ---
 
 Seguro que esta situación te suena:

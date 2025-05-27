@@ -4,7 +4,7 @@ description: '¿Cómo pueden los desarrolladores adaptarse eficazmente a los cam
 author: pedropardal
 date: 2024-03-16T00:00:00.000Z
 layout: post
-tags: []
+tags: ["charlas-y-podcasts"]
 images: [/images/blog/posts/podcast-tech-from-the-trenches.jpg]
 featured_image: /images/blog/posts/podcast-tech-from-the-trenches.jpg
 card_image: /images/blog/posts/podcast-tech-from-the-trenches.jpg

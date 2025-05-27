@@ -6,7 +6,7 @@ card_image: '/images/blog/1725264318694.jpg'
 images: ['/images/blog/1725264318694.jpg']
 author: pedropardal
 layout: post
-tags: []
+tags: ["batallitas"]
 ---
 
 En el último año, he invertido más de 15.000€ en mi formación. ¿Ha merecido la pena?

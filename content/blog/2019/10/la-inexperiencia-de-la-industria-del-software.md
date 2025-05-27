@@ -4,7 +4,7 @@ title: La inexperiencia de la industria del software.
 featured_image: '/images/nesa-by-makers-kwzWjTnDPLk-unsplash.jpg'
 card_image: '/images/nesa-by-makers-kwzWjTnDPLk-unsplash.jpg'
 images: ['/images/nesa-by-makers-kwzWjTnDPLk-unsplash.jpg']
-tags: ["formacion"]
+tags: ["opinion"]
 author: pedropardal
 layout: post
 aliases:

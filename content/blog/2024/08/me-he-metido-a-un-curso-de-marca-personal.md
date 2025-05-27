@@ -6,7 +6,7 @@ card_image: '/images/blog/1721635165517.jpg'
 images: ['/images/blog/1721635165517.jpg']
 author: pedropardal
 layout: post
-tags: []
+tags: ["batallitas"]
 ---
 
 Me he metido en un curso de marca personal. Pero lo que me he encontrado dentro ha sido algo mucho más valioso.
