@@ -4,7 +4,7 @@
 
 ## :pick: Requirements
 
-- [Hugo](https://gohugo.io/getting-started/installing/)
+- [Hugo](https://gohugo.io/getting-started/installing/) (version >= 0.143.1)
 - [Hugo-Extended (scss extension)](https://gohugo.io/getting-started/installing/#chocolatey-windows)
 - Make (For windows install with [choco](https://community.chocolatey.org/packages/make))
 
