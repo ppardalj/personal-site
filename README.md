@@ -1,6 +1,6 @@
-# Exeal Website
+# Pedro Pardal Personal Website
 
-[![CircleCI](https://circleci.com/gh/exeal-es/web-exeal/tree/master.svg?style=svg)](https://circleci.com/gh/exeal-es/web-exeal/tree/master)
+[![CircleCI](https://circleci.com/gh/ppardalj/personal-site/tree/master.svg?style=svg)](https://circleci.com/gh/ppardalj/personal-site/tree/master)
 
 ## :pick: Requirements
 
