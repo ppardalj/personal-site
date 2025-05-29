@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>prueba</title>
+    <link>http://localhost:58315/</link>
+    <description>Recent content on prueba</description>
+    <generator>Hugo</generator>
+    <language>es-es</language>
+    <lastBuildDate>Thu, 29 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:58315/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Asunto: Cómo afecta la deuda técnica a tu equipo (y cómo librarte de ella)</title>
+      <link>http://localhost:58315/posts/prueba/</link>
+      <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58315/posts/prueba/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Asunto: Cómo afecta la deuda técnica a tu equipo (y cómo librarte de ella)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Todos los equipos de desarrollo, en mayor o menor medida, tienen deuda técnica.&#xA;La deuda técnica se define como&#xA;&lt;strong&gt;la obligación de mantener el código en el futuro&lt;/strong&gt;, derivada de escribirlo en el&#xA;presente.&lt;/p&gt;&#xA;&lt;p&gt;La deuda técnica, igual que la económica, genera intereses, que se manifiestan&#xA;principalmente de dos maneras:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Las &lt;strong&gt;interrupciones&lt;/strong&gt;: en lugar de dedicar el tiempo a desarrollar nueva&#xA;funcionalidad, el tiempo los desarrolladores es consumido por trabajo&#xA;reactivo, como corregir bugs y apagar incendios.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
