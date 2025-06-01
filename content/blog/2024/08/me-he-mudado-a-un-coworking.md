@@ -6,7 +6,7 @@ card_image: '/images/blog/1720195518118.jpg'
 images: ['/images/blog/1720195518118.jpg']
 author: pedropardal
 layout: post
-tags: []
+tags: ["batallitas"]
 ---
 
 Me he mudado a un coworking.

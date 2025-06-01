@@ -6,7 +6,7 @@ card_image: '/images/blog/1724660072513.jpg'
 images: ['/images/blog/1724660072513.jpg']
 author: pedropardal
 layout: post
-tags: []
+tags: ["batallitas"]
 ---
 
 Sólo eres tan bueno como lo sea tu equipo. Pero para eso hay que saber delegar.

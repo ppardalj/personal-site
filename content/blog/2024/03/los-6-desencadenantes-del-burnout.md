@@ -6,7 +6,7 @@ card_image: '/images/keyboard.jpg'
 images: ['/images/keyboard.jpg']
 author: pedropardal
 layout: post
-tags: []
+tags: ["charlas-y-podcasts"]
 ---
 
 ¿Sabías que la sobrecarga de trabajo no es la única razón para estar quemado en el trabajo? 🔥 👇 

@@ -4,7 +4,7 @@ title: Mi primer proyecto legacy
 featured_image: '/images/nesa-by-makers-kwzWjTnDPLk-unsplash.jpg'
 card_image: '/images/nesa-by-makers-kwzWjTnDPLk-unsplash.jpg'
 images: ['/images/nesa-by-makers-kwzWjTnDPLk-unsplash.jpg']
-tags: ["legacy", "batallitas"]
+tags: ["legacy-code", "batallitas"]
 author: pedropardal
 layout: post
 aliases:

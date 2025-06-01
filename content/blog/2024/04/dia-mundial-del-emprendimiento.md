@@ -6,7 +6,7 @@ card_image: '/images/blog/1713271807954.jpg'
 images: ['/images/blog/1713271807954.jpg']
 author: pedropardal
 layout: post
-tags: []
+tags: ["opinion", "batallitas"]
 ---
 
 Hoy es el día mundial del emprendimiento. Así que hablemos del tema.

@@ -6,7 +6,7 @@ card_image: '/images/blog/1724745742121.jpg'
 images: ['/images/blog/1724745742121.jpg']
 author: pedropardal
 layout: post
-tags: []
+tags: ["batallitas"]
 ---
 
 Conseguí el trabajo de mis sueños sin buscarlo, pero entonces no tenía ni idea de que lo era.

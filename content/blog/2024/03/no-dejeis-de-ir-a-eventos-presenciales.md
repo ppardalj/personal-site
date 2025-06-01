@@ -6,7 +6,7 @@ card_image: '/images/blog/eventos-presenciales.jpg'
 images: ['/images/blog/eventos-presenciales.jpg']
 author: pedropardal
 layout: post
-tags: []
+tags: ["opinion"]
 ---
 
 🤯Estás últimas dos semanas han sido una p*ta locura, en serio os lo digo. Menudo combo de aprendizajes, emociones y descubrimiento.

@@ -6,7 +6,7 @@ card_image: '/images/blog/1724918540406.jpg'
 images: ['/images/blog/1724918540406.jpg']
 author: pedropardal
 layout: post
-tags: []
+tags: ["batallitas"]
 ---
 
 Me he pillado este cuadro del sable láser de Obi Wan Kenobi para el fondo de mi setup de streaming.

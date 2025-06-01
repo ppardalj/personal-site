@@ -6,7 +6,7 @@ card_image: '/images/blog/1725005298440.jpg'
 images: ['/images/blog/1725005298440.jpg']
 author: pedropardal
 layout: post
-tags: []
+tags: ["batallitas"]
 ---
 
 En el último año he hecho un cambio físico que me ha llevado a perder más de 14 kg... pero eso no ha sido lo más importante.

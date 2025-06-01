@@ -6,7 +6,7 @@ card_image: '/images/blog/1725177724345.jpg'
 images: ['/images/blog/1725177724345.jpg']
 author: pedropardal
 layout: post
-tags: []
+tags: ["opinion"]
 ---
 
 Los móviles nos están friendo el cerebro, y lo peor es que no nos damos cuenta.
