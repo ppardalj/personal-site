@@ -28,7 +28,7 @@ Y ese es el problema de fondo: **estás probando contra algo que no tiene por qu
 
 Para entender por qué ocurre —y cómo dejar de pisarte la manguera—, hay que volver a un concepto básico del testing: los **dobles de test**.
 
-----
+---
 
 ## Qué son los dobles de test (y por qué importan)
 
