@@ -449,7 +449,7 @@ Aquí hemos hablado de mocks y fakes.
 
 En la formación **“A prueba de fallos”**, vamos un paso más allá: te enseño a diseñar toda tu estrategia de testing para que sea una red de seguridad real — sin agujeros, sin ruido y sin sobrecoste.
 
-👉 [**Descubre cómo blindar tu sistema con una estrategia de tests que aguanta lo que le eches.**](http://www.exeal.com/cursos/a-prueba-de-fallos1)
+👉 [**Descubre cómo blindar tu sistema con una estrategia de tests que aguanta lo que le eches.**](http://www.exeal.com/cursos/a-prueba-de-fallos)
 
 Si alguna vez has tenido bugs en producción con todos los tests en verde, esta formación te ayudará a que no vuelva a pasar.
 
