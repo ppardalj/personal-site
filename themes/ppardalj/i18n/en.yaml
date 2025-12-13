@@ -8,10 +8,14 @@ fieldphone:
   other: Phone number
 fieldcompany:
   other: Company name
+fieldposition:
+  other: Role / Position
 fieldcontactmsg:
-  other: Tell me about your reason for contacting me
+  other: What is happening right now in your software product? What kind of technical decisions are you having to make?
+fieldemail:
+  other: Work email
 btnsend:
-  other: Send
+  other: Send context
 linklegal:
   other: Legal notice
 linkteam:

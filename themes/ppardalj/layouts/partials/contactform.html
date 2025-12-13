@@ -1,25 +1,17 @@
 <form accept-charset="UTF-8" data-redirect="/gracias/" class="redirect-js">
   <div class="row">
-    <div class="col-md-6 form-group">
+    <div class="col-md-12 form-group">
       <input class="form-control" id="name" name="name" type="text" placeholder="{{ i18n "fieldname" }}" required/>
     </div>
-    <div class="col-md-6 form-group">
-      <input class="form-control" id="surname" name="surname" type="text" placeholder="{{ i18n "fieldsurname" }}" required/>
+  </div>
+  <div class="row">
+    <div class="col-md-12 form-group">
+      <input class="form-control" id="company" name="company" type="text" placeholder="{{ i18n "fieldcompany" }}"/>
     </div>
   </div>
   <div class="row">
-    <div class="col-md-6 form-group">
-      <input class="form-control" id="email" name="email" type="email" placeholder="Email" required/>
-    </div>
-    <div class="col-md-6 form-group">
-      <input class="form-control" id="phone" name="phone" type="text" placeholder="{{ i18n "fieldphone" }}"/>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-12">
-      <div class="form-group">
-        <input class="form-control" id="company" name="company" type="text" placeholder="{{ i18n "fieldcompany" }}"/>
-      </div>
+    <div class="col-md-12 form-group">
+      <input class="form-control" id="position" name="position" type="text" placeholder="{{ i18n "fieldposition" }}"/>
     </div>
   </div>
   <div class="row">
@@ -27,6 +19,11 @@
       <div class="form-group">
         <textarea class="form-control" id="message" name="message" placeholder="{{ i18n "fieldcontactmsg" }}" required></textarea>
       </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 form-group">
+      <input class="form-control" id="email" name="email" type="email" placeholder="{{ i18n "fieldemail" }}" required/>
     </div>
   </div>
   <div class="row">

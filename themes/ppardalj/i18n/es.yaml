@@ -8,10 +8,14 @@ fieldphone:
   other: Teléfono
 fieldcompany:
   other: Compañía
+fieldposition:
+  other: Rol / Posición
 fieldcontactmsg:
-  other: Cuéntame el motivo de tu contacto
+  other: ¿Qué está pasando ahora mismo en vuestro producto software? ¿Qué tipo de decisiones técnicas estás teniendo que tomar?
+fieldemail:
+  other: Email de trabajo
 btnsend:
-  other: Enviar
+  other: Enviar contexto
 linklegal:
   other: Aviso legal
 linkteam:
