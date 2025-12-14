@@ -1,0 +1,63 @@
+{{ define "main" }}
+
+<header
+  id="sect-header"
+  class="dark hero hero-bg-img"
+>
+  <div class="hero-bg-img-mask bg-mask">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12 text-center">
+          <h1>{{ .Params.hero.header | safeHTML }}</h1>
+          <h4>{{ .Params.hero.subheader | safeHTML }}</h4>
+          {{ range .Params.hero.paragraphs }}
+            <p>{{ . | safeHTML }}</p>
+          {{ end }}
+          {{ if .Params.hero.callToAction }}
+          <p>
+            <a data-scroll="{{ .Params.hero.callToAction.scrollTo }}" href="#" class="button button-center">{{ .Params.hero.callToAction.text }}</a>
+          </p>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="sect-content">
+  <div class="container">
+    <article>{{ .Content }}</article>
+  </div>
+</section>
+
+<section id="sect-contact" class="dark">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-12">
+        <h2>{{ .Params.contact.title | safeHTML }}</h2>
+        {{ range .Params.contact.paragraphs }}
+          <p>{{ . | safeHTML }}</p>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-12 text-center">
+        <p>
+          <a href="{{ .Params.contact.callToAction.href }}" class="button button-center">{{ .Params.contact.callToAction.text }}</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-12">
+        <p>{{ .Params.contact.small | safeHTML }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{{ end }}
