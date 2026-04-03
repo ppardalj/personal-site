@@ -8,7 +8,7 @@ tags: [newsletter]
 images: [/images/blog/posts/programador.jpg]
 featured_image: /images/blog/posts/programador.jpg
 type: newsletter
-issue_number: 7
+issue_number: 8
 ---
 Cuando lideraba el equipo de contenido visual en Trivago, me cansé de tener que pedir permiso para mejorar nuestro sistema.
 

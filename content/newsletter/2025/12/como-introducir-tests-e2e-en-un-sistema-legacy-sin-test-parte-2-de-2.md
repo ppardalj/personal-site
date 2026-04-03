@@ -7,7 +7,8 @@ layout: post
 tags: [legacy, testing, arquitectura]
 images: [/images/blog/posts/programador.jpg]
 featured_image: /images/blog/posts/programador.jpg
-card_image: /images/blog/posts/programador.jpg
+type: newsletter
+issue_number: 14
 ---
 
 En el [post anterior](./como-introducir-tests-e2e-en-un-sistema-legacy-sin-test-parte-1-de-2.md) llegamos a un punto clave: conseguimos ejecutar **un flujo crítico completo** dentro de un test.

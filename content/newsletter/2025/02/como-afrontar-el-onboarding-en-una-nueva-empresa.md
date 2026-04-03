@@ -8,7 +8,7 @@ tags: [newsletter]
 images: [/images/blog/posts/programador.jpg]
 featured_image: /images/blog/posts/programador.jpg
 type: newsletter
-issue_number: 6
+issue_number: 7
 ---
 
 Como sabéis (y si no lo sabéis ya os lo cuento ahora), una de las cosas que hago es colaborar con equipos de desarollo como team coach para implementar mejoras en los procesos y las prácticas de equipos de desarrollo.

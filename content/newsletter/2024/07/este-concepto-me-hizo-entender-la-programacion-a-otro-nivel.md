@@ -8,7 +8,7 @@ tags: [newsletter]
 images: [/images/blog/posts/programador.jpg]
 featured_image: /images/blog/posts/programador.jpg
 type: newsletter
-issue_number: 1
+issue_number: 2
 aliases:
   - "/newsletter/este-concepto-me-hizo-entender-la-programacion-a-otro-nivel/"
 ---

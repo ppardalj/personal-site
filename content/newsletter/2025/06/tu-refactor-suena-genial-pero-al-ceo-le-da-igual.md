@@ -8,7 +8,7 @@ tags: [newsletter]
 images: [/images/blog/posts/programador.jpg]
 featured_image: /images/blog/posts/programador.jpg
 type: newsletter
-issue_number: 8
+issue_number: 9
 ---
 Víctor se había currado la migración a .NET 8.
 

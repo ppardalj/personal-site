@@ -7,7 +7,8 @@ layout: post
 tags: [legacy, observabilidad]
 images: [/images/blog/posts/programador.jpg]
 featured_image: /images/blog/posts/programador.jpg
-card_image: /images/blog/posts/programador.jpg
+type: newsletter
+issue_number: 11
 ---
 
 Entré en un backend Symfony en producción con el clásico combo: cero tests, flujos de negocio complejos, mucha automatización (crons + colas), integraciones con terceros y clientes esperando. No era un entorno para “hacer las cosas perfectas”. Era un entorno para **no cargarte nada**, aprender rápido y empezar a recuperar control.

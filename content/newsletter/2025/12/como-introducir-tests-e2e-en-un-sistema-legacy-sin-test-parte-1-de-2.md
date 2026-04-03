@@ -7,7 +7,8 @@ layout: post
 tags: [legacy, testing, arquitectura]
 images: [/images/blog/posts/programador.jpg]
 featured_image: /images/blog/posts/programador.jpg
-card_image: /images/blog/posts/programador.jpg
+type: newsletter
+issue_number: 13
 ---
 
 Hay sistemas en los que tocar código da respeto. Y luego están aquellos en los que tocar código **da miedo de verdad**: flujos críticos, dinero real, integraciones externas y cero red de seguridad.

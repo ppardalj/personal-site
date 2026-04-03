@@ -8,7 +8,7 @@ tags: [newsletter]
 images: [/images/blog/posts/programador.jpg]
 featured_image: /images/blog/posts/programador.jpg
 type: newsletter
-issue_number: 5
+issue_number: 6
 ---
 
 Hoy te voy a explicar cómo diseñar una estrategia de testing automatizado efectiva para tu proyecto.

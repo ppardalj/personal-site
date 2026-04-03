@@ -8,7 +8,7 @@ tags: [newsletter]
 images: [/images/blog/posts/programador.jpg]
 featured_image: /images/blog/posts/programador.jpg
 type: newsletter
-issue_number: 2
+issue_number: 3
 aliases:
   - "/newsletter/la-calidad-por-la-calidad/"
 ---

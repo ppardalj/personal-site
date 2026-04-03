@@ -8,7 +8,7 @@ tags: [newsletter]
 images: [/images/blog/posts/programador.jpg]
 featured_image: /images/blog/posts/programador.jpg
 type: newsletter
-issue_number: 3
+issue_number: 4
 ---
 
 ¿Crees que lo de envolver los tipos primitivos en clases es sobreingeniería?

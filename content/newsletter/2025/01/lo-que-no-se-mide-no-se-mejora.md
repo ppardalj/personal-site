@@ -8,7 +8,7 @@ tags: [newsletter]
 images: [/images/blog/posts/programador.jpg]
 featured_image: /images/blog/posts/programador.jpg
 type: newsletter
-issue_number: 4
+issue_number: 5
 ---
 
 Recientemente he comenzado a liderar una iniciativa de transformación y mejora del proceso de delivery de un equipo de desarrollo de un cliente.

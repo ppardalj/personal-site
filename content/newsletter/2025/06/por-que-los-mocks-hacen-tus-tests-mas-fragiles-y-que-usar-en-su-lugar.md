@@ -8,7 +8,7 @@ tags: [newsletter]
 images: [/images/blog/posts/programador.jpg]
 featured_image: /images/blog/posts/programador.jpg
 type: newsletter
-issue_number: 9
+issue_number: 10
 ---
 Has escrito tus tests. Todo verde. Refactorizas una clase… y *boom*, 17 tests rotos.
 

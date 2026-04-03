@@ -7,7 +7,8 @@ layout: post
 tags: [legacy, metricas]
 images: [/images/blog/posts/programador.jpg]
 featured_image: /images/blog/posts/programador.jpg
-card_image: /images/blog/posts/programador.jpg
+type: newsletter
+issue_number: 12
 ---
 
 Durante semanas, el feedback que recibíamos era siempre el mismo:

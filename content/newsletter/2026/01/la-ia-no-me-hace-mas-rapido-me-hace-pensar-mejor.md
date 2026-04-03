@@ -4,10 +4,11 @@ description: 'Una experiencia real usando la IA como apoyo cognitivo en un proye
 author: pedropardal
 date: 2026-01-01T00:00:00.000Z
 layout: post
-tags: [legacy, ia, salud-mental]
+tags: [newsletter, legacy, ia, salud-mental]
 images: [/images/blog/posts/programador.jpg]
 featured_image: /images/blog/posts/programador.jpg
-card_image: /images/blog/posts/programador.jpg
+type: newsletter
+issue_number: 15
 ---
 
 Cuando entré en Terd no entré en “un proyecto nuevo”. Entré en un sistema donde **cada decisión pesa**: dinero real, e-commerce, productos regulados, flujos complejos, legacy, cero tests y bugs en producción. Un entorno donde no solo está en juego el código, sino la estabilidad del negocio, la confianza del CEO, el trabajo del equipo y tu propia salud mental.

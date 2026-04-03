@@ -4,10 +4,11 @@ description: 'Un caso práctico sobre cómo utilizar el método de la hamburgues
 author: pedropardal
 date: 2026-03-31T00:00:00.000Z
 layout: post
-tags: [product]
+tags: [newsletter, product]
 images: [/images/blog/posts/programador.jpg]
 featured_image: /images/blog/posts/programador.jpg
-card_image: /images/blog/posts/programador.jpg
+type: newsletter
+issue_number: 16
 ---
 
 Integrar un nuevo proveedor externo suele parecer una tarea puramente técnica: leer documentación, escribir código, conectar APIs. En la práctica, rara vez es tan simple. Cuando sustituimos un proveedor KYC por otro en uno de nuestros sistemas, nos dimos cuenta de que el verdadero problema no era la integración técnica, sino cómo descomponer el trabajo de forma que **el valor llegase lo antes posible** y el riesgo técnico se descubriera pronto.
