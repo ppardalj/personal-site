@@ -1,4 +1,4 @@
 ---
-title: "Blog"
+title: "Blog personal"
 date: 2025-01-02T00:00:00+01:00
 ---

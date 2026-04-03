@@ -9,7 +9,7 @@ En cumplimiento con el deber de información recogido en artículo 10 de la Ley 
 
 * Denominación social: EXEAL SOLUTIONS, S.L.
 * NIF: B06912513
-* Domicilio: C/ Málaga Vírgen, 4 – 29720 Rincón de la Victoria (Málaga)
+* Domicilio: C/ Trinidad, 2, 1ºC – 18001 Granada
 
 Con los límites establecidos en la ley, EXEAL SOLUTIONS, S.L. no asume ninguna responsabilidad derivada de la falta de veracidad, integridad, actualización y precisión de los datos o informaciones que contienen sus páginas web.
 
@@ -23,6 +23,6 @@ Asimismo, para acceder a algunos de los servicios que Exeal Solutions, S.L. ofre
 
 Le informamos también de que tendrá la posibilidad en todo momento de ejercer los derechos de acceso, rectificación, cancelación, oposición, limitación y portabilidad de sus datos de carácter personal, de manera gratuita mediante email a: pedro.pardal@exeal.com o en la dirección: 
 
-C/ Málaga Vírgen, 4, 2ºA, 29720 – Rincón de la Victoria (Málaga).
+C/ Trinidad, 2, 1ºC – 18001 Granada.
 
 REV: 20.3009
