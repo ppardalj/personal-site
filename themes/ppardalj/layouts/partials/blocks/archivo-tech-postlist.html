@@ -1,0 +1,28 @@
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="tags tags-dark">
+          {{ range $name, $pages := .Site.Taxonomies.tags }}
+            {{ $filtered := where $pages "Section" "archivo-tech" }}
+            {{ if $filtered }}
+              <li>
+                <a href="{{ "/tags/" | relURL }}{{ $name | urlize }}">#{{ $name }}</a> ({{ len $pages }})
+              </li>
+            {{ end }}
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      {{ $pages := where site.RegularPages "Section" "archivo-tech" }}
+      {{ range $pages }}
+      <div class="col-lg-4">
+        {{- partial "blog/postcard.html" . -}}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
