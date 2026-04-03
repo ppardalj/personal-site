@@ -4,7 +4,7 @@ description: 'Conversamos sobre carrera, decisiones técnicas, aprendizajes con 
 author: pedropardal
 date: 2025-05-01T00:00:00.000Z
 layout: post
-tags: ["charlas-y-podcasts"]
+tags: ["podcast"]
 images: [/images/blog/posts/podcast-cover.jpg]
 featured_image: /images/blog/posts/podcast-cover.jpg
 card_image: /images/blog/posts/podcast-cover.jpg

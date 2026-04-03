@@ -4,7 +4,7 @@ title: La gallina de los huevos del legacy
 featured_image: '/images/gallina.jpg'
 card_image: '/images/gallina.jpg'
 images: ['/images/gallina.jpg']
-tags: ["legacy-code", "charlas-y-podcasts"]
+tags: ["charla"]
 author: pedropardal
 layout: post
 aliases:

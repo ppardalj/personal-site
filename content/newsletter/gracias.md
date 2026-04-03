@@ -4,4 +4,5 @@ description: "Gracias por suscribirte a nuestra lista de correo. En breve recibi
 date: 2020-07-19T16:14:05+02:00
 layout: newsletterthankyou
 hidden: true
+draft: true
 ---

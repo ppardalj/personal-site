@@ -6,7 +6,7 @@
       </div>
     </div>
     <div class="row">
-      {{ $pages := where site.RegularPages "Params.type" "newsletter" }}
+      {{ $pages := where site.RegularPages "Section" "newsletter" }}
       {{ range $pages }}
       <div class="col-12">
         {{- partial "newsletter/postcard.html" . -}}

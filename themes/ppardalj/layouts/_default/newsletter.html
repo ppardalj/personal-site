@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="{{ .Language.Lang }}">
+  <head>
+    {{- partial "blog/head.html" . -}}
+  </head>
+  <body>
+    {{- partial "gtm_body.html" . -}}
+    {{- partial "navbar.html" . -}}
+    
+    {{ range .Params.blocks }}
+      {{ partial (printf "blocks/%s.html" .type) . }}
+    {{ end }}
+
+    {{- partial "footer.html" . -}}
+    <!--
+    {{- partial "popup-newsletter.html" . -}}
+    -->
+    {{- partial "javascript.html" . -}}
+  </body>
+</html>

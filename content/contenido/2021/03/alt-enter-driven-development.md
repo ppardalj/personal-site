@@ -4,7 +4,7 @@ title: Alt+Enter Driven Development
 featured_image: '/images/keyboard.jpg'
 card_image: '/images/keyboard.jpg'
 images: ['/images/keyboard.jpg']
-tags: ["charlas-y-podcasts"]
+tags: ["charla"]
 author: pedropardal
 layout: post
 aliases:

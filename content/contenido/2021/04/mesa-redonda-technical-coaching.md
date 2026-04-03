@@ -4,7 +4,7 @@ title: Mesa redonda technical coaching
 featured_image: '/images/keyboard.jpg'
 card_image: '/images/keyboard.jpg'
 images: ['/images/keyboard.jpg']
-tags: ["charlas-y-podcasts"]
+tags: ["podcast"]
 author: pedropardal
 layout: post
 aliases:

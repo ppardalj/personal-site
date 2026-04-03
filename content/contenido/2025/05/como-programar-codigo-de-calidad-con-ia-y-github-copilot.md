@@ -4,7 +4,7 @@ description: 'Grabación de mi charla de Commit Conf 2025 sobre cómo hacer TDD 
 author: pedropardal
 date: 2025-05-04T00:00:00.000Z
 layout: post
-tags: ["charlas-y-podcasts"]
+tags: ["charla"]
 images: [/images/blog/posts/pedro_commit_conf_2025.jpg]
 featured_image: /images/blog/posts/pedro_commit_conf_2025.jpg
 card_image: /images/blog/posts/pedro_commit_conf_2025.jpg

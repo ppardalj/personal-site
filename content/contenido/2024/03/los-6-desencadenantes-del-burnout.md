@@ -6,7 +6,7 @@ card_image: '/images/keyboard.jpg'
 images: ['/images/keyboard.jpg']
 author: pedropardal
 layout: post
-tags: ["charlas-y-podcasts"]
+tags: ["video"]
 type: content
 ---
 
