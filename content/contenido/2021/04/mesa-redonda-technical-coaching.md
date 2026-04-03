@@ -9,6 +9,7 @@ author: pedropardal
 layout: post
 aliases:
 - "/post/mesa-redonda-technical-coaching/"
+type: content
 ---
 
 El mes pasado participé como ponente en el [SDSummit](https://sdsummit.es/), una conferencia online sobre desarrollo de software organizada por [Voxel](https://www.voxelgroup.net/es/index.html).

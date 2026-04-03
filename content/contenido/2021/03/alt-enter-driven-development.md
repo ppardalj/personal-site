@@ -9,6 +9,7 @@ author: pedropardal
 layout: post
 aliases:
 - "/post/alt-enter-driven-development/"
+type: content
 ---
 
 El pasado año 2020 fue un año bastante movidito, con una pandemia mundial delante de nosotros no queda otra que reinventarse a nivel personal y profesional, salir de la zona de confort y hacer cosas nuevas. Una de esas cosas fue, aprovechando el auge de las conferencias online, llevar ponencias a algunos de estos eventos.

@@ -8,6 +8,7 @@ tags: ["charlas-y-podcasts"]
 images: [/images/blog/posts/pedro_commit_conf_2025.jpg]
 featured_image: /images/blog/posts/pedro_commit_conf_2025.jpg
 card_image: /images/blog/posts/pedro_commit_conf_2025.jpg
+type: content
 ---
 
 ***“La calidad del código ya no me importa tanto… mientras tenga buenos tests y un diseño modular.”***

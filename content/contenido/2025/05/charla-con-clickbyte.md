@@ -8,6 +8,7 @@ tags: ["charlas-y-podcasts"]
 images: [/images/blog/posts/podcast-cover.jpg]
 featured_image: /images/blog/posts/podcast-cover.jpg
 card_image: /images/blog/posts/podcast-cover.jpg
+type: content
 ---
 
 Esta semana he tenido el placer de charlar con Jose y Caio en su podcast [ClickByte](https://www.youtube.com/watch?v=RwyK9W2TsGE&ab_channel=ClickBytePodcast). Una conversación muy personal donde repasamos mi trayectoria, desde mis inicios montando servidores de juegos con 13 años, hasta mi etapa actual formando y acompañando a otros programadores.

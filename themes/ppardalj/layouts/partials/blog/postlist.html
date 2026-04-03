@@ -26,24 +26,3 @@
     {{- template "_internal/pagination.html" . -}}
   </div>
 </section>
-
-<script>
-
-const removePostForOtherAuthors = () => {
-    const urlParams = new URLSearchParams(window.location.search);
-    const author = urlParams.get('author');
-
-    if (author) {
-      const posts = document.querySelectorAll('[data-author]');
-
-      posts.forEach(post => {
-        if (post.dataset.author != author) {
-          post.remove();
-        }
-      });
-    }
-};
-
-document.addEventListener("DOMContentLoaded", removePostForOtherAuthors);
-
-</script>

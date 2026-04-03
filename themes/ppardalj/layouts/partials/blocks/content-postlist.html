@@ -1,0 +1,16 @@
+<section>
+  <div class="container">
+    <div class="row">
+      {{ $pages := where site.RegularPages "Params.type" "content" }}
+      {{ range $pages }}
+      <div class="col-lg-4">
+        {{ if eq .Layout "podcast" }}
+          {{- partial "blog/podcastcard.html" . -}}
+        {{ else }}
+          {{- partial "blog/postcard.html" . -}}
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

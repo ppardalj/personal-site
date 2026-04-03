@@ -8,6 +8,7 @@ tags: ["charlas-y-podcasts"]
 images: [/images/blog/posts/podcast-tech-from-the-trenches.jpg]
 featured_image: /images/blog/posts/podcast-tech-from-the-trenches.jpg
 card_image: /images/blog/posts/podcast-tech-from-the-trenches.jpg
+type: content
 ---
 
 Recientemente fui invitado al podcast [Tech from the trenches](https://www.youtube.com/@TechFromTheTrenches), en el que tuve la oportunidad de hablar sobre cómo pueden los desarrolladores adaptarse eficazmente a los cambios actuales, respondiendo a preguntas como:
