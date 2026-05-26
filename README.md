@@ -1,6 +1,6 @@
 # Pedro Pardal Personal Website
 
-[![CircleCI](https://circleci.com/gh/ppardalj/personal-site/tree/master.svg?style=svg)](https://circleci.com/gh/ppardalj/personal-site/tree/master)
+[![CI](https://github.com/ppardalj/personal-site/actions/workflows/deploy.yml/badge.svg)](https://github.com/ppardalj/personal-site/actions)
 
 ## :pick: Requirements
 
