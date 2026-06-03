@@ -27,7 +27,7 @@ jobs:
           extended: true
 
       - name: Build Hugo site
-        run: hugo --minify --environment production
+        run: HUGO_ENV=production hugo --minify --logLevel info
 
       - name: Login to GHCR
         run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
