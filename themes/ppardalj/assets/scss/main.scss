@@ -119,7 +119,9 @@ sup {
 
 div.vertical-center {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 div.horizontal-center {

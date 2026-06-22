@@ -1,6 +1,6 @@
 ---
-title: "Newsletter"
-description: "Recibe en tu email consejos prácticos sobre liderazgo técnico, buenas prácticas de programación y desarrollo de producto."
+title: "La próxima versión"
+description: "Una newsletter semanal sobre experimentos, iteraciones y aprendizajes en software, producto, negocio y vida, por Pedro Pardal."
 date: 2024-08-01T01:00:00+02:00
 images: [/images/newsletter/newsletter-ogcard.jpg]
 blocks:
