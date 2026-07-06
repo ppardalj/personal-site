@@ -1,5 +1,5 @@
 ---
-title: 'Este es el correo más personal que he escrito nunca.'
+title: 'Este es el correo más personal que he escrito nunca'
 description: 'He estado un año sin escribir. Por qué, qué ha pasado entre medias, y qué está por venir.'
 author: pedropardal
 date: 2026-06-02T00:00:00.000Z

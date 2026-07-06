@@ -1,5 +1,5 @@
 ---
-title: 'Mi laboratorio personal para prototipos.'
+title: 'Mi laboratorio personal para prototipos'
 description: 'Por qué y cómo he montado un servidor virtual VPS como infraestructura para desplegar los prototipos y MVPs que desarrollo.'
 author: pedropardal
 date: 2026-06-19T00:00:00.000Z

@@ -1,5 +1,5 @@
 ---
-title: 'Lo que una banda de rock me enseñó sobre optimizar software.'
+title: 'Lo que una banda de rock me enseñó sobre optimizar software'
 description: 'Cómo un problema de rendimiento, UX e ingeniería acabó reduciendo un 45% el coste de conseguir nuevos oyentes.'
 author: pedropardal
 date: 2026-06-26T00:00:00.000Z
