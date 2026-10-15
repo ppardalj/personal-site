@@ -5,13 +5,12 @@
       <div class="col-md-12">
         <div id="carousel-testimonials" class="carousel slide" data-ride="carousel">
           <div class="box">
-            <div class="flap flap-top-right"></div>
-            <div class="carousel-inner">
+                        <div class="carousel-inner">
               {{ range .testimonials }}
               <div class="carousel-item {{ if eq .active true }}active{{ end }}">
                 <p>{{ .text | safeHTML }}</p>
                 <div class="customer">
-                  <img class="rounded-circle avatar" src="{{ .photo }}" />
+                  <img class="avatar" src="{{ .photo }}" alt="{{ .name }}" />
                   <div class="customer-info">
                     <p>{{ .name }}</p>
                     <p>{{ .position }}</p>
@@ -23,13 +22,15 @@
           </div>
 
           <div class="carousel-indicators-parent">
+            <a href="#carousel-testimonials" data-slide="prev" role="button" aria-label="Anterior"><img class="arrow-left"
+                src="/assets/img/brand/arrow-right.svg" alt="" /></a>
             <ol class="carousel-indicators carousel-testimonials">
               {{ range $index, $element := .testimonials }}
               <li data-target="#carousel-testimonials" data-slide-to="{{ $index }}" class="{{ if eq $element.active true }}active{{ end }}"></li>
               {{ end }}
             </ol>
-            <a href="#carousel-testimonials" data-slide="next" role="button"><img class="arrow-right"
-                src="/assets/img/arrow-right-secondary.svg" /></a>
+            <a href="#carousel-testimonials" data-slide="next" role="button" aria-label="Siguiente"><img class="arrow-right"
+                src="/assets/img/brand/arrow-right.svg" alt="" /></a>
           </div>
         </div>
       </div>

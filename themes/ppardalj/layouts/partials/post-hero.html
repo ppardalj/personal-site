@@ -1,0 +1,25 @@
+{{ $author := index .Site.Data.authors .Params.author }}
+<header class="dark hero post-hero">
+  <div class="container">
+    <div class="row justify-content-between align-items-end">
+      <div class="col-lg-10">
+        <ul class="post-hero-tags">
+          {{ partial "blog/tags.html" . }}
+        </ul>
+        <h1>{{ .Title }}</h1>
+        {{ if $author }}
+        <div class="post-hero-meta">
+          <img src="{{ $author.avatar }}" alt="{{ $author.name }}" />
+          <div>
+            <p class="author-name">{{ $author.name }}</p>
+            <p class="author-role">{{ $author.role }}</p>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+      <div class="col-lg-2 mt-4 mt-lg-0">
+        <p class="post-hero-date">{{ .PublishDate.Format "2006/01/02" }}</p>
+      </div>
+    </div>
+  </div>
+</header>

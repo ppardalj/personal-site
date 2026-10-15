@@ -4,6 +4,6 @@
     <p class="preventry-title">{{ .Title }}</p>
     <p class="preventry-date">{{ .Date.Format "January 2, 2006" }}</p>
   </div>
-  <img src="/assets/img/arrow-cta-yellow.svg"></img>
-  <a href="{{ .Permalink }}"></a>
+  <img class="preventry-arrow" src="/assets/img/brand/arrow-down.svg" alt="" />
+  <a href="{{ .Permalink }}" aria-label="{{ .Title }}"></a>
 </div>

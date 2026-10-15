@@ -1,17 +1,27 @@
 @import 'foundation/variables';
 
+// Tag chips. Figma: filter chips (mint frame, slate text), hero chips
+// (green frame, white text) and card chips (white frame, green text).
 ul.tags {
-  margin: 1em 0em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 0 0 2rem;
+  padding: 0;
+  list-style: none;
 
   li {
     display: inline-block;
-    border-style: solid;
-    border-radius: 5px;
-    border-width: 2px;
-    padding: 0em 0.5em;
-    margin: 0.5em 1em;
+    margin: 0;
+    padding: 8px 16px;
+    border: $border-width solid $neon-mint;
+    border-radius: 0;
+    font-size: 1rem;
+    letter-spacing: 0.37px;
+    line-height: 1.5;
   }
-  
+
+  a,
   a:hover {
     text-decoration: none;
   }
@@ -19,54 +29,70 @@ ul.tags {
 
 ul.tags.tags-light {
   li {
-    color: white;
-    border-color: white;
-  }
-  
-  li:hover {
-    background-color: white;
-    transition: 0.2s;
+    color: $white;
+    border-color: $neon-green;
   }
 
   a {
-    color: white;
+    color: $white;
   }
-  
-  li:hover a {
-    color: $dark-background-color;
+
+  li:hover {
+    background-color: $neon-green;
     transition: 0.2s;
+  }
+
+  li:hover a {
+    color: $ink;
   }
 }
 
 ul.tags.tags-dark {
   li {
-    color: $dark-background-color;
-    border-color: $dark-background-color;
+    color: $slate;
+    border-color: $neon-mint;
   }
-  
+
   a {
-    color: $dark-background-color;
+    color: $slate;
   }
-  
-  li:hover a {
-    color: white;
+
+  li:hover {
+    background-color: $neon-mint;
     transition: 0.2s;
   }
-  
-  li:hover {
-    background-color: $dark-background-color;
+
+  li:hover a {
+    color: $ink;
     transition: 0.2s;
   }
 }
 
-ul.tags.tags-small {
-  font-size: 0.75rem;
-  margin: 0px;
+ul.tags.tags-small,
+ul.tags.tags-card {
+  gap: 8px;
+  margin: 0;
 
   li {
-    display: inline;
-    padding: 0.25em 0.5em;
-    margin: 0.25em 0em;
-    margin-right: 0.25em;
+    padding: 6px 10px;
+    border-color: $white;
+    font-size: 0.875rem;
+    letter-spacing: 0.35px;
+    line-height: 1.2;
+    color: $neon-green;
+  }
+
+  a {
+    color: $neon-green;
+    position: relative;
+    z-index: 2;
+  }
+
+  li:hover {
+    background-color: $neon-green;
+  }
+
+  li:hover a {
+    color: $ink;
   }
 }

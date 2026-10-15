@@ -1,0 +1,71 @@
+// Section heading: sparkle icon + H2 (Figma "Heading 1" frame, gap 24)
+h2.section-title {
+  margin-bottom: 3rem;
+
+  &:before {
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 24px;
+    vertical-align: middle;
+    position: relative;
+    top: -0.1em;
+    background: url("/assets/img/brand/icon-sparkle.svg") no-repeat center / contain;
+  }
+}
+
+// Dark section with the green aurora glow behind the stars.
+// Blobs approximate the blurred ellipses in the Figma "Sora" frames.
+section.aurora {
+  background-color: $ink;
+  background-image:
+    radial-gradient(ellipse 22% 32% at 83% 100%, rgba($neon-lime, 0.95) 0%, rgba($neon-lime, 0) 72%),
+    radial-gradient(ellipse 20% 30% at 3% 100%, rgba($neon-lime, 0.95) 0%, rgba($neon-lime, 0) 72%),
+    radial-gradient(ellipse 60% 52% at 50% 112%, $neon-green 0%, rgba($neon-green, 0) 74%),
+    radial-gradient(ellipse 85% 70% at 45% 118%, $neon-mint 0%, rgba($neon-mint, 0) 74%),
+    radial-gradient(ellipse 120% 90% at 50% 125%, #1e3d1f 0%, rgba(#1e3d1f, 0) 76%),
+    $img-stars;
+  background-position: center, center, center, center, center, center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%, cover;
+}
+
+// Decorative dark band that separates light sections
+.band {
+  height: 200px;
+  background-color: $ink;
+  background-image: $img-stars;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+// Lead paragraph under a section title (Sora 20)
+p.lead-text {
+  margin-bottom: 2.5rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.hero p.lead-text {
+  font-size: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.signup-form {
+  max-width: 1140px;
+}
+
+.signup-form .form-group {
+  margin-bottom: 0;
+}
+
+// "Sobre mí" photo: framed, 417x530 in Figma
+img.guide-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 417 / 530;
+  object-fit: cover;
+  border: $border-width solid $neon-mint;
+}

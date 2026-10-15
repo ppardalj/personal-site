@@ -1,39 +1,98 @@
 nav {
-  font-size: 1.1em;
   font-family: $h2-font, sans-serif;
+  font-size: 1.25rem;
 }
 
 nav.dark {
-  background-color: black;
+  background-color: $ink;
+  border-bottom: $border-width solid $neon-mint;
+  background-image: none;
 }
 
 .navbar {
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 20.5px;
+  padding-bottom: 22.5px;
 }
 
 .navbar-brand {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 295px;
+  max-width: 60vw;
+  height: auto;
+
   img {
+    display: block;
     width: 100%;
+    height: auto;
   }
 }
 
-@media (min-width: 1200px) {
-  .nav-item {
-    margin-left: 1em;
+.navbar-dark .navbar-nav .nav-link {
+  color: $white;
+  font-weight: 400;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: $neon-mint;
+}
+
+// Chevron after dropdown labels
+.navbar .dropdown-toggle::after {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-left: 8px;
+  border: 0;
+  vertical-align: middle;
+  background: url("/assets/img/brand/icon-chevron-down.svg") no-repeat center / 14px 8px;
+}
+
+.navbar .dropdown-menu {
+  background-color: $ink;
+  border: $border-width solid $neon-mint;
+  border-radius: 0;
+  font-size: 1.125rem;
+}
+
+.navbar .dropdown-item {
+  color: $white;
+}
+
+.navbar .dropdown-item:hover,
+.navbar .dropdown-item:focus {
+  background-color: $neon-mint;
+  color: $ink;
+}
+
+@media (min-width: 992px) {
+  .navbar-nav {
+    align-items: center;
+    gap: 32px;
+  }
+
+  .navbar-nav .nav-item {
+    margin-left: 0;
   }
 }
 
 a.nav-button {
   display: block;
-  background-color: $secondary-color;
+  background: $gradient-cta;
   font-family: $h2-font, sans-serif;
+  font-weight: 600;
   text-decoration: none;
   width: fit-content;
-  justify-content: center;
-  align-items: center;
-  padding-left: 1em !important;
-  padding-right: 1em !important;
-  color: $dark-background-color  !important;
-  border-radius: 2rem;
+  padding: 12px 24px !important;
+  color: $ink !important;
+  border-radius: $radius-pill;
+
+  &:hover {
+    filter: brightness(1.06);
+  }
 }

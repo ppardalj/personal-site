@@ -6,6 +6,7 @@
   <body>
     {{- partial "gtm_body.html" . -}}
     {{- partial "navbar.html" . -}}
+    {{- partial "list-hero.html" (dict "title" .Title "description" .Description) -}}
     {{- partial "blocks/content-postlist.html" . -}}
     {{- partial "footer.html" . -}}
     <!--

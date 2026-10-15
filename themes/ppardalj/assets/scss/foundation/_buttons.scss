@@ -1,113 +1,93 @@
 @import 'foundation/variables';
 
-.button {
-	display: block;
-	border-style: solid;
-	border-color: $secondary-color;
-	background-color: $secondary-color;
-	border-width: 3px;
-	font-family: $h2-font, sans-serif;
-	text-decoration: none;
-	width: fit-content;
-	font-size: 1.3em;
-	padding-top: 0.3em;
-	padding-bottom: 0.3em;
-	padding-left: 1.4em;
-	padding-right: 1.4em;
-	border-radius: 2rem;
-	justify-content: center;
+// Primary button: neon gradient pill, ink text, arrow after the label.
+// Over the aurora sections it flips to the secondary style (ink pill, white text).
+@mixin cta-arrow($color: currentColor) {
+  content: "";
+  display: inline-block;
+  flex: none;
+  width: 62px;
+  height: 26px;
+  background-color: $color;
+  -webkit-mask: $img-arrow-cta no-repeat center / contain;
+  mask: $img-arrow-cta no-repeat center / contain;
+}
+
+.button,
+.button-hollow {
+  display: flex;
   align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: fit-content;
+  padding: 12px 24px;
+  border: 0;
+  border-radius: $radius-pill;
+  font-family: $h2-font, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-decoration: none;
+  color: $ink;
+  background: $gradient-cta;
+  cursor: pointer;
+
+  &:hover {
+    color: $ink;
+    text-decoration: none;
+    filter: brightness(1.06);
+  }
+
+  &:after {
+    @include cta-arrow;
+  }
+
+  @media (max-width: 575px) {
+    font-size: 1.25rem;
+    gap: 12px;
+
+    &:after {
+      width: 44px;
+    }
+  }
 }
 
 .button.expand {
-	width: 100%;
+  width: 100%;
 }
 
 .button.button-center {
-	margin: auto;
+  margin: auto;
 }
 
-.dark .button {
-	color: $dark-background-color;
+// Secondary: ink pill, used over the bright aurora glow
+.aurora .button,
+.button.button-dark {
+  background: $ink;
+  color: $white;
+
+  &:hover {
+    color: $white;
+  }
 }
 
-.light .button {
-	color: white;
-}
-
-.gloaming .button {
-	color: white;
-}
-
-.button:after {
-	float: right;
-	margin-left: .75em;
-	margin-top: 4px;
-}
-
+// Outlined variant keeps the gradient as a 2px frame
 .button-hollow {
-	display: block;
-	border-style: solid;
-	border-color: $secondary-color;
-	border-width: 3px;
-	font-family: $h2-font, sans-serif;
-	text-decoration: none;
-	width: fit-content;
-	font-size: 1.3em;
-	padding-top: 0.3em;
-	padding-bottom: 0.3em;
-	padding-left: 1.4em;
-	padding-right: 1.4em;
-	border-radius: 2rem;
-	justify-content: center;
-	align-items: center;
-	color: $secondary-color;
+  background: transparent;
+  color: $neon-mint;
+  border: $border-width solid $neon-mint;
+
+  &:hover {
+    color: $neon-mint;
+  }
+}
+
+.button.button-green {
+  background: $gradient-cta !important;
+  color: $ink;
 }
 
 .podcast-item .button {
   font-size: 0.85rem;
   width: 100%;
-}
-
-.button.button-green {
-	background-color: $primary-color !important;
-	border-style: none;
-	color: $dark-background-color;
-	text-align: center;
-}
-
-.button.button-dark {
-	background-color: $dark-background-color !important;
-	border-style: none;
-	color: $gloaming-background-color;
-	text-align: center;
-}
-
-// Arrow after button text
-@media (min-width: 992px) {
-	.dark .button:after {
-		content: url('/assets/img/arrow-cta-dark.svg');
-	}
-
-	.light .button:after {
-		content: url('/assets/img/arrow-cta-white.svg');
-	}
-
-	.gloaming .button:after {
-		content: url('/assets/img/arrow-cta-white.svg');
-	}
-
-	.button-hollow:after {
-		float: right;
-		margin-left: .75em;
-		margin-top: 4px;
-		content: url('/assets/img/arrow-cta-yellow.svg');
-	}
-
-	.button.button-green:after {
-		float: none;
-		margin-left: .75em;
-		margin-top: 4px;
-		content: url('/assets/img/arrow-small-right-dark.svg');
-	}
 }

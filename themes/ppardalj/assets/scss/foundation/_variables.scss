@@ -1,11 +1,38 @@
-$primary-color: #2762f8;
-$secondary-color: #50c0ff;
-$dark-background-color: #001c46;
-$gray-background-color: #f1f1f1;
-$gloaming-background-color: #50c0ff;
-$mid-gray: #8d9199;
-$light-gray: #d1d3d6;
-$h1-font: "Work Sans";
-$h2-font: "Work Sans";
-$p-font: "Work Sans";
-$base-font-size: 12pt
+// Design tokens. See DESIGN.md at the repo root for the Figma mapping.
+
+// Color
+$ink: #071217;
+$white: #ffffff;
+$neon-mint: #04ffca;
+$neon-green: #78fd7e;
+$neon-lime: #caf95d;
+$slate: #4c707f;
+$mist: #81b0c4;
+$error: #ff5500;
+
+$gradient-cta: linear-gradient(90deg, $neon-green 0%, $neon-mint 50%, $neon-lime 100%);
+$gradient-number: linear-gradient(90deg, $neon-lime 0%, $neon-green 100%);
+
+// Legacy aliases (kept so older components pick up the new palette)
+$primary-color: $neon-mint;
+$secondary-color: $neon-green;
+$dark-background-color: $ink;
+$gray-background-color: $white;
+$gloaming-background-color: $ink;
+$mid-gray: $slate;
+$light-gray: $mist;
+
+// Typography
+$font-sans: "Sora";
+$h1-font: $font-sans;
+$h2-font: $font-sans;
+$p-font: $font-sans;
+$base-font-size: 12pt;
+
+// Shape
+$border-width: 2px;
+$radius-pill: 40px;
+
+// Assets
+$img-stars: url("/assets/img/brand/stars.svg");
+$img-arrow-cta: url("/assets/img/brand/arrow-cta.svg");

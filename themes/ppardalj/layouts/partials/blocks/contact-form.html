@@ -1,14 +1,14 @@
 <section id="{{ .id }}" class="{{ .className }}">
   <div class="container">
-    <div class="row text-center">
+    <div class="row">
       <div class="col-md-12">
         {{ if .title }}
-          <h2>{{ .title | safeHTML }}</h2>
+          <h2 class="section-title">{{ .title | safeHTML }}</h2>
         {{ end }}
         {{ range .paragraphs }}
           <p>{{ . | safeHTML }}</p>
         {{ end }}
-        <div class="mt-5">
+        <div class="mt-4">
           {{- partial "contactform.html" . -}}
         </div>
       </div>

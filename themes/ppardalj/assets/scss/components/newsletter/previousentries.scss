@@ -1,16 +1,20 @@
+// Newsletter issue row: v1.N | title + date | arrow
 .preventry {
   display: flex;
   align-items: center;
-  padding: 1rem 0;
+  gap: 24px;
+  padding: 24px 0;
   position: relative;
-  border-bottom: 2px solid $primary-color;
+  border-bottom: $border-width solid $neon-mint;
 }
 
 .preventry-number {
-  font-family: $h2-font, sans-serif;
-  color: $mid-gray;
+  flex: none;
+  min-width: 4.5rem;
+  font-family: "Work Sans", $h2-font, sans-serif;
+  color: $slate;
   font-size: 1.5rem;
-  margin-right: 1.5rem;
+  line-height: 1.17;
 }
 
 .preventry-content {
@@ -19,15 +23,32 @@
 
 .preventry-title {
   font-family: $h2-font, sans-serif;
-  font-size: 1.25rem;
-  color: $dark-background-color;
-  margin: 0;
+  font-size: 1.5719rem;
+  line-height: 1.5;
+  color: $ink;
+  margin: 0 !important;
 }
 
 .preventry-date {
-  font-size: 0.9rem;
-  color: $mid-gray;
-  margin: 0.5rem 0 0;
+  font-size: 1rem;
+  color: $mist;
+  margin: 0 !important;
+}
+
+// The Figma arrow points down; rotate it to point at the issue
+.preventry-arrow {
+  flex: none;
+  width: 30px;
+  height: 80px;
+  margin: -25px;
+  margin-left: 0;
+  margin-right: 25px;
+  transform: rotate(-90deg);
+  transition: transform 0.2s;
+}
+
+.preventry:hover .preventry-arrow {
+  transform: rotate(-90deg) translateY(6px);
 }
 
 .preventry a {

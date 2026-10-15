@@ -1,13 +1,18 @@
+{{ $isHero := in .className "dark" }}
+{{ if $isHero }}
+<header id="{{ .id }}" class="{{ .className }} hero">
+  <div class="container">
+    <h1>La próxima versión.</h1>
+    <p class="lead-text">Una newsletter semanal sobre experimentos, iteraciones y aprendizajes en software, producto, negocio y vida.</p>
+    {{ partial "newsletter/signupform.html" . }}
+  </div>
+</header>
+{{ else }}
 <section id="{{ .id }}" class="{{ .className }}">
   <div class="container">
-    <div class="row">
-      <div class="col-md-7 vertical-center">
-        <h1>La próxima versión.</h1>
-        <h2>Una newsletter semanal sobre experimentos, iteraciones y aprendizajes en software, producto, negocio y vida.</h2>
-      </div>
-      <div class="col-md-5">
-        {{ partial "newsletter/signupform.html" . }}
-      </div>
-    </div>
+    <h2 class="section-title">La próxima versión.</h2>
+    <p class="lead-text">Una newsletter semanal sobre experimentos, iteraciones y aprendizajes en software, producto, negocio y vida.</p>
+    {{ partial "newsletter/signupform.html" . }}
   </div>
 </section>
+{{ end }}

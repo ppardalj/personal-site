@@ -9,87 +9,114 @@ html {
 }
 
 body {
-  font-family: $p-font, Sans-Serif;
-  letter-spacing: 0.02rem;
-  line-height: 1.75rem;
+  font-family: $p-font, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: $ink;
+}
+
+// Page frame: content column is 1140px inside 1440px (150px side padding)
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
 }
 
 .light {
-  background-color: white;
-  color: $dark-background-color;
+  background-color: $white;
+  color: $ink;
 }
 
-.gloaming {
-  background-color: $gloaming-background-color;
+.gloaming,
+.dark {
+  background-color: $ink;
+  color: $white;
 }
 
 .gray {
-  background-color: $gray-background-color;
-}
-
-.dark {
-  background-color: $dark-background-color;
-  color: white;
+  background-color: $white;
 }
 
 .black {
-  background-color: black;
+  background-color: $ink;
+}
+
+// Dark sections and heros carry the star field
+section.dark,
+section.gloaming,
+header.dark {
+  background-image: $img-stars;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 section {
-  padding-top: 3em;
-  padding-bottom: 3em;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 h1 {
-  font-size: 1.875em;
-  line-height: 1.25em;
-  margin-top: 1.25em;
-  margin-bottom: 1.25em;
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 2rem;
   font-family: $h1-font, sans-serif;
-  font-weight: normal;
+  font-weight: 700;
   font-style: normal;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: clamp(1.625rem, 3.5vw, 2.125rem);
+  line-height: 1.5;
   font-family: $h2-font, sans-serif;
-  font-weight: normal;
+  font-weight: 700;
   font-style: normal;
-  margin-bottom: 1.25em;
+  margin-bottom: 3rem;
 }
 
 h2 em {
-  border-bottom: 3px solid $primary-color;
+  font-style: normal;
 }
 
 h3 {
-  font-size: 1.375em;
-  margin-bottom: 1.25em;
+  font-size: 1.75rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
   font-family: $h2-font, sans-serif;
-  font-style: italic;
-  font-weight: bold;
+  font-style: normal;
+  font-weight: 700;
 }
 
 h4 {
-  font-size: 1.375em;
-  margin-top: 1.25em;
-  margin-bottom: 1.25em;
+  font-size: 1.375rem;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 1rem;
   font-family: $h2-font, sans-serif;
+  font-weight: 400;
 }
 
 section p {
-  margin-top: 1.25em;
-  margin-bottom: 1.25em;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
 }
 
 p em {
-  font-style: italic;
-  font-weight: bold;
+  font-style: normal;
+  font-weight: 700;
 }
 
 li em {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 img.avatar {
@@ -160,6 +187,7 @@ p.bigger {
   margin-right: auto;
 }
 
+@import "components/sections";
 @import "components/navbar";
 @import "components/icons";
 @import "components/boxes";

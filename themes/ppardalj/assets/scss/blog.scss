@@ -64,93 +64,99 @@ div.post-author {
 }
 
 .bg-mask {
-  background: rgba(24, 41, 53, 0.5);
+  background: none;
 }
 
+// Post card: framed image + ink body (Figma "Frame 5401")
 .post-card {
-  background-size: cover;
-}
-
-.blog-item-inner {
-  height: 100%;
-  padding: 2rem;
-  color: white;
-  height: 22em;
-  margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
   position: relative;
+  margin-bottom: 24px;
+  height: calc(100% - 24px);
+  color: $white;
 }
 
-.post-card-inner:hover {
-  background: rgba(24, 41, 53, 0.9);
-  transition: 0.2s;
+.post-card-image {
+  height: 170px;
+  border: $border-width solid $neon-mint;
+  background-color: $ink;
+  background-size: cover;
+  background-position: center;
 }
 
-.blog-item p {
-  margin-top: 0.5em;
+.post-card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: -$border-width;
+  padding: 24px 32px;
+  border: $border-width solid $neon-mint;
+  background-color: $ink;
 }
 
-.blog-item h2 {
-  margin-bottom: 0em;
-}
-
-.blog-item p.author {
-  border-top: $primary-color;
-  border-top-style: solid;
-  border-top-width: 4px;
-  font-size: 0.75em;
-  font-family: $h2-font, sans-serif;
-}
-
-.blog-item .post-title {
+.post-card-overlay {
   position: absolute;
-  bottom: 0;
-  left: 2em;
-  right: 2em;
-}
-
-.blog-item a {
-  color: white;
-}
-
-.blog-item a:hover {
-  text-decoration: none;
-}
-
-.post-card-detail {
-  display: none;
-  font-family: $h2-font, sans-serif;
-}
-
-.post-card-detail a {
+  inset: 0;
   z-index: 1;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 
-div.post-card-reading-time {
-  position: absolute;
-  bottom: 2rem;
-  left: 2rem;
-  right: 2rem;
-  font-size: 0.85em;
-  color: $primary-color;
-}
-
-.post-card-summary {
-  font-size: 1.15em;
-}
-
-.post-card:hover .post-card-detail {
-  display: block;
+.post-card:hover .post-card-body {
+  background-color: lighten($ink, 6%);
   transition: 0.2s;
 }
 
-.post-card:hover .post-card-cover {
-  display: none;
-  transition: 0.2s;
+.post-card h2 {
+  margin: 0 0 16px;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: $white;
+}
+
+.post-card p.author {
+  margin: 0;
+  font-size: 0.875rem;
+  letter-spacing: 0.35px;
+  color: $neon-mint;
+}
+
+.list-section {
+  padding-top: 80px;
+}
+
+// Pagination: round buttons, ink = current page
+.pagination {
+  align-items: center;
+  justify-content: flex-start;
+  gap: 18px;
+  margin-top: 2rem;
+}
+
+.pagination .page-item .page-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  font-size: 1rem;
+  line-height: 27px;
+  color: $ink;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: $ink;
+  color: $white;
+}
+
+.pagination .page-item.disabled .page-link {
+  color: $mist;
 }
 
 .blog-carousel p.author-name {
@@ -191,7 +197,8 @@ section.no-padding-top {
 }
 
 .podcast-item {
-  background-color: $dark-background-color;
+  background-color: $ink;
+  border: $border-width solid $neon-mint;
 }
 
 .podcast-widget {

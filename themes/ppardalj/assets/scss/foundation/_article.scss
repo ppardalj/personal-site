@@ -1,12 +1,26 @@
 @import 'foundation/variables';
 
 article {
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: $ink;
+
+  p {
+    margin: 0 0 1.5rem;
+  }
+
   h2 {
-    padding-top: 2em;
+    padding-top: 2rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.75rem;
+    font-weight: 700;
   }
 
   h3 {
-    padding-top: 2em;
+    padding-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
   }
   
   em {
@@ -36,10 +50,12 @@ article {
   }
   
   li {
-    background-image: url('/assets/img/arrow-cta-yellow.svg');
-    background-position-y: 0.3em;
+    background-image: url('/assets/img/brand/arrow-cta.svg');
+    background-position-y: 0.55em;
     background-repeat: no-repeat;
+    background-size: 1.75rem;
     padding-left: 3em;
+    margin-bottom: 0.5rem;
   }
   
   //
@@ -47,7 +63,7 @@ article {
   //
   a {
     color: inherit;
-    border-bottom: 3px solid $secondary-color;
+    border-bottom: 3px solid $neon-mint;
   }
   
   a:hover {

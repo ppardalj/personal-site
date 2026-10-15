@@ -2,10 +2,12 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-6 text-lg-left">
-        <a href="/"><p>Pedro Pardal</p></a>
+        <a href="/" class="footer-logo">
+          <img src="/assets/img/brand/logo-pedro-pardal.svg" alt="Pedro Pardal" width="295" height="40" />
+        </a>
         <p>
           {{ range site.Data.footer.links }}
-            <a href="{{ .url }}">{{ i18n .text }}</a>{{ if not (eq (index site.Data.footer.links (sub (len site.Data.footer.links) 1)) .) }} | {{ end }}
+            <a href="{{ .url }}">{{ i18n .text }}</a>{{ if not (eq (index site.Data.footer.links (sub (len site.Data.footer.links) 1)) .) }} <span class="footer-sep">|</span> {{ end }}
           {{ end }}
         </p>
       </div>

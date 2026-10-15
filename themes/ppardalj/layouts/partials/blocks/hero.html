@@ -1,12 +1,11 @@
 <header
   id="{{ .id }}"
-  class="{{ .className }} hero hero-bg-img"
-  style="background-image: url('{{ .backgroundImage }}')"
+  class="{{ .className }} hero"
 >
   <div class="hero-bg-img-mask bg-mask">
     <div class="container h-100">
       <div class="row h-100 align-items-center">
-        <div class="col-12 text-center">
+        <div class="col-12{{ if eq .align "center" }} text-center{{ end }}">
           <h1>{{ .header | safeHTML }}</h1>
           <h4>{{ .subheader | safeHTML }}</h4>
           {{ range .paragraphs }}

@@ -7,7 +7,7 @@ blocks:
   # Hero
   - type: hero
     id: sect-hero
-    className: "dark background background-01"
+    className: dark
     header: Desbloquea a tu equipo de desarrollo de software
     subheader: Ayudo a líderes técnicos a capacitar a sus equipos para acelerar la entrega de software y eliminar los bugs.
     callToAction:
@@ -32,7 +32,7 @@ blocks:
   # Value proposition
   - type: value-proposition
     id: sect-value-proposition
-    className: "light"
+    className: dark aurora
     what: "Le daré a tu equipo <em>superpoderes</em>, de forma que serán capaces de:"
     benefits:
       - icon: "/assets/img/icon-apprenticeship.svg"
@@ -46,7 +46,7 @@ blocks:
   # The plan
   - type: three-steps
     id: sect-plan
-    className: dark background background-04
+    className: light
     header: ¿Cómo lo haré?
     subtitle: "Mediante un sistema de 3 pasos, que lleva a tu equipo de <em>estar constantemente apagando fuegos</em>, al <em>alto rendimiento y la mejora continua</em>."
     steps:
@@ -69,7 +69,7 @@ blocks:
   # Service 1: Consultancy
   - type: content-image-left
     id: sect-service-consultancy
-    className: light
+    className: dark
     image: /images/team/product-fest-team.jpeg
     title: "Paso 1: Asesoría estratégica de alto nivel"
     p1: ¿<em>Tu equipo sufre</em> para entregar software más rápido y sin bugs, pero no tienes claro por qué ni <em>cómo ayudarles</em> a desbloquearse?
@@ -79,7 +79,7 @@ blocks:
   # Service 2: Training
   - type: content-image-right
     id: sect-service-training
-    className: dark
+    className: light
     image: /images/team/product-fest-2.jpeg
     title: "Paso 2: Formación en áreas clave"
     p1: Sin el <em>conocimiento adecuado</em>, tu equipo continuará funcionando como lo hacía hasta ahora.
@@ -89,7 +89,7 @@ blocks:
   # Service 3: Coaching
   - type: content-image-left
     id: sect-service-coaching
-    className: light
+    className: dark
     image: /images/team/bilbostack-pedro-jaime.jpg
     title: "Paso 3: Acompañamiento en el día a día"
     p1: Todos sabemos que la formación, <em>si no se aplica, se olvida</em>.
@@ -99,7 +99,7 @@ blocks:
   # Who am I?
   - type: guide
     id: sect-team
-    className: dark
+    className: light
     title: Sobre mí
     p1: Pedro es Software engineer y tech lead con +12 años de experiencia construyendo aplicaciones web escalables en el cloud, y liderando equipos multidisciplinares usando metodologías ágiles.
     p2: Inspirado por los valores de Software Craftsmanship y prácticas de Extreme Programming y DevOps, poniendo especial énfasis en la entrega temprana de valor, comunicación transparente con el cliente y excelencia técnica.
@@ -108,7 +108,7 @@ blocks:
   # Testimonials
   - type: testimonials
     id: sect-testimonials
-    className: light
+    className: dark aurora
     header: "Qué dicen mis clientes:"
     testimonials:
     - name: "Abraham Vallez"
@@ -128,7 +128,7 @@ blocks:
   # Explaining paragraph
   - type: explaining-paragraph
     id: sect-paragraph
-    className: light background background-06
+    className: dark
     header: Empodera a tu equipo de desarrollo para aportar valor al negocio
     paragraphs:
       - Sé que el principal objetivo del software es generar valor para el negocio, pero también entiendo la desmotivación que supone estar constantemente haciendo malabares para seguir implementando funcionalidades, a la vez que mantener todos los fuegos controlados e intentar mejorar poco a poco el código, aún con la constante presión del negocio y la impotencia de no lograr un entendimiento.
@@ -145,6 +145,6 @@ blocks:
   # Contact form
   - type: contact-form
     id: sect-contact-form
-    className: dark background background-03
+    className: dark aurora
     title: <em>Déjame un mensaje</em> y contactaré contigo lo antes posible.
 ---

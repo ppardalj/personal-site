@@ -1,76 +1,111 @@
+// Inputs: white field, 2px mint frame, square corners
 .form-control {
-  border-color: $primary-color;
-  border-width: 2px;
-  border-radius: 0px;
+  height: auto;
+  padding: 8px 16px;
+  font-family: $h2-font, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: $ink;
+  background-color: $white;
+  border: $border-width solid $neon-mint;
+  border-radius: 0;
+}
+
+.form-control::placeholder {
+  color: $slate;
+  opacity: 1;
 }
 
 .form-control:focus {
-  border-color: $primary-color;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
-    0 0 8px rgba(31, 229, 137, 0.6);
+  color: $ink;
+  background-color: $white;
+  border-color: $neon-mint;
+  box-shadow: 0 0 0 3px rgba($neon-mint, 0.35);
 }
 
-.btn-submit {
-  border-width: 0px;
-  border-radius: 2rem;
-  background-color: $primary-color;
-  width: 100%;
-  padding-top: 0.3em;
-  padding-bottom: 0.3em;
-  font-family: $h2-font, sans-serif;
-  color: white;
-}
-
-.btn-submit:active {
-  background-color: $primary-color;
-  border-color: $primary-color;
-}
-
-label {
-  font-size: 0.85rem;
-  color: $mid-gray;
-  line-height: 100%;
+textarea.form-control {
+  min-height: 97px;
 }
 
 .dark .form-control {
-  border-color: white;
-  background-color: transparent;
-  color: white;
+  border-color: $neon-mint;
+  background-color: $white;
+  color: $ink;
 }
 
-input.button {
+.btn-submit {
   display: block;
-  border-style: solid;
-  border-color: $secondary-color;
-  border-radius: 2rem;
-  background-color: $secondary-color;
-  border-width: 3px;
+  width: fit-content;
+  min-width: 202px;
+  margin: 0 auto;
+  padding: 12px 24px;
+  border: 0;
+  border-radius: $radius-pill;
+  background: $gradient-cta;
   font-family: $h2-font, sans-serif;
-  text-decoration: none;
-  width: 100%;
-  font-size: 1.3em;
-  padding-top: 0.3em;
-  padding-bottom: 0.3em;
-  padding-left: 1.4em;
-  padding-right: 1.4em;
-  justify-content: center;
-  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: $ink;
   cursor: pointer;
 }
 
-/* Customize the label (the container) */
+.btn-submit:hover {
+  filter: brightness(1.06);
+}
+
+.btn-submit:active {
+  background: $gradient-cta;
+}
+
+label {
+  display: block;
+  margin-bottom: 14px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: inherit;
+}
+
+// Submit input styled as the primary CTA (label + arrow)
+input.button {
+  display: block;
+  width: fit-content;
+  padding: 12px 24px;
+  padding-right: calc(24px + 62px + 16px);
+  border: 0;
+  border-radius: $radius-pill;
+  font-family: $h2-font, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: $ink;
+  cursor: pointer;
+  background: $img-arrow-cta no-repeat right 24px center / 62px 26px, $gradient-cta;
+
+  &:after {
+    content: none;
+  }
+
+  @media (max-width: 575px) {
+    width: 100%;
+    font-size: 1.25rem;
+  }
+}
+
+// Custom checkbox (consent)
 .checkbox-container {
   display: block;
   position: relative;
-  padding-left: 32px;
+  padding-left: 28px;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.37px;
+  color: $mist;
   cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
 }
 
-/* Hide the browser's default checkbox */
 .checkbox-container input {
   position: absolute;
   opacity: 0;
@@ -79,17 +114,14 @@ input.button {
   width: 0;
 }
 
-/* Create a custom checkbox */
 .checkmark {
   position: absolute;
-  top: 0;
+  top: 2px;
   left: 0;
   height: 20px;
   width: 20px;
-  background-color: transparent;
-  border-color: white;
-  border-style: solid;
-  border-width: 2px;
+  background-color: $white;
+  border: $border-width solid $ink;
 }
 
 .checkmark:after {
@@ -98,18 +130,16 @@ input.button {
   display: none;
 }
 
-.checkbox-container input:checked~.checkmark:after {
+.checkbox-container input:checked ~ .checkmark:after {
   display: block;
 }
 
 .checkbox-container .checkmark:after {
-  left: 6px;
-  top: 2px;
+  left: 5px;
+  top: 1px;
   width: 5px;
   height: 10px;
-  border: solid white;
+  border: solid $ink;
   border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }

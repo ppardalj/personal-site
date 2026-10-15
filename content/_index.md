@@ -8,6 +8,7 @@ blocks:
   - type: hero
     id: sect-hero
     className: dark
+    align: center
     header: ¡Hola! Soy Pedro Pardal
     subheader: Soy desarrollador de software, líder técnico y emprendedor
     backgroundImage: "/images/hero-background.jpg"
@@ -15,12 +16,12 @@ blocks:
   # Subscribe to newsletter form
   - type: newsletter-subscribe
     id: sect-newsletter-subscribe
-    className: dark
+    className: light
 
   # The value proposition
   - type: three-steps
     id: sect-value-proposition
-    className: light
+    className: dark aurora
     header: ¿A qué me dedico?
     subtitle: "Utilizo mi amplia experiencia en realizar re-ingeniería de sistemas legacy, construir servicios escalables en la nube y adoptar prácticas de desarrollo ágil y DevOps, para:"
     steps:
@@ -43,7 +44,7 @@ blocks:
   # Who am I?
   - type: guide
     id: sect-team
-    className: dark
+    className: light
     title: Sobre mí
     p1: Pedro es Software engineer y tech lead con +12 años de experiencia construyendo aplicaciones web escalables en el cloud, y liderando equipos multidisciplinares usando metodologías ágiles.
     p2: Inspirado por los valores de Software Craftsmanship y prácticas de Extreme Programming y DevOps, poniendo especial énfasis en la entrega temprana de valor, comunicación transparente con el cliente y excelencia técnica.
@@ -55,7 +56,7 @@ blocks:
   # Testimonials
   - type: testimonials
     id: sect-testimonials
-    className: light
+    className: dark aurora
     header: "Qué dicen sobre mí:"
     testimonials:
     - name: "Abraham Vallez"
@@ -75,6 +76,6 @@ blocks:
   # Contact form
   - type: contact-form
     id: sect-contact
-    className: dark
+    className: light
     title: <em>Déjame un mensaje</em> y contactaré contigo lo antes posible.
 ---
