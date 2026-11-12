@@ -1,6 +1,7 @@
 title: Pedro Pardal
 theme: ppardalj
 baseURL: https://www.ppardalj.com
+enableRobotsTXT: true
 languageCode: es-es
 defaultContentLanguage: es
 languages:

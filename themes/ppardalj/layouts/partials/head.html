@@ -2,6 +2,7 @@
 
 <meta charset="utf-8">
 <title>{{ .Title }} | {{ .Site.Title }}</title>
+{{ if or .IsPage .IsHome }}<link rel="canonical" href="{{ .Permalink }}">{{ end }}
 
 <!-- Meta -->
 <meta name="description" content="{{ .Description }}">
