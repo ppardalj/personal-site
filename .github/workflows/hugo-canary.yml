@@ -1,0 +1,33 @@
+# Builds the site with the latest Hugo and Dart Sass every week, without deploying.
+# A failure means the next Hugo release breaks the site: fix it, then bump .hugo-version.
+name: Hugo canary
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-latest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: latest
+          extended: true
+
+      - name: Install Dart Sass
+        run: sudo snap install dart-sass
+
+      - name: Build with latest Hugo
+        run: |
+          hugo version
+          echo "Pinned in .hugo-version: $(cat .hugo-version)"
+          HUGO_ENV=production hugo --minify --logLevel info

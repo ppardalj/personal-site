@@ -21,9 +21,13 @@ jobs:
         with:
           submodules: recursive
 
+      - name: Read Hugo version
+        id: hugo
+        run: echo "version=$(cat .hugo-version)" >> "$GITHUB_OUTPUT"
+
       - uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: "latest"
+          hugo-version: ${{ steps.hugo.outputs.version }}
           extended: true
 
       # Hugo >= 0.170 needs Dart Sass for css.Sass
