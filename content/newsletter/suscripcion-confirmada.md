@@ -4,4 +4,6 @@ description: "Gracias por suscribirte a la lista de correo de La pr√≥xima versi√
 date: 2020-07-19T16:14:05+02:00
 layout: newsletterconfirmed
 hidden: true
+build:
+  list: never
 ---
