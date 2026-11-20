@@ -125,3 +125,12 @@ Fotos/logos de clientes del diseño son contenido: se mantienen los del repo.
 | Newsletter (`9:211220`) | `newsletter.html` → `newsletter-subscribe`, `newsletter-prev-entries` |
 | Artículo (`10:336379`) | `newsletterpost.html` / `post.html` (+ `newsletter/hero`, `blog/hero`) |
 | Blog (`12:374451`) | `blog.html` → `blog/postlist`, `blog/postcard` |
+
+## Logos e imágenes de marca
+
+- **Logos** (exportados de Figma «Brand - Pedro Pardal» y «Brand - La Próxima Versión», en SVG con el texto en trazos), en `themes/ppardalj/static/assets/img/brand/`:
+  - `pp-logo-horizontal-{color,negativo}.svg` y `pp-isotipo-{color,negativo}.svg`;
+  - `lpv-logo-{apilado,horizontal}-{color,negativo}.svg` y `lpv-isotipo-{color,negativo}.svg`.
+  - «color» va sobre fondo claro y «negativo» sobre `#071217`. La tipografía de los logos es Sora Semibold.
+- **Imágenes generadas** (OG, banner y destacado de LinkedIn): plantillas HTML en `tools/brand-assets/`. Se renderizan con `./render.sh plantilla.html out/salida.png ANCHO ALTO` (Chrome headless). Las salidas están en `tools/brand-assets/out/`. Las de la web se copian a `static/images/`.
+- **Las plantillas de banners y fotos de perfil de Figma** («Social Media Assets - La Próxima Versión», página «Mesa de trabajo») están vacías: solo marcan las zonas seguras. Las plantillas de carrusel sí están diseñadas (página «Recursos»).

@@ -11,6 +11,8 @@ languages:
     weight: 2
 metaDataFormat: yaml
 params:
+  # Imagen por defecto para og:image y twitter:image cuando la página no define la suya
+  images: [/images/og-default.png]
   gtm_id: "GTM-PJM6WP"
   hubspotId: 8231847
 markup:

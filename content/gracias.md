@@ -14,6 +14,7 @@ blocks:
   # Subscribe to newsletter form
   - type: newsletter-subscribe
     id: sect-newsletter-subscribe
+    source: web-contacto
     className: dark
 
   # Newsletter previous isues

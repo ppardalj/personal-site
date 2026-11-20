@@ -18,21 +18,15 @@
               {{ partial "blog/tags.html" . }}
             </ul>
             {{ partial "blog/author.html" . }}
-            <div class="addthis_inline_share_toolbox"></div>
           </div>
         </div>
       </div>
     </section>
 
+    {{- partial "newsletter/end-cta.html" . }}
+
     {{- partial "footer.html" . -}}
     {{- partial "javascript.html" . -}}
-    <!--
-    {{- partial "popup-newsletter.html" . -}}
-    -->
-    <script
-      type="text/javascript"
-      src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5f2bf2edad69c454"
-    ></script>
   </body>
 </html>
 

@@ -16,6 +16,7 @@ blocks:
   # Subscribe to newsletter form
   - type: newsletter-subscribe
     id: sect-newsletter-subscribe
+    source: web-home
     className: light
 
   # The value proposition

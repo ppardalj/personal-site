@@ -1,0 +1,4 @@
+{{- /* Formulario de suscripción al final de cada edición. El origen (SOURCE en Kit) incluye la ruta de la edición. */ -}}
+{{- if eq .Type "newsletter" }}
+{{- partial "blocks/newsletter-subscribe.html" (dict "id" "sect-newsletter-subscribe" "className" "dark" "compact" true "title" "¿Te ha gustado? Recibe la próxima versión en tu email." "source" (printf "web-edicion:%s" .RelPermalink)) }}
+{{- end }}

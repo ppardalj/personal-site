@@ -1,0 +1,11 @@
+@font-face{font-family:Sora;font-weight:100 800;src:url(../../themes/ppardalj/static/assets/font/Sora-latin.woff2) format('woff2');}
+@font-face{font-family:Sora;font-weight:100 800;src:url(../../themes/ppardalj/static/assets/font/Sora-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+1E00-1EFF;}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:var(--w);height:var(--h);overflow:hidden}
+body{font-family:Sora,sans-serif;color:#fff;background:#071217;position:relative}
+.stars{position:absolute;inset:0;background:url(../../themes/ppardalj/static/assets/img/brand/stars.svg) center/cover;opacity:.9}
+.aurora{position:absolute;inset:0;filter:blur(60px);opacity:.95}
+.aurora i{position:absolute;border-radius:50%}
+.content{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center}
+.btn{display:inline-block;background:linear-gradient(90deg,#78fd7e 0%,#04ffca 50%,#caf95d 100%);color:#071217;font-weight:700;border-radius:999px}
+.mint{color:#04ffca}

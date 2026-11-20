@@ -1,17 +1,17 @@
-{{ $isHero := in .className "dark" }}
+{{ $isHero := and (in .className "dark") (not .compact) }}
 {{ if $isHero }}
 <header id="{{ .id }}" class="{{ .className }} hero">
   <div class="container">
     <h1>La próxima versión.</h1>
-    <p class="lead-text">Una newsletter semanal sobre experimentos, iteraciones y aprendizajes en software, producto, negocio y vida.</p>
+    <p class="lead-text">Una newsletter cada dos semanas sobre experimentos, iteraciones y aprendizajes en software, producto, negocio y vida.</p>
     {{ partial "newsletter/signupform.html" . }}
   </div>
 </header>
 {{ else }}
 <section id="{{ .id }}" class="{{ .className }}">
   <div class="container">
-    <h2 class="section-title">La próxima versión.</h2>
-    <p class="lead-text">Una newsletter semanal sobre experimentos, iteraciones y aprendizajes en software, producto, negocio y vida.</p>
+    <h2 class="section-title">{{ .title | default "La próxima versión." }}</h2>
+    <p class="lead-text">Una newsletter cada dos semanas sobre experimentos, iteraciones y aprendizajes en software, producto, negocio y vida.</p>
     {{ partial "newsletter/signupform.html" . }}
   </div>
 </section>
