@@ -1,4 +1,4 @@
-@import 'foundation/variables';
+@use 'foundation/variables';
 
 // Tag chips. Figma: filter chips (mint frame, slate text), hero chips
 // (green frame, white text) and card chips (white frame, green text).
@@ -14,7 +14,7 @@ ul.tags {
     display: inline-block;
     margin: 0;
     padding: 8px 16px;
-    border: $border-width solid $neon-mint;
+    border: variables.$border-width solid variables.$neon-mint;
     border-radius: 0;
     font-size: 1rem;
     letter-spacing: 0.37px;
@@ -29,41 +29,41 @@ ul.tags {
 
 ul.tags.tags-light {
   li {
-    color: $white;
-    border-color: $neon-green;
+    color: variables.$white;
+    border-color: variables.$neon-green;
   }
 
   a {
-    color: $white;
+    color: variables.$white;
   }
 
   li:hover {
-    background-color: $neon-green;
+    background-color: variables.$neon-green;
     transition: 0.2s;
   }
 
   li:hover a {
-    color: $ink;
+    color: variables.$ink;
   }
 }
 
 ul.tags.tags-dark {
   li {
-    color: $slate;
-    border-color: $neon-mint;
+    color: variables.$slate;
+    border-color: variables.$neon-mint;
   }
 
   a {
-    color: $slate;
+    color: variables.$slate;
   }
 
   li:hover {
-    background-color: $neon-mint;
+    background-color: variables.$neon-mint;
     transition: 0.2s;
   }
 
   li:hover a {
-    color: $ink;
+    color: variables.$ink;
     transition: 0.2s;
   }
 }
@@ -75,24 +75,24 @@ ul.tags.tags-card {
 
   li {
     padding: 6px 10px;
-    border-color: $white;
+    border-color: variables.$white;
     font-size: 0.875rem;
     letter-spacing: 0.35px;
     line-height: 1.2;
-    color: $neon-green;
+    color: variables.$neon-green;
   }
 
   a {
-    color: $neon-green;
+    color: variables.$neon-green;
     position: relative;
     z-index: 2;
   }
 
   li:hover {
-    background-color: $neon-green;
+    background-color: variables.$neon-green;
   }
 
   li:hover a {
-    color: $ink;
+    color: variables.$ink;
   }
 }

@@ -1,11 +1,13 @@
+@use "foundation/variables";
+
 nav {
-  font-family: $h2-font, sans-serif;
+  font-family: variables.$h2-font, sans-serif;
   font-size: 1.25rem;
 }
 
 nav.dark {
-  background-color: $ink;
-  border-bottom: $border-width solid $neon-mint;
+  background-color: variables.$ink;
+  border-bottom: variables.$border-width solid variables.$neon-mint;
   background-image: none;
 }
 
@@ -30,7 +32,7 @@ nav.dark {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: $white;
+  color: variables.$white;
   font-weight: 400;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -38,7 +40,7 @@ nav.dark {
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link:focus {
-  color: $neon-mint;
+  color: variables.$neon-mint;
 }
 
 // Chevron after dropdown labels
@@ -54,20 +56,20 @@ nav.dark {
 }
 
 .navbar .dropdown-menu {
-  background-color: $ink;
-  border: $border-width solid $neon-mint;
+  background-color: variables.$ink;
+  border: variables.$border-width solid variables.$neon-mint;
   border-radius: 0;
   font-size: 1.125rem;
 }
 
 .navbar .dropdown-item {
-  color: $white;
+  color: variables.$white;
 }
 
 .navbar .dropdown-item:hover,
 .navbar .dropdown-item:focus {
-  background-color: $neon-mint;
-  color: $ink;
+  background-color: variables.$neon-mint;
+  color: variables.$ink;
 }
 
 @media (min-width: 992px) {
@@ -83,14 +85,14 @@ nav.dark {
 
 a.nav-button {
   display: block;
-  background: $gradient-cta;
-  font-family: $h2-font, sans-serif;
+  background: variables.$gradient-cta;
+  font-family: variables.$h2-font, sans-serif;
   font-weight: 600;
   text-decoration: none;
   width: fit-content;
   padding: 12px 24px !important;
-  color: $ink !important;
-  border-radius: $radius-pill;
+  color: variables.$ink !important;
+  border-radius: variables.$radius-pill;
 
   &:hover {
     filter: brightness(1.06);

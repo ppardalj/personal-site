@@ -1,18 +1,18 @@
-@import "foundation/variables";
-@import "foundation/fonts";
-@import "foundation/article";
-@import "foundation/tags";
-@import "foundation/buttons";
+@use "foundation/variables";
+@use "foundation/fonts";
+@use "foundation/article";
+@use "foundation/tags";
+@use "foundation/buttons";
 
 // Hero: ink panel with the star field, 120px vertical padding
 .hero {
-  background-color: $ink;
-  background-image: $img-stars;
+  background-color: variables.$ink;
+  background-image: variables.$img-stars;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: $white;
-  font-family: $h2-font, sans-serif;
+  color: variables.$white;
+  font-family: variables.$h2-font, sans-serif;
   padding: 120px 0;
 }
 
@@ -22,7 +22,7 @@
 
 .hero h1 {
   margin: 0 0 2rem;
-  color: $white;
+  color: variables.$white;
   font-size: clamp(2rem, 5vw, 3.25rem);
   font-weight: 700;
   line-height: 1.5;
@@ -30,14 +30,14 @@
 
 .hero h2 {
   margin: 0;
-  color: $white;
+  color: variables.$white;
   font-size: 1.125rem;
   font-weight: 400;
 }
 
 .hero h4 {
   margin: 0 0 2rem;
-  color: $white;
+  color: variables.$white;
   font-size: clamp(1.125rem, 2vw, 1.375rem);
   font-weight: 400;
   line-height: 1.5;
@@ -52,7 +52,7 @@
   margin: 0;
   font-size: 1rem;
   letter-spacing: 0.37px;
-  color: $white;
+  color: variables.$white;
 }
 
 .hero .button {
@@ -69,7 +69,7 @@ span.underline {
 }
 
 pre {
-  border: $border-width solid $neon-mint;
+  border: variables.$border-width solid variables.$neon-mint;
   margin: 0em 2rem;
   padding: 2em 2em;
   font-family: "JetBrainsMono-Regular", sans-serif;
@@ -93,15 +93,15 @@ pre {
   .post-hero-tags li {
     margin: 0;
     padding: 8px 16px;
-    border: $border-width solid $neon-green;
+    border: variables.$border-width solid variables.$neon-green;
     font-size: 1rem;
     letter-spacing: 0.37px;
     line-height: 1.25;
-    color: $white;
+    color: variables.$white;
   }
 
   .post-hero-tags a {
-    color: $white;
+    color: variables.$white;
     text-decoration: none;
   }
 
@@ -122,7 +122,7 @@ pre {
     width: 80px;
     height: 80px;
     object-fit: cover;
-    border: $border-width solid $neon-mint;
+    border: variables.$border-width solid variables.$neon-mint;
   }
 
   .post-hero-meta .author-name {
@@ -134,7 +134,7 @@ pre {
   .post-hero-meta .author-role {
     margin: 0;
     font-size: 1.125rem;
-    color: $neon-mint;
+    color: variables.$neon-mint;
   }
 
   .post-hero-date {

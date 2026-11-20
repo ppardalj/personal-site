@@ -1,11 +1,13 @@
+@use "foundation/variables";
+
 // Card: ink panel with a 2px mint frame
 div.box {
   & {
     height: 100%;
     padding: 40px;
-    border: $border-width solid $neon-mint;
-    background-color: $ink;
-    color: $white;
+    border: variables.$border-width solid variables.$neon-mint;
+    background-color: variables.$ink;
+    color: variables.$white;
     text-align: left;
     position: relative;
   }
@@ -26,7 +28,7 @@ div.box {
     font-size: 5rem;
     font-weight: 700;
     line-height: 1.25;
-    background: $gradient-number;
+    background: variables.$gradient-number;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -45,13 +47,13 @@ div.box {
 
 div.box.case-study-info {
   & h4 {
-    font-family: $h2-font, sans-serif;
+    font-family: variables.$h2-font, sans-serif;
     margin: 0px;
   }
 
   & p {
     margin: 0em;
-    color: $mist;
+    color: variables.$mist;
   }
 
   &>img {

@@ -1,3 +1,5 @@
+@use "foundation/variables";
+
 ul.blocks li {
   padding: 0.25rem;
 }
@@ -9,8 +11,8 @@ ul.blocks div.inner {
   display: grid;
   height: 100%;
   width: 100%;
-  font-family: $h2-font, sans-serif;
-  color: $primary-color;
+  font-family: variables.$h2-font, sans-serif;
+  color: variables.$primary-color;
   margin: 1rem;
-  background-color: $gloaming-background-color;
+  background-color: variables.$gloaming-background-color;
 }

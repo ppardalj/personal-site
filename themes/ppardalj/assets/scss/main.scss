@@ -1,18 +1,19 @@
-@import "foundation/reset";
-@import "foundation/variables";
-@import "foundation/fonts";
-@import "foundation/buttons";
-@import "foundation/article";
+@use "sass:meta";
+@use "foundation/reset";
+@use "foundation/variables";
+@use "foundation/fonts";
+@use "foundation/buttons";
+@use "foundation/article";
 
 html {
-  font-size: $base-font-size;
+  font-size: variables.$base-font-size;
 }
 
 body {
-  font-family: $p-font, sans-serif;
+  font-family: variables.$p-font, sans-serif;
   font-size: 1.125rem;
   line-height: 1.5;
-  color: $ink;
+  color: variables.$ink;
 }
 
 // Page frame: content column is 1140px inside 1440px (150px side padding)
@@ -23,29 +24,29 @@ body {
 }
 
 .light {
-  background-color: $white;
-  color: $ink;
+  background-color: variables.$white;
+  color: variables.$ink;
 }
 
 .gloaming,
 .dark {
-  background-color: $ink;
-  color: $white;
+  background-color: variables.$ink;
+  color: variables.$white;
 }
 
 .gray {
-  background-color: $white;
+  background-color: variables.$white;
 }
 
 .black {
-  background-color: $ink;
+  background-color: variables.$ink;
 }
 
 // Dark sections and heros carry the star field
 section.dark,
 section.gloaming,
 header.dark {
-  background-image: $img-stars;
+  background-image: variables.$img-stars;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -61,7 +62,7 @@ h1 {
   line-height: 1.5;
   margin-top: 0;
   margin-bottom: 2rem;
-  font-family: $h1-font, sans-serif;
+  font-family: variables.$h1-font, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
@@ -69,7 +70,7 @@ h1 {
 h2 {
   font-size: clamp(1.625rem, 3.5vw, 2.125rem);
   line-height: 1.5;
-  font-family: $h2-font, sans-serif;
+  font-family: variables.$h2-font, sans-serif;
   font-weight: 700;
   font-style: normal;
   margin-bottom: 3rem;
@@ -83,7 +84,7 @@ h3 {
   font-size: 1.75rem;
   line-height: 1.5;
   margin-bottom: 1rem;
-  font-family: $h2-font, sans-serif;
+  font-family: variables.$h2-font, sans-serif;
   font-style: normal;
   font-weight: 700;
 }
@@ -93,7 +94,7 @@ h4 {
   line-height: 1.5;
   margin-top: 0;
   margin-bottom: 1rem;
-  font-family: $h2-font, sans-serif;
+  font-family: variables.$h2-font, sans-serif;
   font-weight: 400;
 }
 
@@ -187,20 +188,20 @@ p.bigger {
   margin-right: auto;
 }
 
-@import "components/sections";
-@import "components/navbar";
-@import "components/icons";
-@import "components/boxes";
-@import "components/arrows";
-@import "components/footer";
-@import "components/forms";
-@import "components/tickedlist";
-@import "components/courses/coursecard";
-@import "components/courses/levelicons";
-@import "components/legacy/main";
-@import "components/testimonials";
-@import "components/price";
-@import "components/ourteam/membercards";
-@import "components/ourteam/membermodals";
-@import "components/leadmagnet/areas";
-@import "components/newsletter/previousentries";
+@include meta.load-css("components/sections");
+@include meta.load-css("components/navbar");
+@include meta.load-css("components/icons");
+@include meta.load-css("components/boxes");
+@include meta.load-css("components/arrows");
+@include meta.load-css("components/footer");
+@include meta.load-css("components/forms");
+@include meta.load-css("components/tickedlist");
+@include meta.load-css("components/courses/coursecard");
+@include meta.load-css("components/courses/levelicons");
+@include meta.load-css("components/legacy/main");
+@include meta.load-css("components/testimonials");
+@include meta.load-css("components/price");
+@include meta.load-css("components/ourteam/membercards");
+@include meta.load-css("components/ourteam/membermodals");
+@include meta.load-css("components/leadmagnet/areas");
+@include meta.load-css("components/newsletter/previousentries");

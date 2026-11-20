@@ -1,8 +1,9 @@
-@import "foundation/variables";
-@import "foundation/fonts";
-@import "foundation/article";
-@import "foundation/tags";
-@import "foundation/buttons";
+@use "sass:color";
+@use "foundation/variables";
+@use "foundation/fonts";
+@use "foundation/article";
+@use "foundation/tags";
+@use "foundation/buttons";
 
 div.post-author {
   & {
@@ -10,7 +11,7 @@ div.post-author {
     border-top-width: 1px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-color: $primary-color;
+    border-color: variables.$primary-color;
     margin: 2em 0em;
     padding: 1em 0em;
   }
@@ -74,13 +75,13 @@ div.post-author {
   position: relative;
   margin-bottom: 24px;
   height: calc(100% - 24px);
-  color: $white;
+  color: variables.$white;
 }
 
 .post-card-image {
   height: 170px;
-  border: $border-width solid $neon-mint;
-  background-color: $ink;
+  border: variables.$border-width solid variables.$neon-mint;
+  background-color: variables.$ink;
   background-size: cover;
   background-position: center;
 }
@@ -91,10 +92,10 @@ div.post-author {
   flex-direction: column;
   justify-content: space-between;
   gap: 24px;
-  margin-top: -$border-width;
+  margin-top: -(variables.$border-width);
   padding: 24px 32px;
-  border: $border-width solid $neon-mint;
-  background-color: $ink;
+  border: variables.$border-width solid variables.$neon-mint;
+  background-color: variables.$ink;
 }
 
 .post-card-overlay {
@@ -104,7 +105,7 @@ div.post-author {
 }
 
 .post-card:hover .post-card-body {
-  background-color: lighten($ink, 6%);
+  background-color: color.adjust(variables.$ink, $lightness: 6%);
   transition: 0.2s;
 }
 
@@ -113,14 +114,14 @@ div.post-author {
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 1.5;
-  color: $white;
+  color: variables.$white;
 }
 
 .post-card p.author {
   margin: 0;
   font-size: 0.875rem;
   letter-spacing: 0.35px;
-  color: $neon-mint;
+  color: variables.$neon-mint;
 }
 
 .list-section {
@@ -147,25 +148,25 @@ div.post-author {
   background: transparent;
   font-size: 1rem;
   line-height: 27px;
-  color: $ink;
+  color: variables.$ink;
 }
 
 .pagination .page-item.active .page-link {
-  background-color: $ink;
-  color: $white;
+  background-color: variables.$ink;
+  color: variables.$white;
 }
 
 .pagination .page-item.disabled .page-link {
-  color: $mist;
+  color: variables.$mist;
 }
 
 .blog-carousel p.author-name {
-  font-family: $h2-font, sans-serif;
+  font-family: variables.$h2-font, sans-serif;
   margin: 1rem 0rem;
 }
 
 .blog-carousel h1 {
-  font-family: $h2-font, sans-serif;
+  font-family: variables.$h2-font, sans-serif;
   font-size: 2rem;
   margin: 1rem 0rem;
   max-width: 25rem;
@@ -197,14 +198,14 @@ section.no-padding-top {
 }
 
 .podcast-item {
-  background-color: $ink;
-  border: $border-width solid $neon-mint;
+  background-color: variables.$ink;
+  border: variables.$border-width solid variables.$neon-mint;
 }
 
 .podcast-widget {
   width: 100%;
   height: 12rem;
-  background-color: $dark-background-color;
+  background-color: variables.$dark-background-color;
   margin-bottom: 0.5em;
 }
 

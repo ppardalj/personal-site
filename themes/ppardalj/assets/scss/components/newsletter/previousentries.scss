@@ -1,3 +1,5 @@
+@use "foundation/variables";
+
 // Newsletter issue row: v1.N | title + date | arrow
 .preventry {
   display: flex;
@@ -5,14 +7,14 @@
   gap: 24px;
   padding: 24px 0;
   position: relative;
-  border-bottom: $border-width solid $neon-mint;
+  border-bottom: variables.$border-width solid variables.$neon-mint;
 }
 
 .preventry-number {
   flex: none;
   min-width: 4.5rem;
-  font-family: "Work Sans", $h2-font, sans-serif;
-  color: $slate;
+  font-family: "Work Sans", variables.$h2-font, sans-serif;
+  color: variables.$slate;
   font-size: 1.5rem;
   line-height: 1.17;
 }
@@ -22,16 +24,16 @@
 }
 
 .preventry-title {
-  font-family: $h2-font, sans-serif;
+  font-family: variables.$h2-font, sans-serif;
   font-size: 1.5719rem;
   line-height: 1.5;
-  color: $ink;
+  color: variables.$ink;
   margin: 0 !important;
 }
 
 .preventry-date {
   font-size: 1rem;
-  color: $mist;
+  color: variables.$mist;
   margin: 0 !important;
 }
 

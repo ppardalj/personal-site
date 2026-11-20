@@ -1,3 +1,5 @@
+@use "foundation/variables";
+
 .modal-content {
   top: 0;
   bottom: 0;
@@ -29,7 +31,7 @@
 
     &>p:first-child {
       font-weight: 800;
-      font-family: $h2-font;
+      font-family: variables.$h2-font;
     }
 
     &>p {
@@ -62,7 +64,7 @@
     margin-top: 1em;
 
     &>a {
-      color: $primary-color;
+      color: variables.$primary-color;
       font-weight: 800;
     }
   }

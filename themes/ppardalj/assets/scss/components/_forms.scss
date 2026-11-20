@@ -1,26 +1,28 @@
+@use "foundation/variables";
+
 // Inputs: white field, 2px mint frame, square corners
 .form-control {
   height: auto;
   padding: 8px 16px;
-  font-family: $h2-font, sans-serif;
+  font-family: variables.$h2-font, sans-serif;
   font-size: 1.125rem;
   line-height: 1.5;
-  color: $ink;
-  background-color: $white;
-  border: $border-width solid $neon-mint;
+  color: variables.$ink;
+  background-color: variables.$white;
+  border: variables.$border-width solid variables.$neon-mint;
   border-radius: 0;
 }
 
 .form-control::placeholder {
-  color: $slate;
+  color: variables.$slate;
   opacity: 1;
 }
 
 .form-control:focus {
-  color: $ink;
-  background-color: $white;
-  border-color: $neon-mint;
-  box-shadow: 0 0 0 3px rgba($neon-mint, 0.35);
+  color: variables.$ink;
+  background-color: variables.$white;
+  border-color: variables.$neon-mint;
+  box-shadow: 0 0 0 3px rgba(variables.$neon-mint, 0.35);
 }
 
 textarea.form-control {
@@ -28,9 +30,9 @@ textarea.form-control {
 }
 
 .dark .form-control {
-  border-color: $neon-mint;
-  background-color: $white;
-  color: $ink;
+  border-color: variables.$neon-mint;
+  background-color: variables.$white;
+  color: variables.$ink;
 }
 
 .btn-submit {
@@ -40,13 +42,13 @@ textarea.form-control {
   margin: 0 auto;
   padding: 12px 24px;
   border: 0;
-  border-radius: $radius-pill;
-  background: $gradient-cta;
-  font-family: $h2-font, sans-serif;
+  border-radius: variables.$radius-pill;
+  background: variables.$gradient-cta;
+  font-family: variables.$h2-font, sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
   line-height: 1.5;
-  color: $ink;
+  color: variables.$ink;
   cursor: pointer;
 }
 
@@ -55,7 +57,7 @@ textarea.form-control {
 }
 
 .btn-submit:active {
-  background: $gradient-cta;
+  background: variables.$gradient-cta;
 }
 
 label {
@@ -74,14 +76,14 @@ input.button {
   padding: 12px 24px;
   padding-right: calc(24px + 62px + 16px);
   border: 0;
-  border-radius: $radius-pill;
-  font-family: $h2-font, sans-serif;
+  border-radius: variables.$radius-pill;
+  font-family: variables.$h2-font, sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
   line-height: 1.5;
-  color: $ink;
+  color: variables.$ink;
   cursor: pointer;
-  background: $img-arrow-cta no-repeat right 24px center / 62px 26px, $gradient-cta;
+  background: variables.$img-arrow-cta no-repeat right 24px center / 62px 26px, variables.$gradient-cta;
 
   &:after {
     content: none;
@@ -101,7 +103,7 @@ input.button {
   font-size: 1rem;
   font-weight: 400;
   letter-spacing: 0.37px;
-  color: $mist;
+  color: variables.$mist;
   cursor: pointer;
   user-select: none;
 }
@@ -120,8 +122,8 @@ input.button {
   left: 0;
   height: 20px;
   width: 20px;
-  background-color: $white;
-  border: $border-width solid $ink;
+  background-color: variables.$white;
+  border: variables.$border-width solid variables.$ink;
 }
 
 .checkmark:after {
@@ -139,7 +141,7 @@ input.button {
   top: 1px;
   width: 5px;
   height: 10px;
-  border: solid $ink;
+  border: solid variables.$ink;
   border-width: 0 3px 3px 0;
   transform: rotate(45deg);
 }

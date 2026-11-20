@@ -1,9 +1,9 @@
-@import 'foundation/variables';
+@use 'foundation/variables';
 
 article {
   font-size: 1.125rem;
   line-height: 1.5;
-  color: $ink;
+  color: variables.$ink;
 
   p {
     margin: 0 0 1.5rem;
@@ -63,11 +63,11 @@ article {
   //
   a {
     color: inherit;
-    border-bottom: 3px solid $neon-mint;
+    border-bottom: 3px solid variables.$neon-mint;
   }
   
   a:hover {
-    background-color: $dark-background-color;
+    background-color: variables.$dark-background-color;
     color: white;
     border-bottom: 0px;
     text-decoration: none;
@@ -83,13 +83,13 @@ article {
   }
   
   th {
-    border: 1px solid $secondary-color;
-    background-color: $primary-color;
+    border: 1px solid variables.$secondary-color;
+    background-color: variables.$primary-color;
     padding: 0.5em;
   }
   
   td {
-    border: 1px solid $secondary-color;
+    border: 1px solid variables.$secondary-color;
     padding: 0.5em;
   }
 }

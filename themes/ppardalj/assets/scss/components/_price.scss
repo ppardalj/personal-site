@@ -1,11 +1,13 @@
+@use "foundation/variables";
+
 p.price {
-  font-family: $h2-font, sans-serif;
-  color: $gloaming-background-color;
+  font-family: variables.$h2-font, sans-serif;
+  color: variables.$gloaming-background-color;
   font-size: 6em;
   margin-top: 3rem;
   margin-bottom: 3rem;
   -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: $primary-color;
+  -webkit-text-stroke-color: variables.$primary-color;
 }
 
 p.price sup {

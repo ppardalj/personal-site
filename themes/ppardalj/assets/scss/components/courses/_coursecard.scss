@@ -1,3 +1,5 @@
+@use "foundation/variables";
+
 .course-card {
   box-shadow: 0.5rem 0.5rem 1rem -1rem rgba(0, 0, 0, 0.75);
   margin-bottom: 2rem;
@@ -21,15 +23,15 @@
 }
 
 .course-body p.level {
-  color: $light-gray;
+  color: variables.$light-gray;
   font-size: 1em;
-  font-family: $h2-font, sans-serif;
+  font-family: variables.$h2-font, sans-serif;
   margin-bottom: 1.25rem;
   margin-top: 0rem;
 }
 
 .course-body p.description {
-  color: $mid-gray;
+  color: variables.$mid-gray;
   font-size: 1rem;
   margin-bottom: 1.25rem;
   margin-top: 0rem;
@@ -37,9 +39,9 @@
 }
 
 .course-body li {
-  color: $light-gray;
+  color: variables.$light-gray;
   font-size: 0.85rem;
-  font-family: $h2-font, sans-serif;
+  font-family: variables.$h2-font, sans-serif;
   margin-bottom: 0.5rem;
   margin-top: 0rem;
 }
@@ -65,15 +67,15 @@
 
 .courses-tagline h1 {
   margin-left: 2rem;
-  font-family: $h2-font, sans-serif;
+  font-family: variables.$h2-font, sans-serif;
   font-size: 2rem;
   max-width: 25rem;
 }
 
 .course-header div.featured-course {
   display: block;
-  background-color: $secondary-color;
-  font-family: $h2-font, sans-serif;
+  background-color: variables.$secondary-color;
+  font-family: variables.$h2-font, sans-serif;
   color: white;
   padding: 0.25rem 1rem;
   position: absolute;

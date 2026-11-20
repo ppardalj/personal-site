@@ -1,3 +1,5 @@
+@use "foundation/variables";
+
 .team-card {
   box-shadow: 0.5rem 0.5rem 1rem -1rem rgba(0, 0, 0, 0.75);
   margin-bottom: 2rem;
@@ -30,16 +32,16 @@
 }
 
 .team-card-body p.level {
-  color: $light-gray;
+  color: variables.$light-gray;
   font-size: 1em;
-  font-family: $h2-font, sans-serif;
+  font-family: variables.$h2-font, sans-serif;
   margin-bottom: 1.25rem;
   margin-top: 0rem;
 }
 
 .team-card-body p.description {
   height: 6em;
-  color: $mid-gray;
+  color: variables.$mid-gray;
   font-size: 1rem;
   margin-bottom: 1.25rem;
   margin-top: 0rem;

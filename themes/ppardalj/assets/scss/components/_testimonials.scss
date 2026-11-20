@@ -1,8 +1,10 @@
+@use "foundation/variables";
+
 //
 // CAROUSEL
 //
 .carousel {
-  font-family: $h2-font, sans-serif;
+  font-family: variables.$h2-font, sans-serif;
 }
 
 // Quote card: ink panel, 80px padding, left aligned
@@ -12,7 +14,7 @@
 }
 
 .carousel-item p {
-  font-family: $h2-font, sans-serif;
+  font-family: variables.$h2-font, sans-serif;
   font-size: 1.25rem;
   line-height: 1.5;
   margin-bottom: 2.5rem;
@@ -27,8 +29,8 @@
   width: fit-content;
   margin: 39px auto 0;
   padding: 12px 24px;
-  border-radius: $radius-pill;
-  background-color: $ink;
+  border-radius: variables.$radius-pill;
+  background-color: variables.$ink;
 
   img.arrow-right,
   img.arrow-left {
@@ -76,12 +78,12 @@
 }
 
 .carousel-indicators.carousel-testimonials li {
-  background-color: $neon-mint;
+  background-color: variables.$neon-mint;
 }
 
 .carousel-indicators.carousel-testimonials li:nth-child(even),
 .carousel-indicators.carousel-testimonials .active {
-  background-color: $neon-lime;
+  background-color: variables.$neon-lime;
 }
 
 //
@@ -99,30 +101,30 @@
     width: 156px;
     height: 156px;
     object-fit: cover;
-    border: 3px solid $neon-mint;
+    border: 3px solid variables.$neon-mint;
     border-radius: 0;
   }
 
   & .customer-info {
     display: block;
-    font-family: $h2-font, sans-serif;
+    font-family: variables.$h2-font, sans-serif;
     text-align: left;
   }
 
   .dark & h6 {
-    color: $white;
+    color: variables.$white;
   }
 
   & .customer-info p {
     margin: 0 0 8px;
-    color: $white !important;
+    color: variables.$white !important;
     font-size: 1.5rem;
     line-height: 1.5;
   }
 
   & .customer-info p:last-child {
     margin-bottom: 0;
-    color: $neon-mint !important;
+    color: variables.$neon-mint !important;
   }
 }
 

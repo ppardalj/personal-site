@@ -1,4 +1,4 @@
-@import 'foundation/variables';
+@use 'foundation/variables';
 
 // Primary button: neon gradient pill, ink text, arrow after the label.
 // Over the aurora sections it flips to the secondary style (ink pill, white text).
@@ -9,8 +9,8 @@
   width: 62px;
   height: 26px;
   background-color: $color;
-  -webkit-mask: $img-arrow-cta no-repeat center / contain;
-  mask: $img-arrow-cta no-repeat center / contain;
+  -webkit-mask: variables.$img-arrow-cta no-repeat center / contain;
+  mask: variables.$img-arrow-cta no-repeat center / contain;
 }
 
 .button,
@@ -22,18 +22,18 @@
   width: fit-content;
   padding: 12px 24px;
   border: 0;
-  border-radius: $radius-pill;
-  font-family: $h2-font, sans-serif;
+  border-radius: variables.$radius-pill;
+  font-family: variables.$h2-font, sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
   line-height: 1.5;
   text-decoration: none;
-  color: $ink;
-  background: $gradient-cta;
+  color: variables.$ink;
+  background: variables.$gradient-cta;
   cursor: pointer;
 
   &:hover {
-    color: $ink;
+    color: variables.$ink;
     text-decoration: none;
     filter: brightness(1.06);
   }
@@ -63,28 +63,28 @@
 // Secondary: ink pill, used over the bright aurora glow
 .aurora .button,
 .button.button-dark {
-  background: $ink;
-  color: $white;
+  background: variables.$ink;
+  color: variables.$white;
 
   &:hover {
-    color: $white;
+    color: variables.$white;
   }
 }
 
 // Outlined variant keeps the gradient as a 2px frame
 .button-hollow {
   background: transparent;
-  color: $neon-mint;
-  border: $border-width solid $neon-mint;
+  color: variables.$neon-mint;
+  border: variables.$border-width solid variables.$neon-mint;
 
   &:hover {
-    color: $neon-mint;
+    color: variables.$neon-mint;
   }
 }
 
 .button.button-green {
-  background: $gradient-cta !important;
-  color: $ink;
+  background: variables.$gradient-cta !important;
+  color: variables.$ink;
 }
 
 .podcast-item .button {

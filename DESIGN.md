@@ -7,7 +7,8 @@ Tokens y componentes extraídos de la mesa de trabajo de Figma
 El fichero de Figma **no define variables ni estilos** (`getLocalVariableCollections`,
 `getLocalTextStyles`, `getLocalPaintStyles` vacíos). Los tokens de abajo se han inferido
 de los valores reales de los nodos y se han nombrado aquí. Fuente de verdad en código:
-`themes/ppardalj/assets/scss/foundation/_variables.scss`.
+`themes/ppardalj/assets/scss/foundation/_variables.scss`. Se cargan con `@use "foundation/variables";` y se usan con su espacio de nombres
+(`variables.$neon-mint`); los parciales de `components/` se incluyen desde `main.scss` con `meta.load-css`.
 
 ## 1. Color
 
