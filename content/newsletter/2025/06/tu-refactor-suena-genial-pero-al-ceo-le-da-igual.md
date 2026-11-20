@@ -199,7 +199,7 @@ Y ahí, *my friend*, es donde empieza la verdadera influencia.
 
 ## Recursos para seguir aprendiendo
 
-- [Habla el idioma del negocio: 16 términos clave que todo dev senior debería manejar](http://www.exeal.com/recursos/habla-el-idioma-del-negocio/)
+- [Habla el idioma del negocio: 16 términos clave que todo dev senior debería manejar](https://exeal.kit.com/8bbbd7834b)
   Descárgate gratis esta guía práctica y empieza a traducir tus decisiones técnicas al idioma de dirección.
 - [Formación avanzada: Rescata tu proyecto](http://www.exeal.com/cursos/rescata-tu-proyecto/):
   Un curso intensivo de 2 días, donde aprenderás a recuperar proyectos legacy en caos aplicando una estrategia de testing, refactorización y gestión de deuda técnica. Dejarás de apagar fuegos y empezarás a mejorar el código de forma segura, paso a paso, con métricas objetivas y decisiones basadas en datos reales.

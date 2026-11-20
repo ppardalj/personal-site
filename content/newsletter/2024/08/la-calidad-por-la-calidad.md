@@ -73,7 +73,7 @@ Y para que aprendas realmente cómo yo consigo que mi código se mantenga simple
 
 Hasta finales de agosto puedes adquirir la formación a precio reducido, así que yo no me lo perdería.
 
-Te dejo más información [aquí](https://academia.exeal.com/courses/curso-avanzado-de-diseno-de-software).
+Te dejo más información [aquí](https://exeal.thinkific.com/courses/mas-alla-del-codigo).
 
 Nos vemos pronto.
 

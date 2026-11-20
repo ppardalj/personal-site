@@ -72,7 +72,7 @@ Envolver los tipos primitivos de esta manera en una clase que encapsule sus oper
 
 No seas como los programadores del Mars Climate Orbiter, no arriesgues tu proyecto por bugs tan tontos como este.
 
-- [Quiero aprender a evitar este bug](https://academia.exeal.com/courses/object-calisthenics?utm_source=newsletter&utm_medium=web&utm_campaign=mars_climate_orbiter)
+- [Quiero aprender a evitar este bug](https://exeal.thinkific.com/courses/10-pasos-para-mejorar-tu-codigo-hoy?utm_source=newsletter&utm_medium=web&utm_campaign=mars_climate_orbiter)
 
 Un abrazo,
 Pedro

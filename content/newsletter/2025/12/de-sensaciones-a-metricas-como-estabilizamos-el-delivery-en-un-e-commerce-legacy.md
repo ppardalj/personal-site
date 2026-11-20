@@ -175,8 +175,6 @@ Tres gráficas:
 
 Nada más.
 
-![](/images/blog/posts/delivery-metrics-ecommerce.png)
-
 Estas tres juntas cuentan una historia muy clara:
 - el pedido típico,
 - el dolor real,

@@ -140,7 +140,7 @@ class ShopifyWebhookController extends AbstractController {
 
 Este cambio es pequeño, pero decisivo. No se ha reescrito la lógica, no se ha cambiado el comportamiento del sistema. Lo único que ha cambiado es que ahora **el caso de uso tiene un punto de entrada claro**, invocable tanto desde HTTP como desde un test.
 
-Conceptualmente, esta separación viene directamente de [**arquitectura hexagonal**](https://academia.exeal.com/courses/masterclass-arquitectura-hexagonal): el controller es un adaptador de entrada y el servicio de aplicación actúa como **puerto primario**. El flujo ya no depende de cómo llega la petición, sino de qué se quiere hacer.
+Conceptualmente, esta separación viene directamente de [**arquitectura hexagonal**](https://exeal.thinkific.com/courses/masterclass-arquitectura-hexagonal): el controller es un adaptador de entrada y el servicio de aplicación actúa como **puerto primario**. El flujo ya no depende de cómo llega la petición, sino de qué se quiere hacer.
 
 Y ese detalle marca la diferencia. A partir de aquí, el flujo puede ejecutarse bajo control desde PHPUnit, sin HTTP, sin webhooks reales y sin infraestructura innecesaria.
 

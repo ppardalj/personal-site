@@ -53,7 +53,7 @@ Lo bonito de esta regla, es que a un junior no hace falta explicarle el concepto
 
 Pero con un senior, podemos llegar mucho más lejos, y tener conversaciones mucho más profundas.
 
-En mi curso gratuito de object calisthenics, intento darle este enfoque (por cierto, te lo dejo por [aquí](https://academia.exeal.com/courses/object-calisthenics))
+En mi curso gratuito de object calisthenics, intento darle este enfoque (por cierto, te lo dejo por [aquí](https://exeal.thinkific.com/courses/10-pasos-para-mejorar-tu-codigo-hoy))
 
 Por cada una de las reglas, te digo qué pinta tiene aplicarla en código.
 
@@ -67,7 +67,7 @@ Pero en el otro 20% (mira! otra vez la [regla de Pareto](https://es.wikipedia.or
 
 Al final son estas cosillas las que (al menos en el plano técnico) ayudan a marcar la diferencia como developer y líder técnico.
  
-- [Aprende Object Calisthenics](https://academia.exeal.com/courses/object-calisthenics?utm_source=newsletter&utm_medium=email)
+- [Aprende Object Calisthenics](https://exeal.thinkific.com/courses/10-pasos-para-mejorar-tu-codigo-hoy?utm_source=newsletter&utm_medium=email)
 
 Un abrazo,
 Pedro

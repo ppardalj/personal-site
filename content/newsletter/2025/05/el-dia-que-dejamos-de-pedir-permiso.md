@@ -105,8 +105,6 @@ Al final, compartiré también cómo puedes seguir profundizando con la formaci�
 
 Para venir, sólo tienes que apuntarte aquí:
 
-[[Apuntarme al AMA]](https://us06web.zoom.us/meeting/register/dcWo7VadSXmLbQ_T-aEU8w)
-
 Nos vemos el Jueves a las 19:00
 
 Un abrazo,
