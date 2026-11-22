@@ -1,0 +1,5 @@
+# Redirecciones 301 de Cloudflare Pages (antes en nginx.conf). La consultoría se ofrece desde exeal.com.
+/team-coaching   https://www.exeal.com/?utm_source=ppardalj&utm_medium=referral&utm_campaign=team-coaching 301
+/team-coaching/  https://www.exeal.com/?utm_source=ppardalj&utm_medium=referral&utm_campaign=team-coaching 301
+/conversation    https://www.exeal.com/contacto/?utm_source=ppardalj&utm_medium=referral&utm_campaign=conversation 301
+/conversation/   https://www.exeal.com/contacto/?utm_source=ppardalj&utm_medium=referral&utm_campaign=conversation 301
